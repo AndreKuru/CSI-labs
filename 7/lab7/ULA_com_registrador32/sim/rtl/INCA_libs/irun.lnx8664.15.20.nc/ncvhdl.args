@@ -1,0 +1,21 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+-XLMODE
+./INCA_libs/irun.lnx8664.15.20.nc
+-RUNMODE
+-SMARTORDER
+-WORK
+work
+-V93
+../../rtl/ULA.vhd
+../../rtl/registrador.vhd
+../../rtl/ULA_com_registrador.vhd
+../tb/tb_ULA_com_registrador.vhd
+-CDSLIB
+./INCA_libs/irun.lnx8664.15.20.nc/cdsrun.lib
+-HDLVAR
+./INCA_libs/irun.lnx8664.15.20.nc/hdlrun.var
+-MESSAGES
+-UPDATE

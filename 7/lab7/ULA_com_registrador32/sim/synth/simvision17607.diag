@@ -1,0 +1,96 @@
+*** Message Type: info ***
+When: Fri Mar 04 04:35:00 EST 2022
+SimVision started.
+Version: TOOL:  simvision(64)   15.20-s036
+User: andre.wr
+Host: energia07
+Platform: Linux/x86_64/3.10.0-957.el7.x86_64
+Started: Fri Mar 04 04:35:00 EST 2022
+Command: /usr/eda/cadence/incisive1520_036/tools.lnx86/simvision/bin/64bit/simvision.exe -connect dc:energia07:45633 -64BIT -nocopyright
+Work Directory: /home/100000000819930/lab7/lab7/ULA_com_registrador32/sim/synth
+ 
+*** Message Type: info ***
+When: Fri Mar 04 04:35:00 EST 2022
+Create browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Fri Mar 04 04:35:01 EST 2022
+Create console window: "Console"
+ 
+*** Message Type: info ***
+When: Fri Mar 04 04:35:01 EST 2022
+Connect to Simulator
+      Design: work.tb_ula_com_registrador:arq_tb_ula_com_registrador
+   Languages: verilog vhdl
+   Simulator: NC-Sim
+     Version: TOOL:        ncsim(64)       15.20-s036
+        User: andre.wr
+        Host: energia07
+Time Started: Fri Mar 04 04:34:58 EST 2022
+  Process ID: 17580
+   Directory: /home/100000000819930/lab7/lab7/ULA_com_registrador32/sim/synth
+     Command: irun -f file_list.f
+
+ 
+*** Message Type: info ***
+When: Fri Mar 04 04:35:02 EST 2022
+Create utility window: "Properties"
+ 
+*** Message Type: info ***
+When: Fri Mar 04 04:35:13 EST 2022
+Create waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Fri Mar 04 04:50:24 EST 2022
+Delete waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Fri Mar 04 04:50:26 EST 2022
+Delete browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Fri Mar 04 04:51:32 EST 2022
+Exit NC-Sim: user
+      Design: work.tb_ula_com_registrador:arq_tb_ula_com_registrador
+   Languages: verilog vhdl
+   Simulator: NC-Sim
+     Version: TOOL:        ncsim(64)       15.20-s036
+        User: andre.wr
+        Host: energia07
+Time Started: Fri Mar 04 04:34:58 EST 2022
+  Process ID: 17580
+   Directory: /home/100000000819930/lab7/lab7/ULA_com_registrador32/sim/synth
+     Command: irun -f file_list.f
+
+ 
+*** Message Type: error ***
+When: Fri Mar 04 04:51:32 EST 2022
+NC-Sim Crashed:
+      Design: work.tb_ula_com_registrador:arq_tb_ula_com_registrador
+   Languages: verilog vhdl
+   Simulator: NC-Sim
+     Version: TOOL:        ncsim(64)       15.20-s036
+        User: andre.wr
+        Host: energia07
+Time Started: Fri Mar 04 04:34:58 EST 2022
+  Process ID: 17580
+   Directory: /home/100000000819930/lab7/lab7/ULA_com_registrador32/sim/synth
+     Command: irun -f file_list.f
+      Design: work.tb_ula_com_registrador:arq_tb_ula_com_registrador
+   Languages: verilog vhdl
+   Simulator: NC-Sim
+     Version: TOOL:       ncsim(64)       15.20-s036
+        User: andre.wr
+        Host: energia07
+Time Started: Fri Mar 04 04:34:58 EST 2022
+  Process ID: 17580
+   Directory: /home/100000000819930/lab7/lab7/ULA_com_registrador32/sim/synth
+     Command: irun -f file_list.f
+
+Outstanding STRAP Requests:
+        strap::report enable out
+ 
+*** Message Type: info ***
+When: Fri Mar 04 04:51:38 EST 2022
+SimVision Exit.
+ 

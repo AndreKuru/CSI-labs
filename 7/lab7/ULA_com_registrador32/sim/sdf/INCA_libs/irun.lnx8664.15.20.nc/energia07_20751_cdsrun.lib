@@ -1,0 +1,4 @@
+SOFTINCLUDE /usr/eda/cadence/incisive1520_036/tools/inca/files/cds.lib
+include ../../../../../../../cds.lib
+define work ../work
+define vhdlspice_skeletons ../vhdlspice_skeletons

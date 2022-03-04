@@ -1,0 +1,21 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2017 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+Version: 16.24-s065_1, built Fri Aug 18 2017
+Options: -legacy_ui -files sinstese.tcl 
+Date:    Tue Mar 01 16:38:50 2022
+Host:    energia07 (x86_64 w/Linux 3.10.0-957.el7.x86_64) (4cores*4cpus*Intel(R) Core(TM) i3-8100T CPU @ 3.10GHz 6144KB) (7566124KB)
+OS:      CentOS Linux release 7.6.1810 (Core) 
+
+Checking out license: Genus_Synthesis
+
+Loading tool scripts...
+Finished loading tool scripts (8 seconds elapsed).
+
+Sourcing sinstese.tcl...
+File 'sinstese.tcl' does not exist.
+Encountered problems processing file: sinstese.tcl
+WARNING: This version of the tool is 1656 days old.
+Normal exit.

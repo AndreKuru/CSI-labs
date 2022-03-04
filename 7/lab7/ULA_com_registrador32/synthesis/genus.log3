@@ -1,0 +1,2677 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2017 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+Version: 16.24-s065_1, built Fri Aug 18 2017
+Options: -legacy_ui -files sintese.tcl 
+Date:    Fri Mar 04 04:31:53 2022
+Host:    energia07 (x86_64 w/Linux 3.10.0-957.el7.x86_64) (4cores*4cpus*Intel(R) Core(TM) i3-8100T CPU @ 3.10GHz 6144KB) (7566124KB)
+OS:      CentOS Linux release 7.6.1810 (Core) 
+
+Checking out license: Genus_Synthesis
+
+Loading tool scripts...
+Finished loading tool scripts (8 seconds elapsed).
+
+Sourcing sintese.tcl...
+  Setting attribute of root '/': 'script_search_path' = ./
+  Setting attribute of root '/': 'init_lib_search_path' = . /usr/eda/dk/ibm/cmrf7sf/digital_20111130/lef/ /usr/eda/dk/ibm/cmrf7sf/digital_20111130/synopsys/nom/
+  Setting attribute of root '/': 'init_hdl_search_path' = ../rtl
+  Setting attribute of root '/': 'information_level' = 5
+  Setting attribute of root '/': 'max_cpus_per_server' = 4
+  Setting attribute of root '/': 'use_scan_seqs_for_non_dft' = false
+    Loading library PnomV180T025_STD_CELL_7RF.lib
+Info    : An unsupported construct was detected in this library. [LBR-40]
+        : Unknown Liberty attribute 'library_features' encountered. Ignoring (File /usr/eda/dk/ibm/cmrf7sf/digital_20111130/synopsys/nom//PnomV180T025_STD_CELL_7RF.lib, Line 35)
+        : Check to see if this construct is really needed for synthesis. Many liberty constructs are not actually required.
+Warning : An attribute is used before it is defined. [LBR-511]
+        : The library level attribute default_wire_load on line 136618 is defined after at least one cell definition. The attribute will be ignored. (File /usr/eda/dk/ibm/cmrf7sf/digital_20111130/synopsys/nom//PnomV180T025_STD_CELL_7RF.lib)
+Warning : An attribute is used before it is defined. [LBR-511]
+        : The library level attribute default_wire_load_selection on line 136619 is defined after at least one cell definition. The attribute will be ignored. (File /usr/eda/dk/ibm/cmrf7sf/digital_20111130/synopsys/nom//PnomV180T025_STD_CELL_7RF.lib)
+Warning : An attribute is used before it is defined. [LBR-511]
+        : The library level attribute default_operating_conditions on line 136620 is defined after at least one cell definition. The attribute will be ignored. (File /usr/eda/dk/ibm/cmrf7sf/digital_20111130/synopsys/nom//PnomV180T025_STD_CELL_7RF.lib)
+
+  Message Summary for Library PnomV180T025_STD_CELL_7RF.lib:
+  **********************************************************
+  Could not find an attribute in the library. [LBR-436]: 388
+  An attribute is used before it is defined. [LBR-511]: 3
+  An unsupported construct was detected in this library. [LBR-40]: 1
+  **********************************************************
+ 
+Info    : Created nominal operating condition. [LBR-412]
+        : Operating condition '_nominal_' was created for the PVT values (1.000000, 1.800000, 25.000000) in library 'PnomV180T025_STD_CELL_7RF.lib'.
+        : The nominal operating condition represents either the nominal PVT values if specified in the library source, or the default PVT values (1.0, 1.0, 1.0).
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'FGTIE_A' must have an output pin.
+        : Add the missing output pin(s), then reload the library. Otherwise, the library cell will be marked as unusable and as timing model.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'FGTIE_A' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'TERM_A' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'TERM_A' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'TERM_B' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'TERM_B' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'TERM_C' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'TERM_C' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'TERM_D' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'TERM_D' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DECAP_A' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DECAP_A' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DECAP_B' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DECAP_B' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DECAP_C' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DECAP_C' must have an output pin.
+  Setting attribute of root '/': 'library' = PnomV180T025_STD_CELL_7RF.lib
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'contpr' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'via1pr' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'via1pr_2x_north' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'via1pr_2x_south' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'via1pr_2x_east' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'via1pr_2x_west' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'via2pr' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'via2pr_mar_north' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'via2pr_mar_south' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'via2pr_mar_east' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'via2pr_mar_west' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'via2pr_2x_north' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'via2pr_2x_south' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'via2pr_2x_east' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'via2pr_2x_west' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'via3pr' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'via3pr_mar_north' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'via3pr_mar_south' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'via3pr_mar_east' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'via3pr_mar_west' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'via3pr_2x_north' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'via3pr_2x_south' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'via3pr_2x_east' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'via3pr_2x_west' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'via4pr' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'via4pr_mar_north' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'via4pr_mar_south' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'via4pr_mar_east' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'via4pr_mar_west' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'via4pr_2x_north' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'via4pr_2x_south' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'via4pr_2x_east' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'via4pr_2x_west' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'viaftpr' has no resistance value.
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'XOR3_I' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'XOR3_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'XOR3_F' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'XOR3_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'XOR3_D' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'XOR3_C' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'XOR3_B' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'XOR2_J' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'XOR2_I' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'XOR2_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'XOR2_F' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'XOR2_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'XOR2_D' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'XOR2_C' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'XOR2_B' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'XOR2_A' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'XNOR3_I' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'XNOR3_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'XNOR3_F' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'XNOR3_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'XNOR3_D' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'XNOR3_C' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'XNOR3_B' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'XNOR2_J' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'XNOR2_I' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'XNOR2_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'XNOR2_F' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'XNOR2_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'XNOR2_D' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'XNOR2_C' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'XNOR2_B' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'XNOR2_A' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'TERM_D' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'TERM_C' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'TERM_B' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'TERM_A' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'SDFF_K' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'SDFF_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'SDFF_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'SDFFS_K' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'SDFFS_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'SDFFS_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'SDFFSR_K' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'SDFFSR_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'SDFFSR_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'SDFFR_K' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'SDFFR_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'SDFFR_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OR4_K' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OR4_J' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OR4_I' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OR4_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OR4_F' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OR4_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OR4_D' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OR4_C' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OR4_B' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OR3_K' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OR3_J' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OR3_I' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OR3_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OR3_F' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OR3_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OR3_D' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OR3_C' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OR3_B' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OR2_K' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OR2_J' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OR2_I' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OR2_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OR2_F' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OR2_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OR2_D' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OR2_C' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OR2_B' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OAI22_F' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OAI22_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OAI22_D' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OAI22_C' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OAI22_B' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OAI22_A' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OAI222_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OAI222_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OAI2222_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OAI2222_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OAI21_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OAI21_F' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OAI21_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OAI21_D' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OAI21_C' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OAI21_B' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OAI21_A' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OA22_K' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OA22_J' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OA22_I' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OA22_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OA22_F' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OA22_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OA22_D' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OA22_C' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OA22_B' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OA222_F' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OA222_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OA222_D' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OA222_C' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OA222_B' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OA2222_F' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OA2222_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OA2222_D' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OA2222_C' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OA2222_B' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OA21_K' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OA21_J' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OA21_I' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OA21_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OA21_F' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OA21_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OA21_D' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OA21_C' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'OA21_B' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NWSX' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NOR4_D' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NOR4_C' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NOR4_B' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NOR4_A' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NOR3_F' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NOR3_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NOR3_D' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NOR3_C' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NOR3_B' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NOR3_A' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NOR2_J' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NOR2_I' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NOR2_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NOR2_F' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NOR2_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NOR2_D' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NOR2_C' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NOR2_B' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NOR2_A' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NAND4_F' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NAND4_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NAND4_D' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NAND4_C' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NAND4_B' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NAND4_A' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NAND3_K' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NAND3_J' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NAND3_I' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NAND3_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NAND3_F' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NAND3_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NAND3_D' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NAND3_C' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NAND3_B' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NAND3_A' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NAND2_M' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NAND2_L' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NAND2_K' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NAND2_J' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NAND2_I' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NAND2_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NAND2_F' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NAND2_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NAND2_D' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NAND2_C' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NAND2_B' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NAND2_A' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NAND2BAL_L' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NAND2BAL_J' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NAND2BAL_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'NAND2BAL_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'MUX41_J' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'MUX41_F' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'MUX41_D' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'MUX21_I' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'MUX21_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'MUX21_F' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'MUX21_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'MUX21_D' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'MUX21_C' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'MUX21I_I' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'MUX21I_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'MUX21I_F' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'MUX21I_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'MUX21I_D' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'MUX21I_C' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'MUX21I_B' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'MUX21BAL_L' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'MUX21BAL_J' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'MUX21BAL_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'SLATSR_K' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'SLATSR_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'SLATSR_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'LATSR_K' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'LATSR_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'LATSR_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'INVERT_U' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'INVERT_O' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'INVERT_N' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'INVERT_M' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'INVERT_L' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'INVERT_K' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'INVERT_J' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'INVERT_I' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'INVERT_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'INVERT_F' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'INVERT_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'INVERT_D' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'INVERT_C' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'INVERT_B' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'INVERT_A' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'INVERTBAL_L' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'INVERTBAL_J' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'INVERTBAL_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'INVERTBAL_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'GAUNUSED096' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'GAUNUSED048' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'GAUNUSED024' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'GAUNUSED012' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'GAUNUSED006' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'GAUNUSED003' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'FILL2' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'FILL1' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'FGTIE_A' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'DFF_K' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'DFF_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'DFF_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'DFFS_K' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'DFFS_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'DFFS_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'DFFSR_K' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'DFFSR_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'DFFSR_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'DFFR_K' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'DFFR_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'DFFR_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'DELAY6_M' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'DELAY6_J' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'DELAY6_F' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'DELAY6_C' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'DELAY6_B' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'DELAY6_A' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'DELAY4_J' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'DELAY4_F' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'DELAY4_C' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'DECAP_C' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'DECAP_B' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'DECAP_A' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'COMP2_F' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'COMP2_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'COMP2_D' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'COMP2_C' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'COMP2_B' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'CLK_Q' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'CLK_O' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'CLK_M' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'CLK_K' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'CLK_I' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'CLKI_Q' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'CLKI_O' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'CLKI_M' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'CLKI_K' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'CLKI_I' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'BUFFER_O' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'BUFFER_N' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'BUFFER_M' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'BUFFER_L' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'BUFFER_K' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'BUFFER_J' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'BUFFER_I' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'BUFFER_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'BUFFER_F' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'BUFFER_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'BUFFER_D' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'BUFFER_C' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AOI44_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AOI44_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AOI44_C' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AOI33_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AOI33_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AOI33_C' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AOI22_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AOI22_F' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AOI22_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AOI22_D' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AOI22_C' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AOI22_B' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AOI22_A' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AOI222_I' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AOI222_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AOI222_F' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AOI2222_I' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AOI2222_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AOI2222_F' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AOI21_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AOI21_F' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AOI21_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AOI21_D' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AOI21_C' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AOI21_B' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AOI21_A' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AO44_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AO44_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AO44_C' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AO33_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AO33_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AO33_C' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AO22_K' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AO22_J' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AO22_I' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AO22_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AO22_F' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AO22_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AO22_D' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AO22_C' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AO22_B' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AO222_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AO222_F' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AO222_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AO222_D' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AO222_C' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AO222_B' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AO2222_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AO2222_F' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AO2222_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AO2222_D' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AO2222_C' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AO2222_B' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AO21_K' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AO21_J' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AO21_I' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AO21_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AO21_F' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AO21_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AO21_D' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AO21_C' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AO21_B' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AND4_K' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AND4_J' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AND4_I' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AND4_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AND4_F' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AND4_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AND4_D' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AND4_C' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AND4_B' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AND3_K' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AND3_J' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AND3_I' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AND3_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AND3_F' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AND3_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AND3_D' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AND3_C' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AND3_B' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AND2_K' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AND2_J' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AND2_I' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AND2_H' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AND2_F' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AND2_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AND2_D' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AND2_C' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'AND2_B' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'ADDF_F' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'ADDF_E' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'ADDF_D' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'ADDF_C' has non-zero origin (280, 280).
+Info    : Macro with non-zero origin. [PHYS-127]
+        : Macro 'ADDF_B' has non-zero origin (280, 280).
+
+  According to lef_library, there are total 6 routing layers [ V(3) / H(3) ]
+
+Warning : Wire parameter is missing. [PHYS-15]
+        : 'EDGECAPACITANCE' parameter is missing for layer 'M1' [line 85 in file /usr/eda/dk/ibm/cmrf7sf/digital_20111130/lef//cmos7rf_6ML_tech.lef]
+        : Check the parameter in technology section.
+Warning : Wire parameter is missing. [PHYS-15]
+        : 'EDGECAPACITANCE' parameter is missing for layer 'M2' [line 107 in file /usr/eda/dk/ibm/cmrf7sf/digital_20111130/lef//cmos7rf_6ML_tech.lef]
+Warning : Wire parameter is missing. [PHYS-15]
+        : 'EDGECAPACITANCE' parameter is missing for layer 'M3' [line 128 in file /usr/eda/dk/ibm/cmrf7sf/digital_20111130/lef//cmos7rf_6ML_tech.lef]
+Warning : Wire parameter is missing. [PHYS-15]
+        : 'EDGECAPACITANCE' parameter is missing for layer 'M4' [line 149 in file /usr/eda/dk/ibm/cmrf7sf/digital_20111130/lef//cmos7rf_6ML_tech.lef]
+Warning : Wire parameter is missing. [PHYS-15]
+        : 'EDGECAPACITANCE' parameter is missing for layer 'MT' [line 171 in file /usr/eda/dk/ibm/cmrf7sf/digital_20111130/lef//cmos7rf_6ML_tech.lef]
+Warning : Wire parameter is missing. [PHYS-15]
+        : 'EDGECAPACITANCE' parameter is missing for layer 'ML' [line 189 in file /usr/eda/dk/ibm/cmrf7sf/digital_20111130/lef//cmos7rf_6ML_tech.lef]
+Warning : Wire parameter is missing. [PHYS-15]
+        : 'CPERSQDIST' parameter is missing for layer 'M1' [line 85 in file /usr/eda/dk/ibm/cmrf7sf/digital_20111130/lef//cmos7rf_6ML_tech.lef]
+Warning : Wire parameter is missing. [PHYS-15]
+        : 'CPERSQDIST' parameter is missing for layer 'M2' [line 107 in file /usr/eda/dk/ibm/cmrf7sf/digital_20111130/lef//cmos7rf_6ML_tech.lef]
+Warning : Wire parameter is missing. [PHYS-15]
+        : 'CPERSQDIST' parameter is missing for layer 'M3' [line 128 in file /usr/eda/dk/ibm/cmrf7sf/digital_20111130/lef//cmos7rf_6ML_tech.lef]
+Warning : Wire parameter is missing. [PHYS-15]
+        : 'CPERSQDIST' parameter is missing for layer 'M4' [line 149 in file /usr/eda/dk/ibm/cmrf7sf/digital_20111130/lef//cmos7rf_6ML_tech.lef]
+Warning : Wire parameter is missing. [PHYS-15]
+        : 'CPERSQDIST' parameter is missing for layer 'MT' [line 171 in file /usr/eda/dk/ibm/cmrf7sf/digital_20111130/lef//cmos7rf_6ML_tech.lef]
+Warning : Wire parameter is missing. [PHYS-15]
+        : 'CPERSQDIST' parameter is missing for layer 'ML' [line 189 in file /usr/eda/dk/ibm/cmrf7sf/digital_20111130/lef//cmos7rf_6ML_tech.lef]
+Warning : Wire parameter is missing. [PHYS-15]
+        : 'RPERSQ' parameter is missing for layer 'M1' [line 85 in file /usr/eda/dk/ibm/cmrf7sf/digital_20111130/lef//cmos7rf_6ML_tech.lef]
+Warning : Wire parameter is missing. [PHYS-15]
+        : 'RPERSQ' parameter is missing for layer 'M2' [line 107 in file /usr/eda/dk/ibm/cmrf7sf/digital_20111130/lef//cmos7rf_6ML_tech.lef]
+Warning : Wire parameter is missing. [PHYS-15]
+        : 'RPERSQ' parameter is missing for layer 'M3' [line 128 in file /usr/eda/dk/ibm/cmrf7sf/digital_20111130/lef//cmos7rf_6ML_tech.lef]
+Warning : Wire parameter is missing. [PHYS-15]
+        : 'RPERSQ' parameter is missing for layer 'M4' [line 149 in file /usr/eda/dk/ibm/cmrf7sf/digital_20111130/lef//cmos7rf_6ML_tech.lef]
+Warning : Wire parameter is missing. [PHYS-15]
+        : 'RPERSQ' parameter is missing for layer 'MT' [line 171 in file /usr/eda/dk/ibm/cmrf7sf/digital_20111130/lef//cmos7rf_6ML_tech.lef]
+Warning : Wire parameter is missing. [PHYS-15]
+        : 'RPERSQ' parameter is missing for layer 'ML' [line 189 in file /usr/eda/dk/ibm/cmrf7sf/digital_20111130/lef//cmos7rf_6ML_tech.lef]
+Warning : The variant range of wire parameters is too large. [PHYS-12]
+        : The variant range (0.2, 2.4) of 'MINSPACING' for layers 'M1' and 'ML' is too large.
+        : Make sure to check the consistency of the parameters.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'SE' and 'Q' in libcell 'SLATSR_E' is 'pos_unate', but unateness determined from function is 'non_unate'.
+        : The 'timing_sense' attribute will be respected.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'SE' and 'Q' in libcell 'SLATSR_E' is 'neg_unate', but unateness determined from function is 'non_unate'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'SE' and 'Q' in libcell 'SLATSR_E'.
+        : Setting the 'timing_sense' to non_unate.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'SE' and 'QBAR' in libcell 'SLATSR_E' is 'neg_unate', but unateness determined from function is 'non_unate'.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'SE' and 'QBAR' in libcell 'SLATSR_E' is 'pos_unate', but unateness determined from function is 'non_unate'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'SE' and 'QBAR' in libcell 'SLATSR_E'.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'SE' and 'Q' in libcell 'SLATSR_H' is 'pos_unate', but unateness determined from function is 'non_unate'.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'SE' and 'Q' in libcell 'SLATSR_H' is 'neg_unate', but unateness determined from function is 'non_unate'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'SE' and 'Q' in libcell 'SLATSR_H'.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'SE' and 'QBAR' in libcell 'SLATSR_H' is 'neg_unate', but unateness determined from function is 'non_unate'.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'SE' and 'QBAR' in libcell 'SLATSR_H' is 'pos_unate', but unateness determined from function is 'non_unate'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'SE' and 'QBAR' in libcell 'SLATSR_H'.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'SE' and 'Q' in libcell 'SLATSR_K' is 'pos_unate', but unateness determined from function is 'non_unate'.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'SE' and 'Q' in libcell 'SLATSR_K' is 'neg_unate', but unateness determined from function is 'non_unate'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'SE' and 'Q' in libcell 'SLATSR_K'.
+Info    : Setting the maximum print count of this message to 10 if information_level is less than 9. [LBR-161]
+        : To print all the warning messages, set the information_level to 9.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'SE' and 'QBAR' in libcell 'SLATSR_K'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'CIN' and 'SUM' in libcell 'ADDF_B'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'B' and 'SUM' in libcell 'ADDF_B'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'A' and 'SUM' in libcell 'ADDF_B'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'CIN' and 'SUM' in libcell 'ADDF_C'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'B' and 'SUM' in libcell 'ADDF_C'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'A' and 'SUM' in libcell 'ADDF_C'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'CIN' and 'SUM' in libcell 'ADDF_D'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'B' and 'SUM' in libcell 'ADDF_D'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'A' and 'SUM' in libcell 'ADDF_D'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'CIN' and 'SUM' in libcell 'ADDF_E'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'B' and 'SUM' in libcell 'ADDF_E'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'A' and 'SUM' in libcell 'ADDF_E'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'CIN' and 'SUM' in libcell 'ADDF_F'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'B' and 'SUM' in libcell 'ADDF_F'.
+Warning : Non-monotonic wireload model found. [LBR-81]
+        : 'Length' table in wireload model 'NONE' is non-monotonic.
+        : Non-monotonic wireload models can cause problems during synthesis and/or mapping.  Raising some of the points in the curve to give it a monotonic shape.
+Warning : Non-monotonic wireload model found. [LBR-81]
+        : 'Length' table in wireload model '18.2mm_chip_DEFAULT' is non-monotonic.
+Warning : Non-monotonic wireload model found. [LBR-81]
+        : 'Length' table in wireload model '17.4mm_chip_DEFAULT' is non-monotonic.
+Warning : Non-monotonic wireload model found. [LBR-81]
+        : 'Length' table in wireload model '16.6mm_chip_DEFAULT' is non-monotonic.
+Warning : Non-monotonic wireload model found. [LBR-81]
+        : 'Length' table in wireload model '15.8mm_chip_DEFAULT' is non-monotonic.
+Warning : Non-monotonic wireload model found. [LBR-81]
+        : 'Length' table in wireload model '15.0mm_chip_DEFAULT' is non-monotonic.
+Warning : Non-monotonic wireload model found. [LBR-81]
+        : 'Length' table in wireload model '14.2mm_chip_DEFAULT' is non-monotonic.
+Warning : Non-monotonic wireload model found. [LBR-81]
+        : 'Length' table in wireload model '13.4mm_chip_DEFAULT' is non-monotonic.
+Warning : Non-monotonic wireload model found. [LBR-81]
+        : 'Length' table in wireload model '12.6mm_chip_DEFAULT' is non-monotonic.
+Warning : Non-monotonic wireload model found. [LBR-81]
+        : 'Length' table in wireload model '11.8mm_chip_DEFAULT' is non-monotonic.
+Warning : Non-monotonic wireload model found. [LBR-81]
+        : 'Length' table in wireload model '11.0mm_chip_DEFAULT' is non-monotonic.
+Warning : Non-monotonic wireload model found. [LBR-81]
+        : 'Length' table in wireload model '10.2mm_chip_DEFAULT' is non-monotonic.
+Warning : Non-monotonic wireload model found. [LBR-81]
+        : 'Length' table in wireload model '9.4mm_chip_DEFAULT' is non-monotonic.
+Warning : Non-monotonic wireload model found. [LBR-81]
+        : 'Length' table in wireload model '8.6mm_chip_DEFAULT' is non-monotonic.
+Warning : Non-monotonic wireload model found. [LBR-81]
+        : 'Length' table in wireload model '7.7mm_chip_DEFAULT' is non-monotonic.
+Warning : Non-monotonic wireload model found. [LBR-81]
+        : 'Length' table in wireload model '6.9mm_chip_DEFAULT' is non-monotonic.
+Warning : Non-monotonic wireload model found. [LBR-81]
+        : 'Length' table in wireload model '6.1mm_chip_DEFAULT' is non-monotonic.
+Warning : Non-monotonic wireload model found. [LBR-81]
+        : 'Length' table in wireload model '5.3mm_chip_DEFAULT' is non-monotonic.
+Warning : Non-monotonic wireload model found. [LBR-81]
+        : 'Length' table in wireload model '1910KCELLS_DEFAULT' is non-monotonic.
+Warning : Non-monotonic wireload model found. [LBR-81]
+        : 'Length' table in wireload model '1416KCELLS_DEFAULT' is non-monotonic.
+  Setting attribute of root '/': 'lef_library' = /usr/eda/dk/ibm/cmrf7sf/digital_20111130/lef//cmos7rf_6ML_tech.lef /usr/eda/dk/ibm/cmrf7sf/digital_20111130/lef//ibm_cmos7rf_sc_12Track.lef
+Info    : Elaborating Design. [ELAB-1]
+        : Elaborating top-level block 'ULA_com_registrador' from file '../rtl/ULA_com_registrador.vhd'.
+Info    : Binding to architecture. [ELAB-5]
+        : Elaborating architecture 'arq_ULA_com_registrador' for entity 'ULA_com_registrador'.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'ULA' from file '../rtl/ULA.vhd'.
+Info    : Binding to architecture. [ELAB-5]
+        : Elaborating architecture 'arq_ULA' for entity 'ULA'.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'registrador' from file '../rtl/registrador.vhd'.
+Info    : Binding to architecture. [ELAB-5]
+        : Elaborating architecture 'estrutura' for entity 'registrador'.
+Info    : Done Elaborating Design. [ELAB-3]
+        : Done elaborating 'ULA_com_registrador'.
+Info: Checking for source rtl...
+Info: Check completed for source rtl...
+        Computing net loads.
+Info    : Removed object. [TUI-58]
+        : Removed external_delay '/designs/ULA_com_registrador/timing/external_delays/create_clock_delay_domain_1_clk_R_0'.
+Info    : Removed object. [TUI-58]
+        : Removed external_delay '/designs/ULA_com_registrador/timing/external_delays/create_clock_delay_domain_1_clk_F_0'.
+Statistics for commands executed by read_sdc:
+ "all_inputs"               - successful      1 , failed      0 (runtime  0.00)
+ "all_outputs"              - successful      1 , failed      0 (runtime  0.00)
+ "create_clock"             - successful      1 , failed      0 (runtime  0.00)
+ "get_ports"                - successful      1 , failed      0 (runtime  0.00)
+ "set_input_delay"          - successful      1 , failed      0 (runtime  0.00)
+ "set_load_unit"            - successful      1 , failed      0 (runtime  0.00)
+ "set_output_delay"         - successful      1 , failed      0 (runtime  0.00)
+ "set_time_unit"            - successful      1 , failed      0 (runtime  0.00)
+Total runtime 0
+Info    : Deleting instances not driving any primary outputs. [GLO-34]
+        : Deleting 1 hierarchical instance. 
+Following instance is deleted as they do not drive any primary output:
+'registrador1/mux_q_16_17'.
+        : Optimizations such as constant propagation or redundancy removal could change the connections so a hierarchical instance does not drive any primary outputs anymore. To see the list of deleted hierarchical instances, set the 'information_level' attribute to 2 or above. If message is truncated set message attribute 'truncate' to false to see the complete list. To prevent this optimization, set the 'delete_unloaded_insts' root/subdesign attribute to 'false' or 'preserve' instance attribute to 'true'.
+Current PLE settings:
+
+Aspect ratio        : 1.00
+Shrink factor       : 1.00
+Scale of res/length : 1.00
+Scale of cap/length : 1.00
+Net derating factor : 1.00
+Thermal factor      : 1.00
+Via Resistance      : 0.00 ohm (from default)
+Site size           : 7.28 um (from lef [tech+cell])
+
+                                   Capacitance  
+  Layer                             / Length         Data source:
+Name        Direction Utilization  (pF/micron)       default value
+------------------------------------------------
+<default>       U         n/a         0.000250  
+
+** = DEFAULT cap per unit length is used for timing analysis
+
+                                    Resistance   
+  Layer                              / Length         Data source:
+Name        Direction Utilization  (ohm/micron)       default value
+-------------------------------------------------
+<default>       U         n/a          0.000000  
+
+** = DEFAULT res per unit length is used for timing analysis
+
+                                        Area       
+  Layer                               / Length          Data source:
+Name        Direction Utilization     (micron)          lef_library
+---------------------------------------------------
+M1              H         1.00         0.240000    
+M2              V         1.00         0.280000    
+M3              H         1.00         0.280000    
+M4              V         1.00         0.280000    
+MT              H         1.00         0.280000    
+ML              V         1.00         2.400000 ** 
+
+** = 'ML' is dropped because its width (2.4) is too large (threshold 2)
+
+Info    : Synthesizing. [SYNTH-1]
+        : Synthesizing 'ULA_com_registrador' to generic gates using 'medium' effort.
+        Computing net loads.
+Info    : Partition Based Synthesis execution skipped. [PHYS-752]
+        : Design size is less than the partition size '100000' for distributed generic optimization to kick in.
+Current PLE settings:
+
+Aspect ratio        : 1.00
+Shrink factor       : 1.00
+Scale of res/length : 1.00
+Scale of cap/length : 1.00
+Net derating factor : 1.00
+Thermal factor      : 1.00
+Via Resistance      : 0.00 ohm (from default)
+Site size           : 7.28 um (from lef [tech+cell])
+
+                                   Capacitance  
+  Layer                             / Length         Data source:
+Name        Direction Utilization  (pF/micron)       default value
+------------------------------------------------
+<default>       U         n/a         0.000250  
+
+** = DEFAULT cap per unit length is used for timing analysis
+
+                                    Resistance   
+  Layer                              / Length         Data source:
+Name        Direction Utilization  (ohm/micron)       default value
+-------------------------------------------------
+<default>       U         n/a          0.000000  
+
+** = DEFAULT res per unit length is used for timing analysis
+
+                                        Area       
+  Layer                               / Length          Data source:
+Name        Direction Utilization     (micron)          lef_library
+---------------------------------------------------
+M1              H         1.00         0.240000    
+M2              V         1.00         0.280000    
+M3              H         1.00         0.280000    
+M4              V         1.00         0.280000    
+MT              H         1.00         0.280000    
+ML              V         1.00         2.400000 ** 
+
+** = 'ML' is dropped because its width (2.4) is too large (threshold 2)
+
+Info    : Optimizing RTL. [RTLOPT-1]
+        : Optimizing RTL in 'ULA_com_registrador' using 'medium' effort.
+Info    : Grouping carry-save logic. [RTLOPT-19]
+        : Grouping carry-save logic in 'ULA' using 'medium' effort and no timing models.
+Info    : Accepted carry-save configuration. [RTLOPT-20]
+        : Accepted configuration 1 of 1 in module 'ULA'.
+                  Configuration number:      1
+                  Effort level:              medium
+                  Allow CSA over Muxes:      Yes
+                  Allow CSA over Inverter:   Yes
+                  Allow Complex CSA:         No
+                  Allow CSA over Truncation: No
+                  Bridge size threshold:     6
+                  Connection size threshold: 4
+Info    : Done grouping carry-save logic. [RTLOPT-23]
+        : Used configuration 1, resulting in 1 carry-save group in module 'ULA'.
+                  Configuration number:      1
+                  Effort level:              medium
+                  Allow CSA over Muxes:      Yes
+                  Allow CSA over Inverter:   Yes
+                  Allow Complex CSA:         No
+                  Allow CSA over Truncation: No
+                  Bridge size threshold:     6
+                  Connection size threshold: 4
+Info    : Done optimizing RTL. [RTLOPT-2]
+        : Done optimizing RTL in 'ULA_com_registrador'.
+      Removing temporary intermediate hierarchies under ULA_com_registrador
+  Setting attribute of root '/': 'pbs_stage_start_elapsed_time' = 10
+  Setting attribute of root '/': 'pbs_stage_start_st_time' = 9
+Info    : Done synthesizing. [SYNTH-2]
+        : Done synthesizing 'ULA_com_registrador' to generic gates.
+        Computing net loads.
+Runtime & Memory after 'syn_generic'
+stamp 'GENERIC' being created for table 'default'
+
+  Total Time (Wall) |  Stage Time (Wall)  |   % (Wall)   |    Date - Time     |  Memory   | Stage
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:06(00:00:00) |  00:00:00(00:00:00) |   0.0(  0.0) |    4:31:59 (Mar04) |  135.6 MB | init
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:09(00:00:04) |  00:00:03(00:00:04) | 100.0(100.0) |    4:32:03 (Mar04) |  135.6 MB | GENERIC
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+Number of threads: 4 * 1   (id: default, time_info v1.57)
+Info: (*N*) indicates data that was populated from previously saved time_info database
+Info: CPU time includes time of parent + longest thread
+Current PLE settings:
+
+Aspect ratio        : 1.00
+Shrink factor       : 1.00
+Scale of res/length : 1.00
+Scale of cap/length : 1.00
+Net derating factor : 1.00
+Thermal factor      : 1.00
+Via Resistance      : 0.00 ohm (from default)
+Site size           : 7.28 um (from lef [tech+cell])
+
+                                   Capacitance  
+  Layer                             / Length         Data source:
+Name        Direction Utilization  (pF/micron)       default value
+------------------------------------------------
+<default>       U         n/a         0.000250  
+
+** = DEFAULT cap per unit length is used for timing analysis
+
+                                    Resistance   
+  Layer                              / Length         Data source:
+Name        Direction Utilization  (ohm/micron)       default value
+-------------------------------------------------
+<default>       U         n/a          0.000000  
+
+** = DEFAULT res per unit length is used for timing analysis
+
+                                        Area       
+  Layer                               / Length          Data source:
+Name        Direction Utilization     (micron)          lef_library
+---------------------------------------------------
+M1              H         1.00         0.240000    
+M2              V         1.00         0.280000    
+M3              H         1.00         0.280000    
+M4              V         1.00         0.280000    
+MT              H         1.00         0.280000    
+ML              V         1.00         2.400000 ** 
+
+** = 'ML' is dropped because its width (2.4) is too large (threshold 2)
+
+Info    : Mapping. [SYNTH-4]
+        : Mapping 'ULA_com_registrador' using 'high' effort.
+Mapper: Libraries have:
+	domain _default_: 323 combo usable cells and 30 sequential usable cells
+        Computing net loads.
+Info    : Partition Based Synthesis execution skipped. [PHYS-752]
+        : Design size is less than the partition size '100000' for distributed mapping optimization to kick in.
+Current PLE settings:
+
+Aspect ratio        : 1.00
+Shrink factor       : 1.00
+Scale of res/length : 1.00
+Scale of cap/length : 1.00
+Net derating factor : 1.00
+Thermal factor      : 1.00
+Via Resistance      : 0.00 ohm (from default)
+Site size           : 7.28 um (from lef [tech+cell])
+
+                                   Capacitance  
+  Layer                             / Length         Data source:
+Name        Direction Utilization  (pF/micron)       default value
+------------------------------------------------
+<default>       U         n/a         0.000250  
+
+** = DEFAULT cap per unit length is used for timing analysis
+
+                                    Resistance   
+  Layer                              / Length         Data source:
+Name        Direction Utilization  (ohm/micron)       default value
+-------------------------------------------------
+<default>       U         n/a          0.000000  
+
+** = DEFAULT res per unit length is used for timing analysis
+
+                                        Area       
+  Layer                               / Length          Data source:
+Name        Direction Utilization     (micron)          lef_library
+---------------------------------------------------
+M1              H         1.00         0.240000    
+M2              V         1.00         0.280000    
+M3              H         1.00         0.280000    
+M4              V         1.00         0.280000    
+MT              H         1.00         0.280000    
+ML              V         1.00         2.400000 ** 
+
+** = 'ML' is dropped because its width (2.4) is too large (threshold 2)
+
+Mapper: Libraries have:
+	domain _default_: 323 combo usable cells and 30 sequential usable cells
+      Mapping 'ULA_com_registrador'...
+        Preparing the circuit
+          Pruning unused logic
+Multi-threaded constant propagation [1|0] ...
+Info    : Hierarchical instance automatically ungrouped. [GLO-51]
+        : Instance 'add_21_18' in module 'ULA' would be automatically ungrouped.
+        : Hierarchical instances can be automatically ungrouped to allow for better area or timing optimization. You can control auto ungrouping using the root-level attribute 'auto_ungroup'. You can skip individual instances or modules using the attribute 'ungroup_ok'.
+Info    : Hierarchical instance automatically ungrouped. [GLO-51]
+        : Instance 'addinc_add_22_28_1' in module 'ULA' would be automatically ungrouped.
+          There are 2 hierarchical instances automatically ungrouped.
+Info    : Hierarchical instance automatically ungrouped. [GLO-51]
+        : Instance 'registrador1' in module 'ULA_com_registrador' would be automatically ungrouped.
+          Analyzing hierarchical boundaries
+          Propagating constants
+        Done preparing the circuit
+          Structuring (delay-based) ULA_com_registrador...
+          Done structuring (delay-based) ULA_com_registrador
+Multi-threaded Virtual Mapping    (4 threads per ST process, 4 of 4 CPUs usable)
+          Structuring (delay-based) ULA...
+          Done structuring (delay-based) ULA
+        Mapping component ULA...
+          Structuring (delay-based) logic partition in ULA_com_registrador...
+          Done structuring (delay-based) logic partition in ULA_com_registrador
+        Mapping logic partition in ULA_com_registrador...
+ 
+Global mapping target info
+==========================
+Cost Group 'clk' target slack:   594 ps
+Target path end-point (Pin: registrador1_q_reg[31]/d)
+
+            Pin                        Type          Fanout Load Arrival   
+                                                            (fF)   (ps)    
+---------------------------------------------------------------------------
+(clock clk)                  <<<  launch                               0 R 
+mux_ctl_0xi
+  registrador1_q_reg[0]/clk                                                
+  registrador1_q_reg[0]/q    (u)  unmapped_d_flop         5 57.6           
+mux_ctl_0xi/S[0] 
+ULA1/B[0] 
+  g6459/in_1                                                               
+  g6459/z                    (u)  unmapped_nand2          2 23.8           
+  g6352/in_0                                                               
+  g6352/z                    (u)  unmapped_complex2       1 11.9           
+  g6325/in_0                                                               
+  g6325/z                    (u)  unmapped_nand2          2 24.4           
+  g6315/in_1                                                               
+  g6315/z                    (u)  unmapped_nand2          1 11.9           
+  g6305/in_0                                                               
+  g6305/z                    (u)  unmapped_nand2          2 24.4           
+  g6303/in_1                                                               
+  g6303/z                    (u)  unmapped_nand2          1 11.9           
+  g6290/in_0                                                               
+  g6290/z                    (u)  unmapped_nand2          2 24.4           
+  g6284/in_1                                                               
+  g6284/z                    (u)  unmapped_nand2          1 11.9           
+  g6280/in_0                                                               
+  g6280/z                    (u)  unmapped_nand2          2 24.4           
+  g6273/in_1                                                               
+  g6273/z                    (u)  unmapped_nand2          1 11.9           
+  g6265/in_0                                                               
+  g6265/z                    (u)  unmapped_nand2          2 24.4           
+  g6260/in_1                                                               
+  g6260/z                    (u)  unmapped_nand2          1 11.9           
+  g6251/in_0                                                               
+  g6251/z                    (u)  unmapped_nand2          2 24.4           
+  g6241/in_1                                                               
+  g6241/z                    (u)  unmapped_nand2          1 11.9           
+  g6238/in_0                                                               
+  g6238/z                    (u)  unmapped_nand2          3 36.6           
+  g6233/in_0                                                               
+  g6233/z                    (u)  unmapped_complex2       1 11.9           
+  g6222/in_1                                                               
+  g6222/z                    (u)  unmapped_nand2          2 24.4           
+  g6218/in_1                                                               
+  g6218/z                    (u)  unmapped_nand2          1 11.9           
+  g6205/in_1                                                               
+  g6205/z                    (u)  unmapped_nand2          2 24.4           
+  g6201/in_0                                                               
+  g6201/z                    (u)  unmapped_nand2          1 11.9           
+  g6189/in_0                                                               
+  g6189/z                    (u)  unmapped_nand2          2 24.4           
+  g6182/in_1                                                               
+  g6182/z                    (u)  unmapped_nand2          1 11.9           
+  g6173/in_0                                                               
+  g6173/z                    (u)  unmapped_nand2          2 24.4           
+  g6171/in_1                                                               
+  g6171/z                    (u)  unmapped_nand2          1 11.9           
+  g6161/in_0                                                               
+  g6161/z                    (u)  unmapped_nand2          2 24.4           
+  g6159/in_1                                                               
+  g6159/z                    (u)  unmapped_nand2          1 11.9           
+  g6147/in_0                                                               
+  g6147/z                    (u)  unmapped_nand2          2 24.4           
+  g6144/in_1                                                               
+  g6144/z                    (u)  unmapped_nand2          1 11.9           
+  g6134/in_0                                                               
+  g6134/z                    (u)  unmapped_nand2          3 36.6           
+  g6133/in_0                                                               
+  g6133/z                    (u)  unmapped_complex2       1 11.9           
+  g6121/in_1                                                               
+  g6121/z                    (u)  unmapped_nand2          2 24.4           
+  g6116/in_1                                                               
+  g6116/z                    (u)  unmapped_nand2          1 11.9           
+  g6105/in_0                                                               
+  g6105/z                    (u)  unmapped_nand2          2 24.4           
+  g6093/in_0                                                               
+  g6093/z                    (u)  unmapped_nand2          1 11.9           
+  g6084/in_0                                                               
+  g6084/z                    (u)  unmapped_nand2          2 24.4           
+  g6082/in_1                                                               
+  g6082/z                    (u)  unmapped_nand2          1 11.9           
+  g6070/in_0                                                               
+  g6070/z                    (u)  unmapped_nand2          2 24.4           
+  g6065/in_1                                                               
+  g6065/z                    (u)  unmapped_nand2          1 11.9           
+  g6056/in_0                                                               
+  g6056/z                    (u)  unmapped_nand2          2 24.4           
+  g6053/in_1                                                               
+  g6053/z                    (u)  unmapped_nand2          1 11.9           
+  g6043/in_0                                                               
+  g6043/z                    (u)  unmapped_nand2          2 24.4           
+  g6039/in_1                                                               
+  g6039/z                    (u)  unmapped_nand2          1 11.9           
+  g6031/in_0                                                               
+  g6031/z                    (u)  unmapped_nand2          2 24.4           
+  g6024/in_1                                                               
+  g6024/z                    (u)  unmapped_nand2          1 11.9           
+  g6017/in_1                                                               
+  g6017/z                    (u)  unmapped_nand2          2 24.4           
+  g6007/in_1                                                               
+  g6007/z                    (u)  unmapped_nand2          1 11.9           
+  g6003/in_0                                                               
+  g6003/z                    (u)  unmapped_nand2          3 36.6           
+  g5997/in_1                                                               
+  g5997/z                    (u)  unmapped_complex2       1 12.2           
+  g5987/in_0                                                               
+  g5987/z                    (u)  unmapped_nand2          1 11.9           
+  g5980/in_0                                                               
+  g5980/z                    (u)  unmapped_complex2       1 11.9           
+  g5979/in_1                                                               
+  g5979/z                    (u)  unmapped_nand2          2 24.4           
+  g5967/in_1                                                               
+  g5967/z                    (u)  unmapped_nand2          1 11.9           
+  g5964/in_0                                                               
+  g5964/z                    (u)  unmapped_nand2          2 24.4           
+  g5960/in_0                                                               
+  g5960/z                    (u)  unmapped_nand2          1 11.9           
+  g5948/in_1                                                               
+  g5948/z                    (u)  unmapped_nand2          2 24.4           
+  g5946/in_1                                                               
+  g5946/z                    (u)  unmapped_nand2          1 11.9           
+  g5938/in_1                                                               
+  g5938/z                    (u)  unmapped_nand2          1 12.2           
+  g5931/in_0                                                               
+  g5931/z                    (u)  unmapped_or2            1 12.2           
+  g5929/in_0                                                               
+  g5929/z                    (u)  unmapped_nand2          2 23.8           
+  g5925/in_0                                                               
+  g5925/z                    (u)  unmapped_complex2       1 11.9           
+  g5926/in_1                                                               
+  g5926/z                    (u)  unmapped_nand2          1 12.2           
+  g5923/in_0                                                               
+  g5923/z                    (u)  unmapped_complex2       1 11.9           
+  g5921/in_0                                                               
+  g5921/z                    (u)  unmapped_nand2          1 12.2           
+ULA1/S[31] 
+mux_ctl_0xi/ULA1_S[31] 
+  registrador1_q_reg[31]/d   <<<  unmapped_d_flop                          
+  registrador1_q_reg[31]/clk      setup                                    
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(clock clk)                       capture                          20000 R 
+---------------------------------------------------------------------------
+Cost Group   : 'clk' (path_group 'clk')
+Start-point  : mux_ctl_0xi/registrador1_q_reg[0]/clk
+End-point    : mux_ctl_0xi/registrador1_q_reg[31]/d
+
+(u) : Net has unmapped pin(s).
+
+The global mapper estimates a slack for this path of 15478ps.
+ 
+Multi-threaded Technology Mapping (4 threads per ST process, 4 of 4 CPUs usable)
+          Restructuring (delay-based) logic partition in ULA_com_registrador...
+          Done restructuring (delay-based) logic partition in ULA_com_registrador
+        Optimizing logic partition in ULA_com_registrador...
+          Restructuring (delay-based) ULA...
+          Done restructuring (delay-based) ULA
+        Optimizing component ULA...
+ 
+Global mapping timing result
+============================
+        Tracing clock networks.
+        Levelizing the circuit.
+        Computing net loads.
+        Computing delays.
+        Computing arrivals and requireds.
+            Pin                     Type       Fanout Load Slew Delay Arrival   
+                                                      (fF) (ps)  (ps)   (ps)    
+--------------------------------------------------------------------------------
+(clock clk)                       launch                                    0 R 
+mux_ctl_0xi
+  registrador1_q_reg[0]/CLK                                   0             0 R 
+  registrador1_q_reg[0]/QBAR      DFFR_E            1 24.7  135  +152     152 R 
+  g45/A                                                            +0     152   
+  g45/Z                           INVERTBAL_H       5 62.3  112   +85     238 F 
+mux_ctl_0xi/S[0] 
+ULA1/B[0] 
+  g8987/A                                                          +0     238   
+  g8987/Z                         INVERTBAL_H       1 20.3   68   +51     288 R 
+  g8940/A                                                          +0     288   
+  g8940/Z                         NOR2_E            2 27.6   84   +74     362 F 
+  g8860/A2                                                         +0     362   
+  g8860/Z                         OAI21_C           2 30.4  248  +152     514 R 
+  g8854/A1                                                         +0     514   
+  g8854/Z                         AOI22_C           2 29.0  171  +116     630 F 
+  g8851/A1                                                         +0     630   
+  g8851/Z                         OA21_I            2 27.6   66  +148     779 F 
+  g8846/A1                                                         +0     779   
+  g8846/Z                         OAI21_C           2 30.0  242  +141     920 R 
+  g8840/A1                                                         +0     920   
+  g8840/Z                         AOI22_C           2 28.7  169  +115    1035 F 
+  g8836/A1                                                         +0    1035   
+  g8836/Z                         OAI21_C           2 30.0  265  +167    1202 R 
+  g8830/A1                                                         +0    1202   
+  g8830/Z                         AOI22_C           2 28.3  173  +117    1318 F 
+  g8826/A1                                                         +0    1318   
+  g8826/Z                         OAI21_C           2 29.8  264  +167    1486 R 
+  g8823/B                                                          +0    1486   
+  g8823/Z                         OAI21_C           1 16.9  131   +80    1566 F 
+  g8819/B                                                          +0    1566   
+  g8819/Z                         OAI21_C           2 29.4  240  +143    1709 R 
+  g8814/A1                                                         +0    1709   
+  g8814/Z                         AOI22_C           2 28.7  168  +115    1823 F 
+  g8810/A1                                                         +0    1823   
+  g8810/Z                         OAI21_C           2 30.0  265  +167    1990 R 
+  g8804/A1                                                         +0    1990   
+  g8804/Z                         AOI22_C           2 26.6  168  +113    2103 F 
+  g8798/A1                                                         +0    2103   
+  g8798/Z                         OAI22_B           2 29.4  343  +203    2306 R 
+  g8793/A1                                                         +0    2306   
+  g8793/Z                         AOI22_C           2 28.7  192  +126    2432 F 
+  g8789/A1                                                         +0    2432   
+  g8789/Z                         OAI21_C           2 34.1  296  +186    2617 R 
+  g8787/A                                                          +0    2617   
+  g8787/Z                         INVERT_F          1 16.4   78   +26    2644 F 
+  g8783/A1                                                         +0    2644   
+  g8783/Z                         OA21_I            2 28.3   62  +132    2775 F 
+  g8778/A1                                                         +0    2775   
+  g8778/Z                         OA21_I            3 40.5   74  +137    2912 F 
+  g8773/A1                                                         +0    2912   
+  g8773/Z                         AO22_F            1 13.6   43   +94    3006 F 
+  g8767/A1                                                         +0    3006   
+  g8767/Z                         OAI22_B           2 29.4  340  +168    3175 R 
+  g8761/A1                                                         +0    3175   
+  g8761/Z                         AOI22_C           2 26.6  185  +120    3295 F 
+  g8755/A1                                                         +0    3295   
+  g8755/Z                         OAI22_B           2 29.4  347  +208    3503 R 
+  g8750/A1                                                         +0    3503   
+  g8750/Z                         AOI22_C           2 28.7  193  +126    3629 F 
+  g8746/A1                                                         +0    3629   
+  g8746/Z                         OAI21_C           2 30.0  271  +173    3802 R 
+  g8740/A1                                                         +0    3802   
+  g8740/Z                         AOI22_C           2 28.7  176  +118    3920 F 
+  g8736/A1                                                         +0    3920   
+  g8736/Z                         OAI21_C           2 34.1  292  +181    4102 R 
+  g8734/A                                                          +0    4102   
+  g8734/Z                         INVERT_F          1 16.4   77   +27    4128 F 
+  g8730/A1                                                         +0    4128   
+  g8730/Z                         OA21_I            2 28.3   63  +131    4260 F 
+  g8725/A1                                                         +0    4260   
+  g8725/Z                         OA21_I            2 27.6   62  +128    4388 F 
+  g8720/A1                                                         +0    4388   
+  g8720/Z                         OAI21_C           2 29.8  242  +139    4527 R 
+  g8717/B                                                          +0    4527   
+  g8717/Z                         OAI21_C           1 15.8  122   +77    4604 F 
+  g8713/A1                                                         +0    4604   
+  g8713/Z                         AOI21_C           2 32.6  248  +151    4755 R 
+  g8705/A1                                                         +0    4755   
+  g8705/Z                         AOI22_C           1 16.9  141   +89    4844 F 
+  g8702/B                                                          +0    4844   
+  g8702/Z                         OAI21_C           1 18.5  179  +119    4963 R 
+  g8701/B                                                          +0    4963   
+  g8701/Z                         XOR2_C            1 17.2  181  +111    5074 R 
+  g8699/A1                                                         +0    5074   
+  g8699/Z                         AO22_C            1 13.7  147  +136    5210 R 
+ULA1/S[31] 
+mux_ctl_0xi/ULA1_S[31] 
+  registrador1_q_reg[31]/D   <<<  DFFR_E                           +0    5210   
+  registrador1_q_reg[31]/CLK      setup                       0  +219    5430 R 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(clock clk)                       capture                               20000 R 
+--------------------------------------------------------------------------------
+Cost Group   : 'clk' (path_group 'clk')
+Timing slack :   14570ps 
+Start-point  : mux_ctl_0xi/registrador1_q_reg[0]/CLK
+End-point    : mux_ctl_0xi/registrador1_q_reg[31]/D
+
+ 
+ 
+Global mapping status
+=====================
+                                   Group   
+                                  Tot Wrst 
+                           Total  Weighted 
+Operation                   Area   Slacks  
+-------------------------------------------------------------------------------
+ global_map                17091        0 
+
+    Cost Group            Target    Slack    Diff.    Clock
+-----------------------------------------------------------
+           clk               594    14570             20000 
+
+ 
+Global incremental target info
+==============================
+Cost Group 'clk' target slack:   394 ps
+Target path end-point (Pin: registrador1_q_reg[31]/D (DFFR_E/D))
+
+            Pin                     Type       Fanout Load Arrival   
+                                                      (fF)   (ps)    
+---------------------------------------------------------------------
+(clock clk)                  <<<  launch                         0 R 
+mux_ctl_0xi
+  registrador1_q_reg[0]/CLK                                          
+  registrador1_q_reg[0]/QBAR      DFFR_E            1 24.7           
+  g45/A                                                              
+  g45/Z                           INVERTBAL_H       5 62.3           
+mux_ctl_0xi/S[0] 
+ULA1/B[0] 
+  g8987/A                                                            
+  g8987/Z                         INVERTBAL_H       1 20.3           
+  g8940/A                                                            
+  g8940/Z                         NOR2_E            2 27.6           
+  g8860/A2                                                           
+  g8860/Z                         OAI21_C           2 30.4           
+  g8854/A1                                                           
+  g8854/Z                         AOI22_C           2 29.0           
+  g8851/A1                                                           
+  g8851/Z                         OA21_I            2 27.6           
+  g8846/A1                                                           
+  g8846/Z                         OAI21_C           2 30.0           
+  g8840/A1                                                           
+  g8840/Z                         AOI22_C           2 28.7           
+  g8836/A1                                                           
+  g8836/Z                         OAI21_C           2 30.0           
+  g8830/A1                                                           
+  g8830/Z                         AOI22_C           2 28.3           
+  g8826/A1                                                           
+  g8826/Z                         OAI21_C           2 29.8           
+  g8823/B                                                            
+  g8823/Z                         OAI21_C           1 16.9           
+  g8819/B                                                            
+  g8819/Z                         OAI21_C           2 29.4           
+  g8814/A1                                                           
+  g8814/Z                         AOI22_C           2 28.7           
+  g8810/A1                                                           
+  g8810/Z                         OAI21_C           2 30.0           
+  g8804/A1                                                           
+  g8804/Z                         AOI22_C           2 26.6           
+  g8798/A1                                                           
+  g8798/Z                         OAI22_B           2 29.4           
+  g8793/A1                                                           
+  g8793/Z                         AOI22_C           2 28.7           
+  g8789/A1                                                           
+  g8789/Z                         OAI21_C           2 34.1           
+  g8787/A                                                            
+  g8787/Z                         INVERT_F          1 16.4           
+  g8783/A1                                                           
+  g8783/Z                         OA21_I            2 28.3           
+  g8778/A1                                                           
+  g8778/Z                         OA21_I            3 40.5           
+  g8773/A1                                                           
+  g8773/Z                         AO22_F            1 13.6           
+  g8767/A1                                                           
+  g8767/Z                         OAI22_B           2 29.4           
+  g8761/A1                                                           
+  g8761/Z                         AOI22_C           2 26.6           
+  g8755/A1                                                           
+  g8755/Z                         OAI22_B           2 29.4           
+  g8750/A1                                                           
+  g8750/Z                         AOI22_C           2 28.7           
+  g8746/A1                                                           
+  g8746/Z                         OAI21_C           2 30.0           
+  g8740/A1                                                           
+  g8740/Z                         AOI22_C           2 28.7           
+  g8736/A1                                                           
+  g8736/Z                         OAI21_C           2 34.1           
+  g8734/A                                                            
+  g8734/Z                         INVERT_F          1 16.4           
+  g8730/A1                                                           
+  g8730/Z                         OA21_I            2 28.3           
+  g8725/A1                                                           
+  g8725/Z                         OA21_I            2 27.6           
+  g8720/A1                                                           
+  g8720/Z                         OAI21_C           2 29.8           
+  g8717/B                                                            
+  g8717/Z                         OAI21_C           1 15.8           
+  g8713/A1                                                           
+  g8713/Z                         AOI21_C           2 32.6           
+  g8705/A1                                                           
+  g8705/Z                         AOI22_C           1 16.9           
+  g8702/B                                                            
+  g8702/Z                         OAI21_C           1 18.5           
+  g8701/B                                                            
+  g8701/Z                         XOR2_C            1 17.2           
+  g8699/A1                                                           
+  g8699/Z                         AO22_C            1 13.7           
+ULA1/S[31] 
+mux_ctl_0xi/ULA1_S[31] 
+  registrador1_q_reg[31]/D   <<<  DFFR_E                             
+  registrador1_q_reg[31]/CLK      setup                              
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(clock clk)                       capture                    20000 R 
+---------------------------------------------------------------------
+Cost Group   : 'clk' (path_group 'clk')
+Start-point  : mux_ctl_0xi/registrador1_q_reg[0]/CLK
+End-point    : mux_ctl_0xi/registrador1_q_reg[31]/D
+
+The global mapper estimates a slack for this path of 14160ps.
+ 
+ 
+Global incremental timing result
+================================
+        Tracing clock networks.
+        Levelizing the circuit.
+        Computing net loads.
+        Computing delays.
+        Computing arrivals and requireds.
+            Pin                     Type       Fanout Load Slew Delay Arrival   
+                                                      (fF) (ps)  (ps)   (ps)    
+--------------------------------------------------------------------------------
+(clock clk)                       launch                                    0 R 
+mux_ctl_0xi
+  registrador1_q_reg[1]/CLK                                   0             0 R 
+  registrador1_q_reg[1]/Q         DFFR_H            7 87.3  161  +281     281 F 
+mux_ctl_0xi/S[1] 
+ULA1/B[1] 
+  g8998/A                                                          +0     281   
+  g8998/Z                         INVERTBAL_H       2 37.4  102   +74     355 R 
+  g8911/A                                                          +0     355   
+  g8911/Z                         NOR2_E            1 15.7   70   +60     416 F 
+  g8860/A1                                                         +0     416   
+  g8860/Z                         OAI21_C           2 30.4  248  +143     559 R 
+  g8854/A1                                                         +0     559   
+  g8854/Z                         AOI22_C           2 29.0  171  +116     675 F 
+  g8851/A1                                                         +0     675   
+  g8851/Z                         OA21_I            2 27.6   66  +148     823 F 
+  g8846/A1                                                         +0     823   
+  g8846/Z                         OAI21_C           2 30.0  242  +141     964 R 
+  g8840/A1                                                         +0     964   
+  g8840/Z                         AOI22_C           2 28.7  169  +115    1079 F 
+  g8836/A1                                                         +0    1079   
+  g8836/Z                         OAI21_C           2 30.0  265  +167    1246 R 
+  g8830/A1                                                         +0    1246   
+  g8830/Z                         AOI22_C           2 28.3  173  +117    1363 F 
+  g8826/A1                                                         +0    1363   
+  g8826/Z                         OAI21_C           2 29.8  264  +167    1530 R 
+  g8823/B                                                          +0    1530   
+  g8823/Z                         OAI21_C           1 16.9  131   +80    1611 F 
+  g8819/B                                                          +0    1611   
+  g8819/Z                         OAI21_C           2 29.4  248  +143    1754 R 
+  g8814/A1                                                         +0    1754   
+  g8814/Z                         AOI22_C           2 28.7  170  +116    1869 F 
+  g8810/A1                                                         +0    1869   
+  g8810/Z                         OAI21_C           2 30.0  265  +167    2036 R 
+  g8804/A1                                                         +0    2036   
+  g8804/Z                         AOI22_C           2 26.6  168  +113    2150 F 
+  g8798/A1                                                         +0    2150   
+  g8798/Z                         OAI22_B           2 29.4  346  +203    2353 R 
+  g8793/A1                                                         +0    2353   
+  g8793/Z                         AOI22_C           2 28.7  193  +126    2478 F 
+  g8789/A1                                                         +0    2478   
+  g8789/Z                         OAI21_C           2 34.1  296  +186    2664 R 
+  g8787/A                                                          +0    2664   
+  g8787/Z                         INVERT_F          1 16.4   78   +26    2691 F 
+  g8783/A1                                                         +0    2691   
+  g8783/Z                         OA21_I            2 28.3   62  +132    2822 F 
+  g8778/A1                                                         +0    2822   
+  g8778/Z                         OA21_I            3 40.5   74  +137    2959 F 
+  g8773/A1                                                         +0    2959   
+  g8773/Z                         AO22_F            1 13.6   43   +94    3053 F 
+  g8767/A1                                                         +0    3053   
+  g8767/Z                         OAI22_B           2 29.4  347  +168    3222 R 
+  g8761/A1                                                         +0    3222   
+  g8761/Z                         AOI22_C           2 26.6  186  +121    3343 F 
+  g8755/A1                                                         +0    3343   
+  g8755/Z                         OAI22_B           2 29.4  348  +208    3551 R 
+  g8750/A1                                                         +0    3551   
+  g8750/Z                         AOI22_C           2 28.7  193  +126    3677 F 
+  g8746/A1                                                         +0    3677   
+  g8746/Z                         OAI21_C           2 30.0  271  +173    3850 R 
+  g8740/A1                                                         +0    3850   
+  g8740/Z                         AOI22_C           2 28.7  176  +118    3968 F 
+  g8736/A1                                                         +0    3968   
+  g8736/Z                         OAI21_C           2 34.1  292  +181    4150 R 
+  g8734/A                                                          +0    4150   
+  g8734/Z                         INVERT_F          1 16.4   77   +27    4176 F 
+  g8730/A1                                                         +0    4176   
+  g8730/Z                         OA21_I            2 28.3   63  +131    4308 F 
+  g8725/A1                                                         +0    4308   
+  g8725/Z                         OA21_I            2 27.6   62  +128    4436 F 
+  g8720/A1                                                         +0    4436   
+  g8720/Z                         OAI21_C           2 29.8  242  +139    4575 R 
+  g8717/B                                                          +0    4575   
+  g8717/Z                         OAI21_C           1 15.8  123   +77    4652 F 
+  g8713/A1                                                         +0    4652   
+  g8713/Z                         AOI21_C           2 32.6  249  +151    4803 R 
+  g8705/A1                                                         +0    4803   
+  g8705/Z                         AOI22_C           1 16.9  141   +89    4892 F 
+  g8702/B                                                          +0    4892   
+  g8702/Z                         OAI21_C           1 18.5  180  +119    5012 R 
+  g8701/B                                                          +0    5012   
+  g8701/Z                         XOR2_C            1 17.2  182  +111    5123 R 
+  g8699/A1                                                         +0    5123   
+  g8699/Z                         AO22_C            1 13.7  147  +136    5259 R 
+ULA1/S[31] 
+mux_ctl_0xi/ULA1_S[31] 
+  registrador1_q_reg[31]/D   <<<  DFFR_E                           +0    5259   
+  registrador1_q_reg[31]/CLK      setup                       0  +219    5478 R 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(clock clk)                       capture                               20000 R 
+--------------------------------------------------------------------------------
+Cost Group   : 'clk' (path_group 'clk')
+Timing slack :   14522ps 
+Start-point  : mux_ctl_0xi/registrador1_q_reg[1]/CLK
+End-point    : mux_ctl_0xi/registrador1_q_reg[31]/D
+
+ 
+ 
+Global incremental optimization status
+======================================
+                                   Group   
+                                  Tot Wrst 
+                           Total  Weighted 
+Operation                   Area   Slacks  
+-------------------------------------------------------------------------------
+ global_incr               16631        0 
+
+    Cost Group            Target    Slack    Diff.    Clock
+-----------------------------------------------------------
+           clk               394    14522             20000 
+
+
+Scan mapping status report
+==========================
+    Scan mapping: converting flip-flops that pass TDRC.
+    Scan mapping: bypassed.  You have to either 1) set attribute 'dft_scan_map_mode' to 'tdrc_pass' and run 'check_dft_rules' or 2) set attribute 'dft_scan_map_mode' to 'force_all'.
+
+    Scan mapping bypassed because no TDRC data is available: either command 'check_dft_rules' has not been run or TDRC data has been subsequently invalidated.
+          Performing post-mapping optimization ...
+
+Info    : Hierarchical instance automatically ungrouped. [GLO-51]
+        : Instance 'ULA1' in module 'ULA_com_registrador' would be automatically ungrouped.
+          There are 1 hierarchical instances automatically ungrouped.
+        Computing net loads.
+ Doing ConstProp on /designs/ULA_com_registrador ... 
+
+ 
+Incremental optimization status
+===============================
+                                   Group   
+                                  Tot Wrst     Total - - DRC Totals - -
+                           Total  Weighted      Neg      Max       Max 
+Operation                   Area   Slacks      Slack    Trans      Cap 
+-------------------------------------------------------------------------------
+ init_delay                16631        0         0         0        0
+
+           Trick     Calls     Accepts   Attempts    Time(secs) 
+-----------------------------------------------------------
+       crit_upsz         0  (        0 /        0 )  0.00
+    plc_bal_star         0  (        0 /        0 )  0.00
+     drc_buftimb         0  (        0 /        0 )  0.00
+          plc_st         0  (        0 /        0 )  0.00
+          plc_st         0  (        0 /        0 )  0.00
+        plc_star         0  (        0 /        0 )  0.00
+     drc_buftims         0  (        0 /        0 )  0.00
+            fopt         0  (        0 /        0 )  0.00
+       plc_lo_st         0  (        0 /        0 )  0.00
+
+ 
+Local TNS optimization status
+=============================
+                                   Group   
+                                  Tot Wrst     Total - - DRC Totals - -
+                           Total  Weighted      Neg      Max       Max 
+Operation                   Area   Slacks      Slack    Trans      Cap 
+-------------------------------------------------------------------------------
+ init_tns                  16631        0         0         0        0
+
+           Trick     Calls     Accepts   Attempts    Time(secs) 
+-----------------------------------------------------------
+    plc_bal_star         0  (        0 /        0 )  0.00
+     drc_buftimb         0  (        0 /        0 )  0.00
+     drc_buftims         0  (        0 /        0 )  0.00
+       crit_upsz         0  (        0 /        0 )  0.00
+       plc_lo_st         0  (        0 /        0 )  0.00
+            fopt         0  (        0 /        0 )  0.00
+       crit_dnsz         0  (        0 /        0 )  0.00
+             dup         0  (        0 /        0 )  0.00
+        setup_dn         0  (        0 /        0 )  0.00
+
+##>======== Cadence Confidential (Mapping-Logical) ========
+##>Main Thread Summary:
+##>--------------------------------------------------------
+##>STEP               Elapsed     Insts      Area    Memory
+##>--------------------------------------------------------
+##>M:Initial                0      1017     27062       135
+##>M:Launch ST              0         -         -         -
+##>M:Distributed            0         -         -         -
+##>M:Cleanup                0       380     10017       233
+##>M:MBCI                   0       380     10017       233
+##>M:Misc                   3
+##>--------------------------------------------------------
+##>Total Elapsed            3
+##>========================================================
+  Setting attribute of root '/': 'pbs_stage_start_elapsed_time' = 13
+  Setting attribute of root '/': 'pbs_stage_start_st_time' = 12
+Info    : Done mapping. [SYNTH-5]
+        : Done mapping 'ULA_com_registrador'.
+        Computing net loads.
+Runtime & Memory after 'syn_map'
+stamp 'MAPPED' being created for table 'default'
+
+  Total Time (Wall) |  Stage Time (Wall)  |   % (Wall)   |    Date - Time     |  Memory   | Stage
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:06(00:00:00) |  00:00:00(00:00:00) |   0.0(  0.0) |    4:31:59 (Mar04) |  135.6 MB | init
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:09(00:00:04) |  00:00:03(00:00:04) |  46.1( 57.1) |    4:32:03 (Mar04) |  135.6 MB | GENERIC
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:12(00:00:07) |  00:00:03(00:00:03) |  53.9( 42.9) |    4:32:06 (Mar04) |  233.0 MB | MAPPED
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+Number of threads: 4 * 1   (id: default, time_info v1.57)
+Info: (*N*) indicates data that was populated from previously saved time_info database
+Info: CPU time includes time of parent + longest thread
+Current PLE settings:
+
+Aspect ratio        : 1.00
+Shrink factor       : 1.00
+Scale of res/length : 1.00
+Scale of cap/length : 1.00
+Net derating factor : 1.00
+Thermal factor      : 1.00
+Via Resistance      : 0.00 ohm (from default)
+Site size           : 7.28 um (from lef [tech+cell])
+
+                                   Capacitance  
+  Layer                             / Length         Data source:
+Name        Direction Utilization  (pF/micron)       default value
+------------------------------------------------
+<default>       U         n/a         0.000250  
+
+** = DEFAULT cap per unit length is used for timing analysis
+
+                                    Resistance   
+  Layer                              / Length         Data source:
+Name        Direction Utilization  (ohm/micron)       default value
+-------------------------------------------------
+<default>       U         n/a          0.000000  
+
+** = DEFAULT res per unit length is used for timing analysis
+
+                                        Area       
+  Layer                               / Length          Data source:
+Name        Direction Utilization     (micron)          lef_library
+---------------------------------------------------
+M1              H         1.00         0.240000    
+M2              V         1.00         0.280000    
+M3              H         1.00         0.280000    
+M4              V         1.00         0.280000    
+MT              H         1.00         0.280000    
+ML              V         1.00         2.400000 ** 
+
+** = 'ML' is dropped because its width (2.4) is too large (threshold 2)
+
+Info    : Incrementally optimizing. [SYNTH-7]
+        : Incrementally optimizing 'ULA_com_registrador' using 'high' effort.
+ 
+Incremental optimization status
+===============================
+                                   Group   
+                                  Tot Wrst     Total - - DRC Totals - -
+                           Total  Weighted      Neg      Max       Max 
+Operation                   Area   Slacks      Slack    Trans      Cap 
+-------------------------------------------------------------------------------
+ init_iopt                 16631        0         0         0        0
+ const_prop                16631        0         0         0        0
+ hi_fo_buf                 16631        0         0         0        0
+
+           Trick     Calls     Accepts   Attempts    Time(secs) 
+-----------------------------------------------------------
+       hi_fo_buf         0  (        0 /        0 )  0.00
+
+ 
+Incremental optimization status
+===============================
+                                   Group   
+                                  Tot Wrst     Total - - DRC Totals - -
+                           Total  Weighted      Neg      Max       Max 
+Operation                   Area   Slacks      Slack    Trans      Cap 
+-------------------------------------------------------------------------------
+ init_delay                16631        0         0         0        0
+
+           Trick     Calls     Accepts   Attempts    Time(secs) 
+-----------------------------------------------------------
+        crit_msz         0  (        0 /        0 )  0.00
+       crit_upsz         0  (        0 /        0 )  0.00
+       crit_slew         0  (        0 /        0 )  0.00
+        setup_dn         0  (        0 /        0 )  0.00
+    plc_bal_star         0  (        0 /        0 )  0.00
+     drc_buftimb         0  (        0 /        0 )  0.00
+          plc_st         0  (        0 /        0 )  0.00
+          plc_st         0  (        0 /        0 )  0.00
+        plc_star         0  (        0 /        0 )  0.00
+     drc_buftims         0  (        0 /        0 )  0.00
+       plc_lo_st         0  (        0 /        0 )  0.00
+            fopt         0  (        0 /        0 )  0.00
+       crit_swap         0  (        0 /        0 )  0.00
+       mux2_swap         0  (        0 /        0 )  0.00
+       crit_dnsz         0  (        0 /        0 )  0.00
+       load_swap         0  (        0 /        0 )  0.00
+            fopt         0  (        0 /        0 )  0.00
+        setup_dn         0  (        0 /        0 )  0.00
+       load_isol         0  (        0 /        0 )  0.00
+       load_isol         0  (        0 /        0 )  0.00
+        move_for         0  (        0 /        0 )  0.00
+        move_for         0  (        0 /        0 )  0.00
+          rem_bi         0  (        0 /        0 )  0.00
+         offload         0  (        0 /        0 )  0.00
+          rem_bi         0  (        0 /        0 )  0.00
+         offload         0  (        0 /        0 )  0.00
+           phase         0  (        0 /        0 )  0.00
+        in_phase         0  (        0 /        0 )  0.00
+       merge_bit         0  (        0 /        0 )  0.00
+     merge_idrvr         0  (        0 /        0 )  0.00
+     merge_iload         0  (        0 /        0 )  0.00
+    merge_idload         0  (        0 /        0 )  0.00
+      merge_drvr         0  (        0 /        0 )  0.00
+      merge_load         0  (        0 /        0 )  0.00
+          decomp         0  (        0 /        0 )  0.00
+        p_decomp         0  (        0 /        0 )  0.00
+        levelize         0  (        0 /        0 )  0.00
+        mb_split         0  (        0 /        0 )  0.00
+             dup         0  (        0 /        0 )  0.00
+      mux_retime         0  (        0 /        0 )  0.00
+         buf2inv         0  (        0 /        0 )  0.00
+             exp         0  (        0 /        0 )  0.00
+       gate_deco         0  (        0 /        0 )  0.00
+       gcomp_tim         0  (        0 /        0 )  0.00
+  inv_pair_2_buf         0  (        0 /        0 )  0.00
+
+
+           Trick     Calls     Accepts   Attempts    Time(secs) 
+-----------------------------------------------------------
+         crr_220         0  (        0 /        0 )  0.00
+        crr_glob         0  (        0 /        0 )  0.00
+         crr_200         0  (        0 /        0 )  0.00
+        crr_glob         0  (        0 /        0 )  0.00
+         crr_300         0  (        0 /        0 )  0.00
+        crr_glob         0  (        0 /        0 )  0.00
+         crr_400         0  (        0 /        0 )  0.00
+        crr_glob         0  (        0 /        0 )  0.00
+         crr_111         0  (        0 /        0 )  0.00
+        crr_glob         0  (        0 /        0 )  0.00
+         crr_210         0  (        0 /        0 )  0.00
+        crr_glob         0  (        0 /        0 )  0.00
+         crr_110         0  (        0 /        0 )  0.00
+        crr_glob         0  (        0 /        0 )  0.00
+         crr_101         0  (        0 /        0 )  0.00
+        crr_glob         0  (        0 /        0 )  0.00
+         crr_201         0  (        0 /        0 )  0.00
+        crr_glob         0  (        0 /        0 )  0.00
+         crr_211         0  (        0 /        0 )  0.00
+        crr_glob         0  (        0 /        0 )  0.00
+        crit_msz         0  (        0 /        0 )  0.00
+       crit_upsz         0  (        0 /        0 )  0.00
+       crit_slew         0  (        0 /        0 )  0.00
+        setup_dn         0  (        0 /        0 )  0.00
+    plc_bal_star         0  (        0 /        0 )  0.00
+     drc_buftimb         0  (        0 /        0 )  0.00
+          plc_st         0  (        0 /        0 )  0.00
+          plc_st         0  (        0 /        0 )  0.00
+        plc_star         0  (        0 /        0 )  0.00
+     drc_buftims         0  (        0 /        0 )  0.00
+       plc_lo_st         0  (        0 /        0 )  0.00
+            fopt         0  (        0 /        0 )  0.00
+       crit_swap         0  (        0 /        0 )  0.00
+       mux2_swap         0  (        0 /        0 )  0.00
+       crit_dnsz         0  (        0 /        0 )  0.00
+       load_swap         0  (        0 /        0 )  0.00
+            fopt         0  (        0 /        0 )  0.00
+        setup_dn         0  (        0 /        0 )  0.00
+       load_isol         0  (        0 /        0 )  0.00
+       load_isol         0  (        0 /        0 )  0.00
+        move_for         0  (        0 /        0 )  0.00
+        move_for         0  (        0 /        0 )  0.00
+          rem_bi         0  (        0 /        0 )  0.00
+         offload         0  (        0 /        0 )  0.00
+          rem_bi         0  (        0 /        0 )  0.00
+         offload         0  (        0 /        0 )  0.00
+       merge_bit         0  (        0 /        0 )  0.00
+     merge_idrvr         0  (        0 /        0 )  0.00
+     merge_iload         0  (        0 /        0 )  0.00
+    merge_idload         0  (        0 /        0 )  0.00
+      merge_drvr         0  (        0 /        0 )  0.00
+      merge_load         0  (        0 /        0 )  0.00
+           phase         0  (        0 /        0 )  0.00
+          decomp         0  (        0 /        0 )  0.00
+        p_decomp         0  (        0 /        0 )  0.00
+        levelize         0  (        0 /        0 )  0.00
+        mb_split         0  (        0 /        0 )  0.00
+        in_phase         0  (        0 /        0 )  0.00
+             dup         0  (        0 /        0 )  0.00
+      mux_retime         0  (        0 /        0 )  0.00
+         buf2inv         0  (        0 /        0 )  0.00
+             exp         0  (        0 /        0 )  0.00
+       gate_deco         0  (        0 /        0 )  0.00
+       gcomp_tim         0  (        0 /        0 )  0.00
+  inv_pair_2_buf         0  (        0 /        0 )  0.00
+ init_drc                  16631        0         0         0        0
+
+           Trick     Calls     Accepts   Attempts    Time(secs) 
+-----------------------------------------------------------
+          plc_st         0  (        0 /        0 )  0.00
+        plc_star         0  (        0 /        0 )  0.00
+        drc_bufs         0  (        0 /        0 )  0.00
+        drc_fopt         0  (        0 /        0 )  0.00
+        drc_bufb         0  (        0 /        0 )  0.00
+      simple_buf         0  (        0 /        0 )  0.00
+             dup         0  (        0 /        0 )  0.00
+       crit_dnsz         0  (        0 /        0 )  0.00
+       crit_upsz         0  (        0 /        0 )  0.00
+       crit_slew         0  (        0 /        0 )  0.00
+
+
+           Trick     Calls     Accepts   Attempts    Time(secs) 
+-----------------------------------------------------------
+          plc_st         0  (        0 /        0 )  0.00
+        plc_star         0  (        0 /        0 )  0.00
+      drc_buf_sp         0  (        0 /        0 )  0.00
+        drc_bufs         0  (        0 /        0 )  0.00
+        drc_fopt         0  (        0 /        0 )  0.00
+        drc_bufb         0  (        0 /        0 )  0.00
+      simple_buf         0  (        0 /        0 )  0.00
+             dup         0  (        0 /        0 )  0.00
+       crit_dnsz         0  (        0 /        0 )  0.00
+       crit_upsz         0  (        0 /        0 )  0.00
+
+
+           Trick     Calls     Accepts   Attempts    Time(secs) 
+-----------------------------------------------------------
+          plc_st         0  (        0 /        0 )  0.00
+        plc_star         0  (        0 /        0 )  0.00
+      drc_buf_sp         0  (        0 /        0 )  0.00
+        drc_bufs         0  (        0 /        0 )  0.00
+        drc_fopt         0  (        0 /        0 )  0.00
+        drc_bufb         0  (        0 /        0 )  0.00
+             dup         0  (        0 /        0 )  0.00
+       crit_dnsz         0  (        0 /        0 )  0.00
+       crit_upsz         0  (        0 /        0 )  0.00
+
+ init_tns                  16631        0         0         0        0
+
+           Trick     Calls     Accepts   Attempts    Time(secs) 
+-----------------------------------------------------------
+            fopt         0  (        0 /        0 )  0.00
+    plc_bal_star         0  (        0 /        0 )  0.00
+     drc_buftimb         0  (        0 /        0 )  0.00
+     drc_buftims         0  (        0 /        0 )  0.00
+        crit_msz         0  (        0 /        0 )  0.00
+       crit_upsz         0  (        0 /        0 )  0.00
+       plc_lo_st         0  (        0 /        0 )  0.00
+       crit_swap         0  (        0 /        0 )  0.00
+       mux2_swap         0  (        0 /        0 )  0.00
+       crit_dnsz         0  (        0 /        0 )  0.00
+       load_swap         0  (        0 /        0 )  0.00
+            fopt         0  (        0 /        0 )  0.00
+        setup_dn         0  (        0 /        0 )  0.00
+       load_isol         0  (        0 /        0 )  0.00
+       load_isol         0  (        0 /        0 )  0.00
+        move_for         0  (        0 /        0 )  0.00
+        move_for         0  (        0 /        0 )  0.00
+          rem_bi         0  (        0 /        0 )  0.00
+         offload         0  (        0 /        0 )  0.00
+          rem_bi         0  (        0 /        0 )  0.00
+         offload         0  (        0 /        0 )  0.00
+       merge_bit         0  (        0 /        0 )  0.00
+     merge_idrvr         0  (        0 /        0 )  0.00
+     merge_iload         0  (        0 /        0 )  0.00
+    merge_idload         0  (        0 /        0 )  0.00
+      merge_drvr         0  (        0 /        0 )  0.00
+      merge_load         0  (        0 /        0 )  0.00
+           phase         0  (        0 /        0 )  0.00
+          decomp         0  (        0 /        0 )  0.00
+        p_decomp         0  (        0 /        0 )  0.00
+        levelize         0  (        0 /        0 )  0.00
+        mb_split         0  (        0 /        0 )  0.00
+             dup         0  (        0 /        0 )  0.00
+      mux_retime         0  (        0 /        0 )  0.00
+       crr_local         0  (        0 /        0 )  0.00
+         buf2inv         0  (        0 /        0 )  0.00
+
+ init_area                 16631        0         0         0        0
+ rem_inv                   16165        0         0         0        0
+ rem_inv_qb                15666        0         0         0        0
+ area_down                 15636        0         0         0        0
+
+           Trick     Calls     Accepts   Attempts    Time(secs) 
+-----------------------------------------------------------
+           undup         0  (        0 /        0 )  0.00
+         rem_buf         0  (        0 /        0 )  0.00
+         rem_inv        22  (       22 /       22 )  0.03
+        merge_bi         0  (        0 /        0 )  0.00
+      rem_inv_qb        30  (        1 /        1 )  0.02
+    seq_res_area         2  (        0 /        0 )  0.20
+        io_phase         0  (        0 /        0 )  0.00
+       gate_comp        92  (        0 /        0 )  0.22
+       gcomp_mog         0  (        0 /        0 )  0.01
+       glob_area        39  (        0 /       39 )  0.00
+       area_down         2  (        1 /        1 )  0.02
+  gate_deco_area         0  (        0 /        0 )  0.00
+         rem_buf         0  (        0 /        0 )  0.00
+         rem_inv         0  (        0 /        0 )  0.00
+        merge_bi         0  (        0 /        0 )  0.00
+      rem_inv_qb         0  (        0 /        0 )  0.00
+
+ 
+Incremental optimization status
+===============================
+                                   Group   
+                                  Tot Wrst     Total - - DRC Totals - -
+                           Total  Weighted      Neg      Max       Max 
+Operation                   Area   Slacks      Slack    Trans      Cap 
+-------------------------------------------------------------------------------
+ init_delay                15636        0         0         0        0
+
+           Trick     Calls     Accepts   Attempts    Time(secs) 
+-----------------------------------------------------------
+         crr_220         0  (        0 /        0 )  0.00
+        crr_glob         0  (        0 /        0 )  0.00
+         crr_200         0  (        0 /        0 )  0.00
+        crr_glob         0  (        0 /        0 )  0.00
+         crr_300         0  (        0 /        0 )  0.00
+        crr_glob         0  (        0 /        0 )  0.00
+         crr_400         0  (        0 /        0 )  0.00
+        crr_glob         0  (        0 /        0 )  0.00
+         crr_111         0  (        0 /        0 )  0.00
+        crr_glob         0  (        0 /        0 )  0.00
+         crr_210         0  (        0 /        0 )  0.00
+        crr_glob         0  (        0 /        0 )  0.00
+         crr_110         0  (        0 /        0 )  0.00
+        crr_glob         0  (        0 /        0 )  0.00
+         crr_101         0  (        0 /        0 )  0.00
+        crr_glob         0  (        0 /        0 )  0.00
+         crr_201         0  (        0 /        0 )  0.00
+        crr_glob         0  (        0 /        0 )  0.00
+         crr_211         0  (        0 /        0 )  0.00
+        crr_glob         0  (        0 /        0 )  0.00
+        crit_msz         0  (        0 /        0 )  0.00
+       crit_upsz         0  (        0 /        0 )  0.00
+       crit_slew         0  (        0 /        0 )  0.00
+        setup_dn         0  (        0 /        0 )  0.00
+    plc_bal_star         0  (        0 /        0 )  0.00
+     drc_buftimb         0  (        0 /        0 )  0.00
+          plc_st         0  (        0 /        0 )  0.00
+          plc_st         0  (        0 /        0 )  0.00
+        plc_star         0  (        0 /        0 )  0.00
+     drc_buftims         0  (        0 /        0 )  0.00
+       plc_lo_st         0  (        0 /        0 )  0.00
+            fopt         0  (        0 /        0 )  0.00
+       crit_swap         0  (        0 /        0 )  0.00
+       mux2_swap         0  (        0 /        0 )  0.00
+       crit_dnsz         0  (        0 /        0 )  0.00
+       load_swap         0  (        0 /        0 )  0.00
+            fopt         0  (        0 /        0 )  0.00
+        setup_dn         0  (        0 /        0 )  0.00
+       load_isol         0  (        0 /        0 )  0.00
+       load_isol         0  (        0 /        0 )  0.00
+        move_for         0  (        0 /        0 )  0.00
+        move_for         0  (        0 /        0 )  0.00
+          rem_bi         0  (        0 /        0 )  0.00
+         offload         0  (        0 /        0 )  0.00
+          rem_bi         0  (        0 /        0 )  0.00
+         offload         0  (        0 /        0 )  0.00
+       merge_bit         0  (        0 /        0 )  0.00
+     merge_idrvr         0  (        0 /        0 )  0.00
+     merge_iload         0  (        0 /        0 )  0.00
+    merge_idload         0  (        0 /        0 )  0.00
+      merge_drvr         0  (        0 /        0 )  0.00
+      merge_load         0  (        0 /        0 )  0.00
+           phase         0  (        0 /        0 )  0.00
+          decomp         0  (        0 /        0 )  0.00
+        p_decomp         0  (        0 /        0 )  0.00
+        levelize         0  (        0 /        0 )  0.00
+        mb_split         0  (        0 /        0 )  0.00
+        in_phase         0  (        0 /        0 )  0.00
+             dup         0  (        0 /        0 )  0.00
+      mux_retime         0  (        0 /        0 )  0.00
+         buf2inv         0  (        0 /        0 )  0.00
+             exp         0  (        0 /        0 )  0.00
+       gate_deco         0  (        0 /        0 )  0.00
+       gcomp_tim         0  (        0 /        0 )  0.00
+  inv_pair_2_buf         0  (        0 /        0 )  0.00
+ init_drc                  15636        0         0         0        0
+
+           Trick     Calls     Accepts   Attempts    Time(secs) 
+-----------------------------------------------------------
+          plc_st         0  (        0 /        0 )  0.00
+        plc_star         0  (        0 /        0 )  0.00
+        drc_bufs         0  (        0 /        0 )  0.00
+        drc_fopt         0  (        0 /        0 )  0.00
+        drc_bufb         0  (        0 /        0 )  0.00
+      simple_buf         0  (        0 /        0 )  0.00
+             dup         0  (        0 /        0 )  0.00
+       crit_dnsz         0  (        0 /        0 )  0.00
+       crit_upsz         0  (        0 /        0 )  0.00
+       crit_slew         0  (        0 /        0 )  0.00
+
+
+           Trick     Calls     Accepts   Attempts    Time(secs) 
+-----------------------------------------------------------
+          plc_st         0  (        0 /        0 )  0.00
+        plc_star         0  (        0 /        0 )  0.00
+        drc_bufs         0  (        0 /        0 )  0.00
+        drc_fopt         0  (        0 /        0 )  0.00
+        drc_bufb         0  (        0 /        0 )  0.00
+      simple_buf         0  (        0 /        0 )  0.00
+             dup         0  (        0 /        0 )  0.00
+       crit_dnsz         0  (        0 /        0 )  0.00
+       crit_upsz         0  (        0 /        0 )  0.00
+
+
+           Trick     Calls     Accepts   Attempts    Time(secs) 
+-----------------------------------------------------------
+          plc_st         0  (        0 /        0 )  0.00
+        plc_star         0  (        0 /        0 )  0.00
+        drc_bufs         0  (        0 /        0 )  0.00
+        drc_fopt         0  (        0 /        0 )  0.00
+        drc_bufb         0  (        0 /        0 )  0.00
+             dup         0  (        0 /        0 )  0.00
+       crit_dnsz         0  (        0 /        0 )  0.00
+       crit_upsz         0  (        0 /        0 )  0.00
+
+ init_tns                  15636        0         0         0        0
+
+           Trick     Calls     Accepts   Attempts    Time(secs) 
+-----------------------------------------------------------
+            fopt         0  (        0 /        0 )  0.00
+    plc_bal_star         0  (        0 /        0 )  0.00
+     drc_buftimb         0  (        0 /        0 )  0.00
+     drc_buftims         0  (        0 /        0 )  0.00
+        crit_msz         0  (        0 /        0 )  0.00
+       crit_upsz         0  (        0 /        0 )  0.00
+       plc_lo_st         0  (        0 /        0 )  0.00
+       crit_swap         0  (        0 /        0 )  0.00
+       mux2_swap         0  (        0 /        0 )  0.00
+       crit_dnsz         0  (        0 /        0 )  0.00
+       load_swap         0  (        0 /        0 )  0.00
+            fopt         0  (        0 /        0 )  0.00
+        setup_dn         0  (        0 /        0 )  0.00
+       load_isol         0  (        0 /        0 )  0.00
+       load_isol         0  (        0 /        0 )  0.00
+        move_for         0  (        0 /        0 )  0.00
+        move_for         0  (        0 /        0 )  0.00
+          rem_bi         0  (        0 /        0 )  0.00
+         offload         0  (        0 /        0 )  0.00
+          rem_bi         0  (        0 /        0 )  0.00
+         offload         0  (        0 /        0 )  0.00
+       merge_bit         0  (        0 /        0 )  0.00
+     merge_idrvr         0  (        0 /        0 )  0.00
+     merge_iload         0  (        0 /        0 )  0.00
+    merge_idload         0  (        0 /        0 )  0.00
+      merge_drvr         0  (        0 /        0 )  0.00
+      merge_load         0  (        0 /        0 )  0.00
+           phase         0  (        0 /        0 )  0.00
+          decomp         0  (        0 /        0 )  0.00
+        p_decomp         0  (        0 /        0 )  0.00
+        levelize         0  (        0 /        0 )  0.00
+        mb_split         0  (        0 /        0 )  0.00
+             dup         0  (        0 /        0 )  0.00
+      mux_retime         0  (        0 /        0 )  0.00
+       crr_local         0  (        0 /        0 )  0.00
+         buf2inv         0  (        0 /        0 )  0.00
+
+ init_area                 15636        0         0         0        0
+
+           Trick     Calls     Accepts   Attempts    Time(secs) 
+-----------------------------------------------------------
+           undup         0  (        0 /        0 )  0.00
+         rem_buf         0  (        0 /        0 )  0.00
+         rem_inv         0  (        0 /        0 )  0.00
+        merge_bi         0  (        0 /        0 )  0.00
+      rem_inv_qb         0  (        0 /        0 )  0.00
+        io_phase         0  (        0 /        0 )  0.00
+       gate_comp        92  (        0 /        0 )  0.21
+       gcomp_mog         0  (        0 /        0 )  0.01
+       glob_area        39  (        0 /       39 )  0.00
+       area_down         1  (        0 /        0 )  0.01
+  gate_deco_area         0  (        0 /        0 )  0.00
+
+ 
+Incremental optimization status
+===============================
+                                   Group   
+                                  Tot Wrst     Total - - DRC Totals - -
+                           Total  Weighted      Neg      Max       Max 
+Operation                   Area   Slacks      Slack    Trans      Cap 
+-------------------------------------------------------------------------------
+ init_delay                15636        0         0         0        0
+
+           Trick     Calls     Accepts   Attempts    Time(secs) 
+-----------------------------------------------------------
+        crit_msz         0  (        0 /        0 )  0.00
+       crit_upsz         0  (        0 /        0 )  0.00
+       crit_slew         0  (        0 /        0 )  0.00
+        setup_dn         0  (        0 /        0 )  0.00
+    plc_bal_star         0  (        0 /        0 )  0.00
+     drc_buftimb         0  (        0 /        0 )  0.00
+          plc_st         0  (        0 /        0 )  0.00
+          plc_st         0  (        0 /        0 )  0.00
+        plc_star         0  (        0 /        0 )  0.00
+     drc_buftims         0  (        0 /        0 )  0.00
+       plc_lo_st         0  (        0 /        0 )  0.00
+            fopt         0  (        0 /        0 )  0.00
+       crit_swap         0  (        0 /        0 )  0.00
+       mux2_swap         0  (        0 /        0 )  0.00
+       crit_dnsz         0  (        0 /        0 )  0.00
+       load_swap         0  (        0 /        0 )  0.00
+            fopt         0  (        0 /        0 )  0.00
+        setup_dn         0  (        0 /        0 )  0.00
+       load_isol         0  (        0 /        0 )  0.00
+       load_isol         0  (        0 /        0 )  0.00
+        move_for         0  (        0 /        0 )  0.00
+        move_for         0  (        0 /        0 )  0.00
+          rem_bi         0  (        0 /        0 )  0.00
+         offload         0  (        0 /        0 )  0.00
+          rem_bi         0  (        0 /        0 )  0.00
+         offload         0  (        0 /        0 )  0.00
+           phase         0  (        0 /        0 )  0.00
+        in_phase         0  (        0 /        0 )  0.00
+       merge_bit         0  (        0 /        0 )  0.00
+     merge_idrvr         0  (        0 /        0 )  0.00
+     merge_iload         0  (        0 /        0 )  0.00
+    merge_idload         0  (        0 /        0 )  0.00
+      merge_drvr         0  (        0 /        0 )  0.00
+      merge_load         0  (        0 /        0 )  0.00
+          decomp         0  (        0 /        0 )  0.00
+        p_decomp         0  (        0 /        0 )  0.00
+        levelize         0  (        0 /        0 )  0.00
+        mb_split         0  (        0 /        0 )  0.00
+             dup         0  (        0 /        0 )  0.00
+      mux_retime         0  (        0 /        0 )  0.00
+         buf2inv         0  (        0 /        0 )  0.00
+             exp         0  (        0 /        0 )  0.00
+       gate_deco         0  (        0 /        0 )  0.00
+       gcomp_tim         0  (        0 /        0 )  0.00
+  inv_pair_2_buf         0  (        0 /        0 )  0.00
+
+ init_drc                  15636        0         0         0        0
+
+           Trick     Calls     Accepts   Attempts    Time(secs) 
+-----------------------------------------------------------
+          plc_st         0  (        0 /        0 )  0.00
+        plc_star         0  (        0 /        0 )  0.00
+        drc_bufs         0  (        0 /        0 )  0.00
+        drc_fopt         0  (        0 /        0 )  0.00
+        drc_bufb         0  (        0 /        0 )  0.00
+      simple_buf         0  (        0 /        0 )  0.00
+             dup         0  (        0 /        0 )  0.00
+       crit_dnsz         0  (        0 /        0 )  0.00
+       crit_upsz         0  (        0 /        0 )  0.00
+       crit_slew         0  (        0 /        0 )  0.00
+
+
+           Trick     Calls     Accepts   Attempts    Time(secs) 
+-----------------------------------------------------------
+          plc_st         0  (        0 /        0 )  0.00
+        plc_star         0  (        0 /        0 )  0.00
+        drc_bufs         0  (        0 /        0 )  0.00
+        drc_fopt         0  (        0 /        0 )  0.00
+        drc_bufb         0  (        0 /        0 )  0.00
+      simple_buf         0  (        0 /        0 )  0.00
+             dup         0  (        0 /        0 )  0.00
+       crit_dnsz         0  (        0 /        0 )  0.00
+       crit_upsz         0  (        0 /        0 )  0.00
+
+
+           Trick     Calls     Accepts   Attempts    Time(secs) 
+-----------------------------------------------------------
+          plc_st         0  (        0 /        0 )  0.00
+        plc_star         0  (        0 /        0 )  0.00
+        drc_bufs         0  (        0 /        0 )  0.00
+        drc_fopt         0  (        0 /        0 )  0.00
+        drc_bufb         0  (        0 /        0 )  0.00
+             dup         0  (        0 /        0 )  0.00
+       crit_dnsz         0  (        0 /        0 )  0.00
+       crit_upsz         0  (        0 /        0 )  0.00
+
+Info    : Done incrementally optimizing. [SYNTH-8]
+        : Done incrementally optimizing 'ULA_com_registrador'.
+        Computing net loads.
+Runtime & Memory after syn_opt
+stamp 'INCREMENTAL' being created for table 'default'
+
+  Total Time (Wall) |  Stage Time (Wall)  |   % (Wall)   |    Date - Time     |  Memory   | Stage
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:06(00:00:00) |  00:00:00(00:00:00) |   0.0(  0.0) |    4:31:59 (Mar04) |  135.6 MB | init
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:09(00:00:04) |  00:00:03(00:00:04) |  40.0( 50.0) |    4:32:03 (Mar04) |  135.6 MB | GENERIC
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:12(00:00:07) |  00:00:03(00:00:03) |  46.7( 37.5) |    4:32:06 (Mar04) |  233.0 MB | MAPPED
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:13(00:00:08) |  00:00:01(00:00:01) |  13.3( 12.5) |    4:32:07 (Mar04) |  233.0 MB | INCREMENTAL
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+Number of threads: 4 * 1   (id: default, time_info v1.57)
+Info: (*N*) indicates data that was populated from previously saved time_info database
+Info: CPU time includes time of parent + longest thread
+Exporting design data for 'ULA_com_registrador' to layout/ULA_com_registrador...
+Info    : Generating design database. [PHYS-90]
+        : Writing netlist: layout/ULA_com_registrador.v
+        : The database contains all the files required to restore the design in the specified application.
+UM:  flow.cputime  flow.realtime  timing.setup.tns  timing.setup.wns  snapshot
+UM:            14             14                                      write_design
+Info    : Generating design database. [PHYS-90]
+        : Writing Metrics file: layout/ULA_com_registrador.metrics.json
+Info    : Generating design database. [PHYS-90]
+        : Writing write_script: layout/ULA_com_registrador.g
+No loop breaker instances found (cdn_loop_breaker).
+Info    : Design has no library or power domains. [INVS_MSV-301]
+        : No power domains will be created for Innovus.
+Info    : Generating design database. [PHYS-90]
+        : Writing multi-mode timing view file: layout/ULA_com_registrador.mmode.tcl
+Info    : Generating design database. [PHYS-90]
+        : Writing Innovus mode: layout/ULA_com_registrador.mode
+Info    : Not a Multi-Mode design. [MM_INVS-66]
+        : File with default corner and mode will be created.
+        : Default corner and mode will be created.
+Finished SDC export (command execution time mm:ss (real) = 00:00).
+Info    : File has been generated. [MM_INVS-53]
+        : File name is: 'layout/ULA_com_registrador.mmode.tcl'.
+Info    : Generating design database. [PHYS-90]
+        : Writing Innovus globals file: layout/ULA_com_registrador.globals
+Info    : Generating design database. [PHYS-90]
+        : Writing Innovus setup file: layout/ULA_com_registrador.invs_setup.tcl
+Info    : Generating design database. [PHYS-90]
+        : Writing Genus(TM) Synthesis Solution setup file: layout/ULA_com_registrador.genus_setup.tcl
+** To load the database source layout/ULA_com_registrador.invs_setup.tcl in an Innovus session.
+** To load the database source layout/ULA_com_registrador.genus_setup.tcl in an Genus(TM) Synthesis Solution session.
+Finished exporting design data for 'ULA_com_registrador' (command execution time mm:ss cpu = 00:00, real = 00:00).
+.
+WARNING: This version of the tool is 1659 days old.
+legacy_genus:/> report area
+============================================================
+  Generated by:           Genus(TM) Synthesis Solution 16.24-s065_1
+  Generated on:           Mar 04 2022  04:32:55 am
+  Module:                 ULA_com_registrador
+  Technology libraries:   PnomV180T025_STD_CELL_7RF 
+                          physical_cells 
+  Operating conditions:   _nominal_ 
+  Interconnect mode:      global
+  Area mode:              physical library
+============================================================
+
+      Instance      Module  Cells  Cell Area  Net Area   Total Area 
+--------------------------------------------------------------------
+ULA_com_registrador           328       9400      6236        15636 
+legacy_genus:/> report timing
+Warning : Possible timing problems have been detected in this design. [TIM-11]
+        : The design is 'ULA_com_registrador'.
+        : Use 'report timing -lint' for more information.
+============================================================
+  Generated by:           Genus(TM) Synthesis Solution 16.24-s065_1
+  Generated on:           Mar 04 2022  04:32:59 am
+  Module:                 ULA_com_registrador
+  Technology libraries:   PnomV180T025_STD_CELL_7RF 
+                          physical_cells 
+  Operating conditions:   _nominal_ 
+  Interconnect mode:      global
+  Area mode:              physical library
+============================================================
+
+           Pin                   Type     Fanout Load Slew Delay Arrival   
+                                                 (fF) (ps)  (ps)   (ps)    
+---------------------------------------------------------------------------
+(clock clk)                     launch                                 0 R 
+registrador1_q_reg[1]/CLK                                0             0 R 
+registrador1_q_reg[1]/Q         DFFR_H         6 68.2  171  +389     389 R 
+ULA1_g8956__7837/A                                            +0     389   
+ULA1_g8956__7837/Z              OR2_I          1 17.1   51   +98     487 R 
+ULA1_g8859__3377/A2                                           +0     487   
+ULA1_g8859__3377/Z              AOI22_C        2 28.3  173   +87     574 F 
+ULA1_g8855__2833/A1                                           +0     574   
+ULA1_g8855__2833/Z              OAI21_C        2 31.6  276  +173     746 R 
+ULA1_g8850__3779/A1                                           +0     746   
+ULA1_g8850__3779/Z              AO22_H         2 29.4   83  +132     879 R 
+ULA1_g8845__7654/A1                                           +0     879   
+ULA1_g8845__7654/Z              AOI22_C        2 28.7  174   +94     972 F 
+ULA1_g8841__1279/A1                                           +0     972   
+ULA1_g8841__1279/Z              OAI21_C        2 30.0  266  +168    1141 R 
+ULA1_g8835__5927/A1                                           +0    1141   
+ULA1_g8835__5927/Z              AOI22_C        2 28.7  175  +118    1258 F 
+ULA1_g8831__3377/A1                                           +0    1258   
+ULA1_g8831__3377/Z              OAI21_C        2 30.4  269  +170    1428 R 
+ULA1_g8825__1297/A1                                           +0    1428   
+ULA1_g8825__1297/Z              AOI22_C        2 29.4  178  +120    1548 F 
+ULA1_g8820__3717/A1                                           +0    1548   
+ULA1_g8820__3717/Z              OA21_I         2 27.6   67  +150    1698 F 
+ULA1_g8815__7837/A1                                           +0    1698   
+ULA1_g8815__7837/Z              OAI21_C        2 30.0  246  +141    1839 R 
+ULA1_g8809__1122/A1                                           +0    1839   
+ULA1_g8809__1122/Z              AOI22_C        2 28.7  175  +115    1954 F 
+ULA1_g8805__1591/A1                                           +0    1954   
+ULA1_g8805__1591/Z              OAI21_C        2 34.1  292  +181    2135 R 
+ULA1_g8803/A                                                  +0    2135   
+ULA1_g8803/Z                    INVERT_F       1 16.4   77   +27    2162 F 
+ULA1_g8799__7547/A1                                           +0    2162   
+ULA1_g8799__7547/Z              OA21_I         2 27.6   64  +131    2293 F 
+ULA1_g8794__2007/A1                                           +0    2293   
+ULA1_g8794__2007/Z              OAI21_C        2 30.0  246  +140    2433 R 
+ULA1_g8788__7654/A1                                           +0    2433   
+ULA1_g8788__7654/Z              AOI22_C        2 28.7  175  +115    2549 F 
+ULA1_g8782__3457/A1                                           +0    2549   
+ULA1_g8782__3457/Z              OAI21_C        2 30.6  270  +170    2719 R 
+ULA1_g8777__5927/A1                                           +0    2719   
+ULA1_g8777__5927/Z              AO22_H         2 29.4   82  +132    2851 R 
+ULA1_g8772__9867/A1                                           +0    2851   
+ULA1_g8772__9867/Z              AOI22_C        2 29.4  171   +95    2946 F 
+ULA1_g8766__1237/A1                                           +0    2946   
+ULA1_g8766__1237/Z              OA21_I         2 27.6   66  +148    3094 F 
+ULA1_g8762__3717/A1                                           +0    3094   
+ULA1_g8762__3717/Z              OAI21_C        2 34.1  273  +153    3247 R 
+ULA1_g8760/A                                                  +0    3247   
+ULA1_g8760/Z                    INVERT_F       1 16.4   74   +27    3274 F 
+ULA1_g8756__7837/A1                                           +0    3274   
+ULA1_g8756__7837/Z              OA21_I         2 27.6   64  +130    3404 F 
+ULA1_g8751__2005/A1                                           +0    3404   
+ULA1_g8751__2005/Z              OAI21_C        2 30.0  246  +140    3545 R 
+ULA1_g8745__9719/A1                                           +0    3545   
+ULA1_g8745__9719/Z              AOI22_C        2 28.7  175  +115    3660 F 
+ULA1_g8741__7547/A1                                           +0    3660   
+ULA1_g8741__7547/Z              OAI21_C        2 30.0  266  +168    3829 R 
+ULA1_g8735__3779/A1                                           +0    3829   
+ULA1_g8735__3779/Z              AOI22_C        2 28.7  175  +118    3947 F 
+ULA1_g8729__7654/A1                                           +0    3947   
+ULA1_g8729__7654/Z              OAI21_C        2 30.6  270  +170    4117 R 
+ULA1_g8724__3457/A1                                           +0    4117   
+ULA1_g8724__3457/Z              AO22_H         2 29.4   82  +132    4249 R 
+ULA1_g8719__5927/A1                                           +0    4249   
+ULA1_g8719__5927/Z              AOI22_C        2 28.7  174   +94    4342 F 
+ULA1_g8714__9867/A1                                           +0    4342   
+ULA1_g8714__9867/Z              OAI21_C        2 37.4  312  +191    4534 R 
+ULA1_g8711__2833/A                                            +0    4534   
+ULA1_g8711__2833/Z              NOR2_E         2 32.1  155  +110    4643 F 
+ULA1_g8705__4599/B1                                           +0    4643   
+ULA1_g8705__4599/Z              AOI22_C        1 17.1  165  +112    4754 R 
+ULA1_g8702__8867/B                                            +0    4754   
+ULA1_g8702__8867/Z              OAI21_C        1 18.2  181   +78    4833 F 
+ULA1_g8701__7654/B                                            +0    4833   
+ULA1_g8701__7654/Z              XOR2_C         1 17.2  182  +147    4980 R 
+ULA1_g8699__7837/A1                                           +0    4980   
+ULA1_g8699__7837/Z              AO22_C         1 13.7  147  +136    5116 R 
+registrador1_q_reg[31]/D   <<<  DFFR_E                        +0    5116   
+registrador1_q_reg[31]/CLK      setup                    0  +219    5335 R 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(clock clk)                     capture                            20000 R 
+---------------------------------------------------------------------------
+Cost Group   : 'clk' (path_group 'clk')
+Timing slack :   14665ps 
+Start-point  : registrador1_q_reg[1]/CLK
+End-point    : registrador1_q_reg[31]/D
+
+legacy_genus:/> report power
+============================================================
+  Generated by:           Genus(TM) Synthesis Solution 16.24-s065_1
+  Generated on:           Mar 04 2022  04:33:07 am
+  Module:                 ULA_com_registrador
+  Technology libraries:   PnomV180T025_STD_CELL_7RF 
+                          physical_cells 
+  Operating conditions:   _nominal_ 
+  Interconnect mode:      global
+  Area mode:              physical library
+============================================================
+
+                           Leakage    Dynamic      Total    
+      Instance      Cells Power(nW)  Power(nW)   Power(nW)  
+------------------------------------------------------------
+ULA_com_registrador   328   116.186 1448454.460 1448570.646 
+
+legacy_genus:/> exit
+Normal exit.

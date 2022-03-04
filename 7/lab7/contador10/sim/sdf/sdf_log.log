@@ -1,0 +1,31 @@
+======================================================================
+
+Annotating SDF timing data:
+  Compiled SDF file:     ../../synthesis/contador.sdf.X
+  Log file:              ./sdf_log.log
+  Backannotation scope:  :U1
+  Configuration file:    
+  MTM control:           
+  Scale factors:         
+  Scale type:            
+
+Time units: 1ns
+
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (RECREM (posedge RN) (posedge CLK) (0.069) (-0.045)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/contador10/synthesis/contador.sdf, line 65>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (posedge D) (posedge CLK) (0.259) (-0.008)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/contador10/synthesis/contador.sdf, line 66>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (negedge D) (posedge CLK) (0.163) (-0.101)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/contador10/synthesis/contador.sdf, line 67>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (RECREM (posedge RN) (posedge CLK) (0.069) (-0.045)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/contador10/synthesis/contador.sdf, line 86>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (posedge D) (posedge CLK) (0.248) (-0.007)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/contador10/synthesis/contador.sdf, line 87>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (negedge D) (posedge CLK) (0.163) (-0.102)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/contador10/synthesis/contador.sdf, line 88>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (RECREM (posedge RN) (posedge CLK) (0.069) (-0.045)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/contador10/synthesis/contador.sdf, line 107>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (posedge D) (posedge CLK) (0.194) (-0.004)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/contador10/synthesis/contador.sdf, line 108>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (negedge D) (posedge CLK) (0.162) (-0.103)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/contador10/synthesis/contador.sdf, line 109>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge SD) Z) of instance :U1.g96__7837 of module MUX21_E </home/100000000819930/lab7/lab7/contador10/synthesis/contador.sdf, line 123>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge SD) Z) of instance :U1.g96__7837 of module MUX21_E </home/100000000819930/lab7/lab7/contador10/synthesis/contador.sdf, line 124>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.g97__7557 of module XOR2_B </home/100000000819930/lab7/lab7/contador10/synthesis/contador.sdf, line 134>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.g97__7557 of module XOR2_B </home/100000000819930/lab7/lab7/contador10/synthesis/contador.sdf, line 135>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.g97__7557 of module XOR2_B </home/100000000819930/lab7/lab7/contador10/synthesis/contador.sdf, line 136>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.g97__7557 of module XOR2_B </home/100000000819930/lab7/lab7/contador10/synthesis/contador.sdf, line 137>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (RECREM (posedge RN) (posedge CLK) (0.069) (-0.045)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/contador10/synthesis/contador.sdf, line 178>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (posedge D) (posedge CLK) (0.215) (-0.005)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/contador10/synthesis/contador.sdf, line 179>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (negedge D) (posedge CLK) (0.162) (-0.104)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/contador10/synthesis/contador.sdf, line 180>.

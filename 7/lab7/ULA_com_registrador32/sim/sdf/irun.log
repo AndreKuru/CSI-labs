@@ -1,0 +1,861 @@
+irun(64): 15.20-s036: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s036: Started on Mar 04, 2022 at 11:56:32 EST
+irun
+	-f file_list.f
+		-smartorder
+		-work work
+		-V93
+		-top tb_ULA_com_registrador
+		-gui
+		-access +rw
+		-maxdelays
+		-sdf_cmd_file ./sdf_cmd.cmd
+		/usr/eda/dk/ibm/cmrf7sf/digital_20111130/verilog/*.v
+		../../synthesis/ULA_com_registrador.v
+		../tb/tb_ULA_com_registrador.vhd
+INCLUDE	$CDS_ROOT/share/cdssetup/cds.lib
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sbaLib 			$CDS_ROOT/tools/dfII/etc/cdslib/artist/sbaLib 
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,7): cds.lib Invalid environment variable ''.
+DEFINE sample 			$CDS_ROOT/tools/dfII/samples/cdslib/sample 
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,8): cds.lib Invalid environment variable ''.
+DEFINE connectLib		$IUSHOME/tools/affirma_ams/etc/connect_lib/connectLib
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,9): cds.lib Invalid environment variable ''.
+DEFINE cmrf7sf 			$IBMPDK/cmrf7sf/relAM/cdslib/cmrf7sf
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,14): cds.lib Invalid environment variable ''.
+DEFINE esd7rf 			$IBMPDK/cmrf7sf/relAM/cdslib/esd7rf
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,15): cds.lib Invalid environment variable ''.
+DEFINE std_cells		$IBMPDK/cmrf7sf/std_cells
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,16): cds.lib Invalid environment variable ''.
+INCLUDE	$CDS_ROOT/share/cdssetup/cds.lib
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sbaLib 			$CDS_ROOT/tools/dfII/etc/cdslib/artist/sbaLib 
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,7): cds.lib Invalid environment variable ''.
+DEFINE sample 			$CDS_ROOT/tools/dfII/samples/cdslib/sample 
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,8): cds.lib Invalid environment variable ''.
+DEFINE connectLib		$IUSHOME/tools/affirma_ams/etc/connect_lib/connectLib
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,9): cds.lib Invalid environment variable ''.
+DEFINE cmrf7sf 			$IBMPDK/cmrf7sf/relAM/cdslib/cmrf7sf
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,14): cds.lib Invalid environment variable ''.
+DEFINE esd7rf 			$IBMPDK/cmrf7sf/relAM/cdslib/esd7rf
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,15): cds.lib Invalid environment variable ''.
+DEFINE std_cells		$IBMPDK/cmrf7sf/std_cells
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,16): cds.lib Invalid environment variable ''.
+INCLUDE	$CDS_ROOT/share/cdssetup/cds.lib
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sbaLib 			$CDS_ROOT/tools/dfII/etc/cdslib/artist/sbaLib 
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,7): cds.lib Invalid environment variable ''.
+DEFINE sample 			$CDS_ROOT/tools/dfII/samples/cdslib/sample 
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,8): cds.lib Invalid environment variable ''.
+DEFINE connectLib		$IUSHOME/tools/affirma_ams/etc/connect_lib/connectLib
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,9): cds.lib Invalid environment variable ''.
+DEFINE cmrf7sf 			$IBMPDK/cmrf7sf/relAM/cdslib/cmrf7sf
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,14): cds.lib Invalid environment variable ''.
+DEFINE esd7rf 			$IBMPDK/cmrf7sf/relAM/cdslib/esd7rf
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,15): cds.lib Invalid environment variable ''.
+DEFINE std_cells		$IBMPDK/cmrf7sf/std_cells
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,16): cds.lib Invalid environment variable ''.
+INCLUDE	$CDS_ROOT/share/cdssetup/cds.lib
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sbaLib 			$CDS_ROOT/tools/dfII/etc/cdslib/artist/sbaLib 
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,7): cds.lib Invalid environment variable ''.
+DEFINE sample 			$CDS_ROOT/tools/dfII/samples/cdslib/sample 
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,8): cds.lib Invalid environment variable ''.
+DEFINE connectLib		$IUSHOME/tools/affirma_ams/etc/connect_lib/connectLib
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,9): cds.lib Invalid environment variable ''.
+DEFINE cmrf7sf 			$IBMPDK/cmrf7sf/relAM/cdslib/cmrf7sf
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,14): cds.lib Invalid environment variable ''.
+DEFINE esd7rf 			$IBMPDK/cmrf7sf/relAM/cdslib/esd7rf
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,15): cds.lib Invalid environment variable ''.
+DEFINE std_cells		$IBMPDK/cmrf7sf/std_cells
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,16): cds.lib Invalid environment variable ''.
+Recompiling... reason: file '../tb/tb_ULA_com_registrador.vhd' is newer than expected.
+	expected: Fri Mar  4 11:53:44 2022
+	actual:   Fri Mar  4 11:56:15 2022
+INCLUDE	$CDS_ROOT/share/cdssetup/cds.lib
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sbaLib 			$CDS_ROOT/tools/dfII/etc/cdslib/artist/sbaLib 
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,7): cds.lib Invalid environment variable ''.
+DEFINE sample 			$CDS_ROOT/tools/dfII/samples/cdslib/sample 
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,8): cds.lib Invalid environment variable ''.
+DEFINE connectLib		$IUSHOME/tools/affirma_ams/etc/connect_lib/connectLib
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,9): cds.lib Invalid environment variable ''.
+DEFINE cmrf7sf 			$IBMPDK/cmrf7sf/relAM/cdslib/cmrf7sf
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,14): cds.lib Invalid environment variable ''.
+DEFINE esd7rf 			$IBMPDK/cmrf7sf/relAM/cdslib/esd7rf
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,15): cds.lib Invalid environment variable ''.
+DEFINE std_cells		$IBMPDK/cmrf7sf/std_cells
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,16): cds.lib Invalid environment variable ''.
+INCLUDE	$CDS_ROOT/share/cdssetup/cds.lib
+|
+ncvlog: *W,DLCVAR (/home/100000000819930/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sbaLib 			$CDS_ROOT/tools/dfII/etc/cdslib/artist/sbaLib 
+|
+ncvlog: *W,DLCVAR (/home/100000000819930/cds.lib,7): cds.lib Invalid environment variable ''.
+DEFINE sample 			$CDS_ROOT/tools/dfII/samples/cdslib/sample 
+|
+ncvlog: *W,DLCVAR (/home/100000000819930/cds.lib,8): cds.lib Invalid environment variable ''.
+DEFINE connectLib		$IUSHOME/tools/affirma_ams/etc/connect_lib/connectLib
+|
+ncvlog: *W,DLCVAR (/home/100000000819930/cds.lib,9): cds.lib Invalid environment variable ''.
+DEFINE cmrf7sf 			$IBMPDK/cmrf7sf/relAM/cdslib/cmrf7sf
+|
+ncvlog: *W,DLCVAR (/home/100000000819930/cds.lib,14): cds.lib Invalid environment variable ''.
+DEFINE esd7rf 			$IBMPDK/cmrf7sf/relAM/cdslib/esd7rf
+|
+ncvlog: *W,DLCVAR (/home/100000000819930/cds.lib,15): cds.lib Invalid environment variable ''.
+DEFINE std_cells		$IBMPDK/cmrf7sf/std_cells
+|
+ncvlog: *W,DLCVAR (/home/100000000819930/cds.lib,16): cds.lib Invalid environment variable ''.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 7
+INCLUDE	$CDS_ROOT/share/cdssetup/cds.lib
+|
+ncvhdl: *W,DLCVAR (/home/100000000819930/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sbaLib 			$CDS_ROOT/tools/dfII/etc/cdslib/artist/sbaLib 
+|
+ncvhdl: *W,DLCVAR (/home/100000000819930/cds.lib,7): cds.lib Invalid environment variable ''.
+DEFINE sample 			$CDS_ROOT/tools/dfII/samples/cdslib/sample 
+|
+ncvhdl: *W,DLCVAR (/home/100000000819930/cds.lib,8): cds.lib Invalid environment variable ''.
+DEFINE connectLib		$IUSHOME/tools/affirma_ams/etc/connect_lib/connectLib
+|
+ncvhdl: *W,DLCVAR (/home/100000000819930/cds.lib,9): cds.lib Invalid environment variable ''.
+DEFINE cmrf7sf 			$IBMPDK/cmrf7sf/relAM/cdslib/cmrf7sf
+|
+ncvhdl: *W,DLCVAR (/home/100000000819930/cds.lib,14): cds.lib Invalid environment variable ''.
+DEFINE esd7rf 			$IBMPDK/cmrf7sf/relAM/cdslib/esd7rf
+|
+ncvhdl: *W,DLCVAR (/home/100000000819930/cds.lib,15): cds.lib Invalid environment variable ''.
+DEFINE std_cells		$IBMPDK/cmrf7sf/std_cells
+|
+ncvhdl: *W,DLCVAR (/home/100000000819930/cds.lib,16): cds.lib Invalid environment variable ''.
+INCLUDE	$CDS_ROOT/share/cdssetup/cds.lib
+|
+ncvhdl_p: *W,DLCVAR (/home/100000000819930/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sbaLib 			$CDS_ROOT/tools/dfII/etc/cdslib/artist/sbaLib 
+|
+ncvhdl_p: *W,DLCVAR (/home/100000000819930/cds.lib,7): cds.lib Invalid environment variable ''.
+DEFINE sample 			$CDS_ROOT/tools/dfII/samples/cdslib/sample 
+|
+ncvhdl_p: *W,DLCVAR (/home/100000000819930/cds.lib,8): cds.lib Invalid environment variable ''.
+DEFINE connectLib		$IUSHOME/tools/affirma_ams/etc/connect_lib/connectLib
+|
+ncvhdl_p: *W,DLCVAR (/home/100000000819930/cds.lib,9): cds.lib Invalid environment variable ''.
+DEFINE cmrf7sf 			$IBMPDK/cmrf7sf/relAM/cdslib/cmrf7sf
+|
+ncvhdl_p: *W,DLCVAR (/home/100000000819930/cds.lib,14): cds.lib Invalid environment variable ''.
+DEFINE esd7rf 			$IBMPDK/cmrf7sf/relAM/cdslib/esd7rf
+|
+ncvhdl_p: *W,DLCVAR (/home/100000000819930/cds.lib,15): cds.lib Invalid environment variable ''.
+DEFINE std_cells		$IBMPDK/cmrf7sf/std_cells
+|
+ncvhdl_p: *W,DLCVAR (/home/100000000819930/cds.lib,16): cds.lib Invalid environment variable ''.
+../tb/tb_ULA_com_registrador.vhd:
+        while (cont < 4294967296) loop -- cont < 2**32 4294967296
+                               |
+ncvhdl_p: *W,CNSTNT (../tb/tb_ULA_com_registrador.vhd,53|31): constraint error [3,4].
+	errors: 0, warnings: 1
+INCLUDE	$CDS_ROOT/share/cdssetup/cds.lib
+|
+ncvhdl_cg: *W,DLCVAR (/home/100000000819930/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sbaLib 			$CDS_ROOT/tools/dfII/etc/cdslib/artist/sbaLib 
+|
+ncvhdl_cg: *W,DLCVAR (/home/100000000819930/cds.lib,7): cds.lib Invalid environment variable ''.
+DEFINE sample 			$CDS_ROOT/tools/dfII/samples/cdslib/sample 
+|
+ncvhdl_cg: *W,DLCVAR (/home/100000000819930/cds.lib,8): cds.lib Invalid environment variable ''.
+DEFINE connectLib		$IUSHOME/tools/affirma_ams/etc/connect_lib/connectLib
+|
+ncvhdl_cg: *W,DLCVAR (/home/100000000819930/cds.lib,9): cds.lib Invalid environment variable ''.
+DEFINE cmrf7sf 			$IBMPDK/cmrf7sf/relAM/cdslib/cmrf7sf
+|
+ncvhdl_cg: *W,DLCVAR (/home/100000000819930/cds.lib,14): cds.lib Invalid environment variable ''.
+DEFINE esd7rf 			$IBMPDK/cmrf7sf/relAM/cdslib/esd7rf
+|
+ncvhdl_cg: *W,DLCVAR (/home/100000000819930/cds.lib,15): cds.lib Invalid environment variable ''.
+DEFINE std_cells		$IBMPDK/cmrf7sf/std_cells
+|
+ncvhdl_cg: *W,DLCVAR (/home/100000000819930/cds.lib,16): cds.lib Invalid environment variable ''.
+WORK.TB_ULA_COM_REGISTRADOR (entity):
+	streams: 1, words: 63
+WORK.TB_ULA_COM_REGISTRADOR:ARQ_TB_ULA_COM_REGISTRADOR (architecture):
+	streams: 1, words: 1812
+INCLUDE	$CDS_ROOT/share/cdssetup/cds.lib
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sbaLib 			$CDS_ROOT/tools/dfII/etc/cdslib/artist/sbaLib 
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,7): cds.lib Invalid environment variable ''.
+DEFINE sample 			$CDS_ROOT/tools/dfII/samples/cdslib/sample 
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,8): cds.lib Invalid environment variable ''.
+DEFINE connectLib		$IUSHOME/tools/affirma_ams/etc/connect_lib/connectLib
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,9): cds.lib Invalid environment variable ''.
+DEFINE cmrf7sf 			$IBMPDK/cmrf7sf/relAM/cdslib/cmrf7sf
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,14): cds.lib Invalid environment variable ''.
+DEFINE esd7rf 			$IBMPDK/cmrf7sf/relAM/cdslib/esd7rf
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,15): cds.lib Invalid environment variable ''.
+DEFINE std_cells		$IBMPDK/cmrf7sf/std_cells
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,16): cds.lib Invalid environment variable ''.
+INCLUDE	$CDS_ROOT/share/cdssetup/cds.lib
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sbaLib 			$CDS_ROOT/tools/dfII/etc/cdslib/artist/sbaLib 
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,7): cds.lib Invalid environment variable ''.
+DEFINE sample 			$CDS_ROOT/tools/dfII/samples/cdslib/sample 
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,8): cds.lib Invalid environment variable ''.
+DEFINE connectLib		$IUSHOME/tools/affirma_ams/etc/connect_lib/connectLib
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,9): cds.lib Invalid environment variable ''.
+DEFINE cmrf7sf 			$IBMPDK/cmrf7sf/relAM/cdslib/cmrf7sf
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,14): cds.lib Invalid environment variable ''.
+DEFINE esd7rf 			$IBMPDK/cmrf7sf/relAM/cdslib/esd7rf
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,15): cds.lib Invalid environment variable ''.
+DEFINE std_cells		$IBMPDK/cmrf7sf/std_cells
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,16): cds.lib Invalid environment variable ''.
+INCLUDE	$CDS_ROOT/share/cdssetup/cds.lib
+|
+ncelab: *W,DLCVAR (/home/100000000819930/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sbaLib 			$CDS_ROOT/tools/dfII/etc/cdslib/artist/sbaLib 
+|
+ncelab: *W,DLCVAR (/home/100000000819930/cds.lib,7): cds.lib Invalid environment variable ''.
+DEFINE sample 			$CDS_ROOT/tools/dfII/samples/cdslib/sample 
+|
+ncelab: *W,DLCVAR (/home/100000000819930/cds.lib,8): cds.lib Invalid environment variable ''.
+DEFINE connectLib		$IUSHOME/tools/affirma_ams/etc/connect_lib/connectLib
+|
+ncelab: *W,DLCVAR (/home/100000000819930/cds.lib,9): cds.lib Invalid environment variable ''.
+DEFINE cmrf7sf 			$IBMPDK/cmrf7sf/relAM/cdslib/cmrf7sf
+|
+ncelab: *W,DLCVAR (/home/100000000819930/cds.lib,14): cds.lib Invalid environment variable ''.
+DEFINE esd7rf 			$IBMPDK/cmrf7sf/relAM/cdslib/esd7rf
+|
+ncelab: *W,DLCVAR (/home/100000000819930/cds.lib,15): cds.lib Invalid environment variable ''.
+DEFINE std_cells		$IBMPDK/cmrf7sf/std_cells
+|
+ncelab: *W,DLCVAR (/home/100000000819930/cds.lib,16): cds.lib Invalid environment variable ''.
+ncelab: *W,ARCMRA: Elaborating the WORK.TB_ULA_COM_REGISTRADOR:ARQ_TB_ULA_COM_REGISTRADOR, MRA (most recently analyzed) architecture.
+	Elaborating the design hierarchy:
+	Top level design units:
+		:tb_ula_com_registrador(arq_tb_ula_com_registrador):
+ncelab: *W,FLFNOF: No SDF file specified, but annotation parameters were present, in SDF annotation command file ./sdf_cmd.cmd, line 6.
+	Annotating SDF timing data:
+		Compiled SDF file:     ../../synthesis/ULA_com_registrador.sdf.X
+		Log file:              ./sdf_log.log
+		Backannotation scope:  :U1
+		Configuration file:    
+		MTM control:           
+		Scale factors:         
+		Scale type:            
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (RECREM (posedge RN) (posedge CLK) (0.419) (-0.122)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 996>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (posedge D) (posedge CLK) (0.148) (-0.005)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 997>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (negedge D) (posedge CLK) (0.139) (-0.102)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 998>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (RECREM (posedge RN) (posedge CLK) (0.419) (-0.122)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1017>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (posedge D) (posedge CLK) (0.148) (-0.005)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1018>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (negedge D) (posedge CLK) (0.14) (-0.102)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1019>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (RECREM (posedge RN) (posedge CLK) (0.419) (-0.122)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1038>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (posedge D) (posedge CLK) (0.148) (-0.005)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1039>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (negedge D) (posedge CLK) (0.14) (-0.102)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1040>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (RECREM (posedge RN) (posedge CLK) (0.419) (-0.122)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1059>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (posedge D) (posedge CLK) (0.149) (-0.004)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1060>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (negedge D) (posedge CLK) (0.14) (-0.102)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1061>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (RECREM (posedge RN) (posedge CLK) (0.419) (-0.122)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1080>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (posedge D) (posedge CLK) (0.148) (-0.005)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1081>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (negedge D) (posedge CLK) (0.14) (-0.102)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1082>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (RECREM (posedge RN) (posedge CLK) (0.419) (-0.122)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1101>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (posedge D) (posedge CLK) (0.148) (-0.005)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1102>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (negedge D) (posedge CLK) (0.14) (-0.102)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1103>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (RECREM (posedge RN) (posedge CLK) (0.419) (-0.122)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1122>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (posedge D) (posedge CLK) (0.149) (-0.004)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1123>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (negedge D) (posedge CLK) (0.14) (-0.102)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1124>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (RECREM (posedge RN) (posedge CLK) (0.419) (-0.122)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1143>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (posedge D) (posedge CLK) (0.149) (-0.004)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1144>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (negedge D) (posedge CLK) (0.14) (-0.102)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1145>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (RECREM (posedge RN) (posedge CLK) (0.419) (-0.122)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1164>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (posedge D) (posedge CLK) (0.148) (-0.005)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1165>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (negedge D) (posedge CLK) (0.139) (-0.102)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1166>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (RECREM (posedge RN) (posedge CLK) (0.419) (-0.122)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1185>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (posedge D) (posedge CLK) (0.148) (-0.005)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1186>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (negedge D) (posedge CLK) (0.14) (-0.102)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1187>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (RECREM (posedge RN) (posedge CLK) (0.419) (-0.122)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1206>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (posedge D) (posedge CLK) (0.148) (-0.005)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1207>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (negedge D) (posedge CLK) (0.139) (-0.102)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1208>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (RECREM (posedge RN) (posedge CLK) (0.419) (-0.122)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1227>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (posedge D) (posedge CLK) (0.148) (-0.005)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1228>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (negedge D) (posedge CLK) (0.14) (-0.102)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1229>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (RECREM (posedge RN) (posedge CLK) (0.419) (-0.122)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1248>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (posedge D) (posedge CLK) (0.148) (-0.005)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1249>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (negedge D) (posedge CLK) (0.139) (-0.102)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1250>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (RECREM (posedge RN) (posedge CLK) (0.419) (-0.122)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1269>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (posedge D) (posedge CLK) (0.149) (-0.004)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1270>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (negedge D) (posedge CLK) (0.14) (-0.102)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1271>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (RECREM (posedge RN) (posedge CLK) (0.154) (-0.082)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1290>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (posedge D) (posedge CLK) (0.246) (-0.007)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1291>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (negedge D) (posedge CLK) (0.163) (-0.102)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1292>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (RECREM (posedge RN) (posedge CLK) (0.154) (-0.082)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1311>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (posedge D) (posedge CLK) (0.245) (-0.007)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1312>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (negedge D) (posedge CLK) (0.163) (-0.102)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1313>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (RECREM (posedge RN) (posedge CLK) (0.419) (-0.122)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1332>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (posedge D) (posedge CLK) (0.148) (-0.005)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1333>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (negedge D) (posedge CLK) (0.14) (-0.102)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1334>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (RECREM (posedge RN) (posedge CLK) (0.419) (-0.122)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1353>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (posedge D) (posedge CLK) (0.148) (-0.005)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1354>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (negedge D) (posedge CLK) (0.139) (-0.102)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1355>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (RECREM (posedge RN) (posedge CLK) (0.419) (-0.122)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1374>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (posedge D) (posedge CLK) (0.148) (-0.005)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1375>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (negedge D) (posedge CLK) (0.14) (-0.102)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1376>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (RECREM (posedge RN) (posedge CLK) (0.419) (-0.122)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1395>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (posedge D) (posedge CLK) (0.148) (-0.005)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1396>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (negedge D) (posedge CLK) (0.139) (-0.102)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1397>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (RECREM (posedge RN) (posedge CLK) (0.419) (-0.122)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1416>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (posedge D) (posedge CLK) (0.148) (-0.005)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1417>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (negedge D) (posedge CLK) (0.139) (-0.102)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1418>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (RECREM (posedge RN) (posedge CLK) (0.419) (-0.122)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1437>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (posedge D) (posedge CLK) (0.148) (-0.005)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1438>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (negedge D) (posedge CLK) (0.14) (-0.102)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1439>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (RECREM (posedge RN) (posedge CLK) (0.419) (-0.122)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1458>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (posedge D) (posedge CLK) (0.148) (-0.005)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1459>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (negedge D) (posedge CLK) (0.14) (-0.102)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1460>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (RECREM (posedge RN) (posedge CLK) (0.419) (-0.122)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1479>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (posedge D) (posedge CLK) (0.149) (-0.005)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1480>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (negedge D) (posedge CLK) (0.14) (-0.102)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1481>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (RECREM (posedge RN) (posedge CLK) (0.419) (-0.122)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1500>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (posedge D) (posedge CLK) (0.148) (-0.005)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1501>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (negedge D) (posedge CLK) (0.14) (-0.102)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1502>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (RECREM (posedge RN) (posedge CLK) (0.419) (-0.122)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1521>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (posedge D) (posedge CLK) (0.148) (-0.005)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1522>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (negedge D) (posedge CLK) (0.139) (-0.102)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1523>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (RECREM (posedge RN) (posedge CLK) (0.419) (-0.122)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1542>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (posedge D) (posedge CLK) (0.148) (-0.005)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1543>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (negedge D) (posedge CLK) (0.139) (-0.102)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1544>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (RECREM (posedge RN) (posedge CLK) (0.419) (-0.122)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1563>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (posedge D) (posedge CLK) (0.148) (-0.005)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1564>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (negedge D) (posedge CLK) (0.14) (-0.102)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1565>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8701__7654 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1605>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8701__7654 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1606>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8701__7654 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1607>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8701__7654 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1608>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8704__3717 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1645>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8704__3717 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1646>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8704__3717 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1647>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8704__3717 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1648>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge SD) Z) of instance :U1.ULA1_g8706__3779 of module MUX21I_D </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1673>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge SD) Z) of instance :U1.ULA1_g8706__3779 of module MUX21I_D </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1674>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8709__1297 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1710>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8709__1297 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1711>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8709__1297 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1712>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8709__1297 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1713>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8715__3377 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1784>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8715__3377 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1785>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8715__3377 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1786>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8715__3377 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1787>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge SD) Z) of instance :U1.ULA1_g8716__9719 of module MUX21I_D </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1799>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge SD) Z) of instance :U1.ULA1_g8716__9719 of module MUX21I_D </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1800>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8721__1122 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1862>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8721__1122 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1863>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8721__1122 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1864>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8721__1122 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1865>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge SD) Z) of instance :U1.ULA1_g8722__2005 of module MUX21_H </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1877>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge SD) Z) of instance :U1.ULA1_g8722__2005 of module MUX21_H </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1878>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8726__6179 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1928>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8726__6179 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1929>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8726__6179 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1930>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8726__6179 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1931>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge SD) Z) of instance :U1.ULA1_g8727__7837 of module MUX21_H </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1943>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge SD) Z) of instance :U1.ULA1_g8727__7837 of module MUX21_H </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1944>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8731__1377 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1993>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8731__1377 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1994>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8731__1377 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1995>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8731__1377 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 1996>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge SD) Z) of instance :U1.ULA1_g8732__3717 of module MUX21I_D </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2008>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge SD) Z) of instance :U1.ULA1_g8732__3717 of module MUX21I_D </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2009>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8737__1237 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2069>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8737__1237 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2070>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8737__1237 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2071>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8737__1237 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2072>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge SD) Z) of instance :U1.ULA1_g8738__1297 of module MUX21I_D </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2084>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge SD) Z) of instance :U1.ULA1_g8738__1297 of module MUX21I_D </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2085>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8742__7765 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2135>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8742__7765 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2136>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8742__7765 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2137>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8742__7765 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2138>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge SD) Z) of instance :U1.ULA1_g8743__9867 of module MUX21I_D </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2150>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge SD) Z) of instance :U1.ULA1_g8743__9867 of module MUX21I_D </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2151>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8747__6789 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2201>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8747__6789 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2202>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8747__6789 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2203>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8747__6789 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2204>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge SD) Z) of instance :U1.ULA1_g8748__5927 of module MUX21I_D </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2216>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge SD) Z) of instance :U1.ULA1_g8748__5927 of module MUX21I_D </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2217>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8752__9771 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2267>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8752__9771 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2268>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8752__9771 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2269>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8752__9771 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2270>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge SD) Z) of instance :U1.ULA1_g8753__3457 of module MUX21_H </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2282>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge SD) Z) of instance :U1.ULA1_g8753__3457 of module MUX21_H </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2283>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8757__7557 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2333>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8757__7557 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2334>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8757__7557 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2335>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8757__7557 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2336>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge SD) Z) of instance :U1.ULA1_g8758__7654 of module MUX21I_D </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2348>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge SD) Z) of instance :U1.ULA1_g8758__7654 of module MUX21I_D </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2349>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8763__4599 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2409>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8763__4599 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2410>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8763__4599 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2411>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8763__4599 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2412>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge SD) Z) of instance :U1.ULA1_g8764__3779 of module MUX21_H </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2424>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge SD) Z) of instance :U1.ULA1_g8764__3779 of module MUX21_H </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2425>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8768__2006 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2475>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8768__2006 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2476>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8768__2006 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2477>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8768__2006 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2478>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge SD) Z) of instance :U1.ULA1_g8769__2833 of module MUX21I_D </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2490>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge SD) Z) of instance :U1.ULA1_g8769__2833 of module MUX21I_D </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2491>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8774__9719 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2554>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8774__9719 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2555>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8774__9719 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2556>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8774__9719 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2557>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge SD) Z) of instance :U1.ULA1_g8775__1591 of module MUX21_H </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2569>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge SD) Z) of instance :U1.ULA1_g8775__1591 of module MUX21_H </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2570>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8779__1122 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2620>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8779__1122 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2621>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8779__1122 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2622>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8779__1122 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2623>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge SD) Z) of instance :U1.ULA1_g8780__2005 of module MUX21_H </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2635>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge SD) Z) of instance :U1.ULA1_g8780__2005 of module MUX21_H </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2636>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8784__6179 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2685>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8784__6179 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2686>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8784__6179 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2687>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8784__6179 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2688>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge SD) Z) of instance :U1.ULA1_g8785__7837 of module MUX21I_D </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2700>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge SD) Z) of instance :U1.ULA1_g8785__7837 of module MUX21I_D </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2701>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8790__1377 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2761>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8790__1377 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2762>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8790__1377 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2763>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8790__1377 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2764>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge SD) Z) of instance :U1.ULA1_g8791__3717 of module MUX21I_D </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2776>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge SD) Z) of instance :U1.ULA1_g8791__3717 of module MUX21I_D </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2777>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8795__1237 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2827>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8795__1237 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2828>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8795__1237 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2829>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8795__1237 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2830>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge SD) Z) of instance :U1.ULA1_g8796__1297 of module MUX21_H </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2842>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge SD) Z) of instance :U1.ULA1_g8796__1297 of module MUX21_H </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2843>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8800__7765 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2893>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8800__7765 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2894>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8800__7765 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2895>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8800__7765 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2896>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge SD) Z) of instance :U1.ULA1_g8801__9867 of module MUX21I_D </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2908>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge SD) Z) of instance :U1.ULA1_g8801__9867 of module MUX21I_D </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2909>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8806__6789 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2969>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8806__6789 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2970>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8806__6789 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2971>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8806__6789 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2972>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge SD) Z) of instance :U1.ULA1_g8807__5927 of module MUX21I_D </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2984>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge SD) Z) of instance :U1.ULA1_g8807__5927 of module MUX21I_D </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 2985>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8811__9771 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3035>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8811__9771 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3036>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8811__9771 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3037>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8811__9771 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3038>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge SD) Z) of instance :U1.ULA1_g8812__3457 of module MUX21I_D </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3050>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge SD) Z) of instance :U1.ULA1_g8812__3457 of module MUX21I_D </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3051>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8816__7557 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3101>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8816__7557 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3102>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8816__7557 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3103>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8816__7557 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3104>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge SD) Z) of instance :U1.ULA1_g8817__7654 of module MUX21_H </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3116>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge SD) Z) of instance :U1.ULA1_g8817__7654 of module MUX21_H </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3117>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8821__4599 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3166>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8821__4599 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3167>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8821__4599 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3168>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8821__4599 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3169>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge SD) Z) of instance :U1.ULA1_g8822__3779 of module MUX21I_D </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3181>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge SD) Z) of instance :U1.ULA1_g8822__3779 of module MUX21I_D </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3182>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8827__2833 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3244>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8827__2833 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3245>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8827__2833 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3246>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8827__2833 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3247>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge SD) Z) of instance :U1.ULA1_g8828__7547 of module MUX21I_D </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3259>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge SD) Z) of instance :U1.ULA1_g8828__7547 of module MUX21I_D </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3260>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8832__9719 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3310>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8832__9719 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3311>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8832__9719 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3312>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8832__9719 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3313>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge SD) Z) of instance :U1.ULA1_g8833__1591 of module MUX21I_D </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3325>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge SD) Z) of instance :U1.ULA1_g8833__1591 of module MUX21I_D </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3326>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8837__1122 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3376>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8837__1122 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3377>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8837__1122 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3378>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8837__1122 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3379>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge SD) Z) of instance :U1.ULA1_g8838__2005 of module MUX21I_D </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3391>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge SD) Z) of instance :U1.ULA1_g8838__2005 of module MUX21I_D </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3392>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8842__6179 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3442>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8842__6179 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3443>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8842__6179 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3444>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8842__6179 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3445>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge SD) Z) of instance :U1.ULA1_g8843__7837 of module MUX21I_D </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3457>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge SD) Z) of instance :U1.ULA1_g8843__7837 of module MUX21I_D </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3458>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8847__1377 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3508>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8847__1377 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3509>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8847__1377 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3510>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8847__1377 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3511>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge SD) Z) of instance :U1.ULA1_g8848__3717 of module MUX21_H </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3523>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge SD) Z) of instance :U1.ULA1_g8848__3717 of module MUX21_H </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3524>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8852__1237 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3574>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8852__1237 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3575>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8852__1237 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3576>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8852__1237 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3577>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge SD) Z) of instance :U1.ULA1_g8853__1297 of module MUX21I_D </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3589>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge SD) Z) of instance :U1.ULA1_g8853__1297 of module MUX21I_D </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3590>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8856__7547 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3625>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8856__7547 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3626>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8856__7547 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3627>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8856__7547 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3628>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge SD) Z) of instance :U1.ULA1_g8857__7765 of module MUX21I_D </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3640>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge SD) Z) of instance :U1.ULA1_g8857__7765 of module MUX21I_D </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3641>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge SD) Z) of instance :U1.ULA1_g8861__1591 of module MUX21_H </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3691>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge SD) Z) of instance :U1.ULA1_g8861__1591 of module MUX21_H </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3692>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8862__6789 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3702>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8862__6789 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3703>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8862__6789 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3704>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8862__6789 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3705>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8863__5927 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3715>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8863__5927 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3716>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8863__5927 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3717>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8863__5927 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3718>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8864__2001 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3728>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8864__2001 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3729>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8864__2001 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3730>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8864__2001 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3731>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8865__1122 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3741>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8865__1122 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3742>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8865__1122 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3743>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8865__1122 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3744>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8866__2005 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3754>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8866__2005 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3755>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8866__2005 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3756>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8866__2005 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3757>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8867__9771 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3767>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8867__9771 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3768>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8867__9771 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3769>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8867__9771 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3770>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8868__3457 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3780>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8868__3457 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3781>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8868__3457 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3782>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8868__3457 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3783>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8869__1279 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3793>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8869__1279 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3794>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8869__1279 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3795>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8869__1279 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3796>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8870__6179 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3806>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8870__6179 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3807>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8870__6179 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3808>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8870__6179 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3809>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8871__7837 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3819>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8871__7837 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3820>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8871__7837 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3821>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8871__7837 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3822>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8872__7557 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3832>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8872__7557 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3833>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8872__7557 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3834>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8872__7557 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3835>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8873__7654 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3845>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8873__7654 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3846>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8873__7654 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3847>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8873__7654 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3848>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8874__8867 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3858>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8874__8867 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3859>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8874__8867 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3860>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8874__8867 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3861>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8875__1377 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3871>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8875__1377 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3872>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8875__1377 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3873>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8875__1377 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3874>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8876__3717 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3884>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8876__3717 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3885>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8876__3717 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3886>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8876__3717 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3887>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8877__4599 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3897>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8877__4599 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3898>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8877__4599 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3899>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8877__4599 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3900>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8878__3779 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3910>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8878__3779 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3911>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8878__3779 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3912>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8878__3779 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3913>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8879__2007 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3923>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8879__2007 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3924>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8879__2007 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3925>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8879__2007 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3926>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8880__1237 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3936>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8880__1237 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3937>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8880__1237 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3938>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8880__1237 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3939>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8881__1297 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3949>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8881__1297 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3950>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8881__1297 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3951>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8881__1297 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3952>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8882__2006 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3962>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8882__2006 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3963>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8882__2006 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3964>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8882__2006 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3965>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8883__2833 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3975>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8883__2833 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3976>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8883__2833 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3977>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8883__2833 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3978>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8884__7547 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3988>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8884__7547 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3989>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8884__7547 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3990>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8884__7547 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 3991>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8885__7765 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 4001>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8885__7765 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 4002>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8885__7765 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 4003>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8885__7765 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 4004>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8886__9867 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 4014>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8886__9867 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 4015>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8886__9867 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 4016>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8886__9867 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 4017>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8887__3377 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 4027>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8887__3377 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 4028>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8887__3377 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 4029>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8887__3377 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 4030>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8889__1591 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 4051>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8889__1591 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 4052>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8889__1591 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 4053>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8889__1591 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 4054>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8890__6789 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 4064>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8890__6789 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 4065>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8890__6789 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 4066>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8890__6789 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 4067>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8891__5927 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 4077>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8891__5927 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 4078>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8891__5927 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 4079>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8891__5927 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 4080>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8892__2001 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 4090>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8892__2001 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 4091>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8892__2001 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 4092>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8892__2001 of module XNOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 4093>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Z) of instance :U1.ULA1_g8893__1122 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 4103>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Z) of instance :U1.ULA1_g8893__1122 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 4104>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Z) of instance :U1.ULA1_g8893__1122 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 4105>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Z) of instance :U1.ULA1_g8893__1122 of module XOR2_C </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 4106>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (RECREM (posedge RN) (posedge CLK) (0.154) (-0.082)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 5215>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (posedge D) (posedge CLK) (0.254) (-0.008)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 5216>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (negedge D) (posedge CLK) (0.163) (-0.101)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 5217>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (RECREM (posedge RN) (posedge CLK) (0.154) (-0.082)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 5236>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (posedge D) (posedge CLK) (0.254) (-0.008)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 5237>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (negedge D) (posedge CLK) (0.163) (-0.101)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 5238>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (RECREM (posedge RN) (posedge CLK) (0.154) (-0.082)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 5257>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (posedge D) (posedge CLK) (0.255) (-0.008)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 5258>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (negedge D) (posedge CLK) (0.163) (-0.101)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 5259>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (RECREM (posedge RN) (posedge CLK) (0.154) (-0.082)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 5278>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (posedge D) (posedge CLK) (0.254) (-0.008)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 5279>.
+ncelab: *W,SDFNG2: An SDF 2 limit timing check request (SETUPHOLD (negedge D) (posedge CLK) (0.163) (-0.101)) contains a negative limit and was matched to 2 single limit timing checks.  Negative limit will be set to 0 </home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.sdf, line 5280>.
+	Annotation completed with 0 Errors and 404 Warnings
+	SDF statistics: No. of Pathdelays = 951  Annotated = 83.81% -- No. of Tchecks = 288  Annotated = 100.00% 
+				        Total 	   Annotated	  Percentage
+		 Path Delays	         951	         797	       83.81
+		      $setup	          64	          64	      100.00
+		       $hold	          64	          64	      100.00
+		    $removal	          32	          32	      100.00
+		      $width	          96	          96	      100.00
+		   $recovery	          32	          32	      100.00
+	Building instance overlay tables: .................... Done
+INCLUDE	$CDS_ROOT/share/cdssetup/cds.lib
+|
+ncvhdl_cg: *W,DLCVAR (/home/100000000819930/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sbaLib 			$CDS_ROOT/tools/dfII/etc/cdslib/artist/sbaLib 
+|
+ncvhdl_cg: *W,DLCVAR (/home/100000000819930/cds.lib,7): cds.lib Invalid environment variable ''.
+DEFINE sample 			$CDS_ROOT/tools/dfII/samples/cdslib/sample 
+|
+ncvhdl_cg: *W,DLCVAR (/home/100000000819930/cds.lib,8): cds.lib Invalid environment variable ''.
+DEFINE connectLib		$IUSHOME/tools/affirma_ams/etc/connect_lib/connectLib
+|
+ncvhdl_cg: *W,DLCVAR (/home/100000000819930/cds.lib,9): cds.lib Invalid environment variable ''.
+DEFINE cmrf7sf 			$IBMPDK/cmrf7sf/relAM/cdslib/cmrf7sf
+|
+ncvhdl_cg: *W,DLCVAR (/home/100000000819930/cds.lib,14): cds.lib Invalid environment variable ''.
+DEFINE esd7rf 			$IBMPDK/cmrf7sf/relAM/cdslib/esd7rf
+|
+ncvhdl_cg: *W,DLCVAR (/home/100000000819930/cds.lib,15): cds.lib Invalid environment variable ''.
+DEFINE std_cells		$IBMPDK/cmrf7sf/std_cells
+|
+ncvhdl_cg: *W,DLCVAR (/home/100000000819930/cds.lib,16): cds.lib Invalid environment variable ''.
+	Building instance specific data structures.
+	x	(x1)	0	?		: 0 	: 0 ;	//pessimism reduction
+	|
+ncelab: *W,UDPRDT (/usr/eda/dk/ibm/cmrf7sf/digital_20111130/verilog/DFFR_H.v,64|1): UDP table entry is redundant.
+	x	(0x)	0	?		: 0 	: 0 ;	//pessimism reduction
+	|
+ncelab: *W,UDPRDT (/usr/eda/dk/ibm/cmrf7sf/digital_20111130/verilog/DFFR_H.v,65|1): UDP table entry is redundant.
+	x	(x1)	0	?		: 0 	: 0 ;	//pessimism reduction
+	|
+ncelab: *W,UDPRDT (/usr/eda/dk/ibm/cmrf7sf/digital_20111130/verilog/DFFR_E.v,64|1): UDP table entry is redundant.
+	x	(0x)	0	?		: 0 	: 0 ;	//pessimism reduction
+	|
+ncelab: *W,UDPRDT (/usr/eda/dk/ibm/cmrf7sf/digital_20111130/verilog/DFFR_E.v,65|1): UDP table entry is redundant.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+	VHDL Design hierarchy:
+		Components:              2       1
+		Default bindings:        2       -
+		Processes:               2       2
+		Signals:                 5       5
+	Verilog Design hierarchy:
+		Modules:               329      27
+		UDPs:                   62       4
+		Primitives:            482       7
+		Timing outputs:        360       8
+		Registers:              32       4
+		Scalar wires:          392       -
+		Timing checks:         288      47
+		Interconnect:          951      72
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: WORK.TB_ULA_COM_REGISTRADOR:ARQ_TB_ULA_COM_REGISTRADOR
+INCLUDE	$CDS_ROOT/share/cdssetup/cds.lib
+|
+ncsim: *W,DLCVAR (/home/100000000819930/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sbaLib 			$CDS_ROOT/tools/dfII/etc/cdslib/artist/sbaLib 
+|
+ncsim: *W,DLCVAR (/home/100000000819930/cds.lib,7): cds.lib Invalid environment variable ''.
+DEFINE sample 			$CDS_ROOT/tools/dfII/samples/cdslib/sample 
+|
+ncsim: *W,DLCVAR (/home/100000000819930/cds.lib,8): cds.lib Invalid environment variable ''.
+DEFINE connectLib		$IUSHOME/tools/affirma_ams/etc/connect_lib/connectLib
+|
+ncsim: *W,DLCVAR (/home/100000000819930/cds.lib,9): cds.lib Invalid environment variable ''.
+DEFINE cmrf7sf 			$IBMPDK/cmrf7sf/relAM/cdslib/cmrf7sf
+|
+ncsim: *W,DLCVAR (/home/100000000819930/cds.lib,14): cds.lib Invalid environment variable ''.
+DEFINE esd7rf 			$IBMPDK/cmrf7sf/relAM/cdslib/esd7rf
+|
+ncsim: *W,DLCVAR (/home/100000000819930/cds.lib,15): cds.lib Invalid environment variable ''.
+DEFINE std_cells		$IBMPDK/cmrf7sf/std_cells
+|
+ncsim: *W,DLCVAR (/home/100000000819930/cds.lib,16): cds.lib Invalid environment variable ''.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> source /usr/eda/cadence/incisive1520_036/tools/inca/files/ncsimrc
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm :U1.A :U1.S :U1.S_ULA :U1.ULA1_n_3846 :U1.ULA1_n_3847 :U1.ULA1_n_3851 :U1.ULA1_n_3852 :U1.ULA1_n_3853 :U1.ULA1_n_3856 :U1.ULA1_n_3859 :U1.ULA1_n_3860 :U1.ULA1_n_3861 :U1.ULA1_n_3865 :U1.ULA1_n_3868 :U1.ULA1_n_3869 :U1.ULA1_n_3870 :U1.ULA1_n_3873 :U1.ULA1_n_3877 :U1.ULA1_n_3878 :U1.ULA1_n_3879 :U1.ULA1_n_3880 :U1.ULA1_n_3885 :U1.ULA1_n_3886 :U1.ULA1_n_3887 :U1.ULA1_n_3888 :U1.ULA1_n_3893 :U1.ULA1_n_3894 :U1.ULA1_n_3895 :U1.ULA1_n_3896 :U1.ULA1_n_3900 :U1.ULA1_n_3901 :U1.ULA1_n_3902 :U1.ULA1_n_3903 :U1.ULA1_n_3904 :U1.ULA1_n_3909 :U1.ULA1_n_3910 :U1.ULA1_n_3911 :U1.ULA1_n_3912 :U1.ULA1_n_3917 :U1.ULA1_n_3918 :U1.ULA1_n_3919 :U1.ULA1_n_3920 :U1.ULA1_n_3925 :U1.ULA1_n_3926 :U1.ULA1_n_3927 :U1.ULA1_n_3928 :U1.ULA1_n_3933 :U1.ULA1_n_3934 :U1.ULA1_n_3935 :U1.ULA1_n_3936 :U1.ULA1_n_3940 :U1.ULA1_n_3941 :U1.ULA1_n_3942 :U1.ULA1_n_3943 :U1.ULA1_n_3944 :U1.ULA1_n_3949 :U1.ULA1_n_3950 :U1.ULA1_n_3951 :U1.ULA1_n_3952 :U1.ULA1_n_3956 :U1.ULA1_n_3957 :U1.ULA1_n_3959 :U1.ULA1_n_3963 :U1.ULA1_n_3964 :U1.ULA1_n_3968 :U1.ULA1_n_3969 :U1.ULA1_n_3970 :U1.ULA1_n_3971 :U1.ULA1_n_3976 :U1.ULA1_n_3977 :U1.ULA1_n_3978 :U1.ULA1_n_3979 :U1.ULA1_n_3983 :U1.ULA1_n_3984 :U1.ULA1_n_3985 :U1.ULA1_n_3986 :U1.ULA1_n_3987 :U1.ULA1_n_3992 :U1.ULA1_n_3993 :U1.ULA1_n_3994 :U1.ULA1_n_3995 :U1.ULA1_n_4000 :U1.ULA1_n_4001 :U1.ULA1_n_4002 :U1.ULA1_n_4003 :U1.ULA1_n_4007 :U1.ULA1_n_4008 :U1.ULA1_n_4009 :U1.ULA1_n_4010 :U1.ULA1_n_4011 :U1.ULA1_n_4016 :U1.ULA1_n_4017 :U1.ULA1_n_4018 :U1.ULA1_n_4019 :U1.ULA1_n_4024 :U1.ULA1_n_4025 :U1.ULA1_n_4026 :U1.ULA1_n_4027 :U1.ULA1_n_4032 :U1.ULA1_n_4033 :U1.ULA1_n_4034 :U1.ULA1_n_4035 :U1.ULA1_n_4037 :U1.ULA1_n_4041 :U1.ULA1_n_4042 :U1.ULA1_n_4043 :U1.ULA1_n_4044 :U1.ULA1_n_4049 :U1.ULA1_n_4050 :U1.ULA1_n_4051 :U1.ULA1_n_4052 :U1.ULA1_n_4057 :U1.ULA1_n_4058 :U1.ULA1_n_4059 :U1.ULA1_n_4060 :U1.ULA1_n_4065 :U1.ULA1_n_4066 :U1.ULA1_n_4067 :U1.ULA1_n_4068 :U1.ULA1_n_4073 :U1.ULA1_n_4074 :U1.ULA1_n_4075 :U1.ULA1_n_4076 :U1.ULA1_n_4081 :U1.ULA1_n_4082 :U1.ULA1_n_4083 :U1.ULA1_n_4084 :U1.ULA1_n_4087 :U1.ULA1_n_4088 :U1.ULA1_n_4089 :U1.ULA1_n_4090 :U1.ULA1_n_4095 :U1.ULA1_n_4096 :U1.ULA1_n_4097 :U1.ULA1_n_4100 :U1.ULA1_n_4102 :U1.ULA1_n_4104 :U1.ULA1_n_4106 :U1.ULA1_n_4108 :U1.ULA1_n_4110 :U1.ULA1_n_4112 :U1.ULA1_n_4114 :U1.ULA1_n_4116 :U1.ULA1_n_4118 :U1.ULA1_n_4120 :U1.ULA1_n_4122 :U1.ULA1_n_4124 :U1.ULA1_n_4126 :U1.ULA1_n_4127 :U1.ULA1_n_4129 :U1.ULA1_n_4131 :U1.ULA1_n_4133 :U1.ULA1_n_4135 :U1.ULA1_n_4137 :U1.ULA1_n_4139 :U1.ULA1_n_4141 :U1.ULA1_n_4143 :U1.ULA1_n_4145 :U1.ULA1_n_4147 :U1.ULA1_n_4148 :U1.ULA1_n_4150 :U1.ULA1_n_4151 :U1.ULA1_n_4153 :U1.ULA1_n_4154 :U1.ULA1_n_4155 :U1.ULA1_n_4157 :U1.ULA1_n_4159 :U1.ULA1_n_4160 :U1.ULA1_n_4161 :U1.ULA1_n_4162 :U1.ULA1_n_4163 :U1.ULA1_n_4165 :U1.ULA1_n_4167 :U1.ULA1_n_4169 :U1.ULA1_n_4171 :U1.ULA1_n_4173 :U1.ULA1_n_4175 :U1.ULA1_n_4177 :U1.ULA1_n_4179 :U1.ULA1_n_4181 :U1.ULA1_n_4183 :U1.ULA1_n_4184 :U1.ULA1_n_4185 :U1.ULA1_n_4186 :U1.ULA1_n_4188 :U1.ULA1_n_4189 :U1.ULA1_n_4191 :U1.ULA1_n_4192 :U1.ULA1_n_4194 :U1.ULA1_n_4195 :U1.ULA1_n_4196 :U1.ULA1_n_4197 :U1.ULA1_n_4198 :U1.ULA1_n_4200 :U1.ULA1_n_4201 :U1.ULA1_n_4203 :U1.ULA1_n_4204 :U1.ULA1_n_4205 :U1.ULA1_n_4206 :U1.ULA1_n_4208 :U1.ULA1_n_4209 :U1.ULA1_n_4211 :U1.ULA1_n_4213 :U1.ULA1_n_4215 :U1.ULA1_n_4216 :U1.ULA1_n_4218 :U1.ULA1_n_4220 :U1.ULA1_n_4222 :U1.ULA1_n_4223 :U1.ULA1_n_4225 :U1.ULA1_n_4227 :U1.ULA1_n_4229 :U1.ULA1_n_4231 :U1.ULA1_n_4236 :U1.ULA1_n_4237 :U1.ULA1_n_4252 :U1.ULA1_n_4267 :U1.ULA1_n_4268 :U1.ULA1_n_4269 :U1.ULA1_n_4270 :U1.ULA1_n_4271 :U1.ULA1_n_4272 :U1.ULA1_n_4273 :U1.ULA1_n_4274 :U1.ULA1_n_4275 :U1.ULA1_n_4276 :U1.ULA1_n_4277 :U1.ULA1_n_4278 :U1.ULA1_n_4279 :U1.ULA1_n_4280 :U1.ULA1_n_4281 :U1.ULA1_n_4282 :U1.ULA1_n_4283 :U1.ULA1_n_4284 :U1.ULA1_n_4285 :U1.ULA1_n_4286 :U1.ULA1_n_4287 :U1.ULA1_n_4288 :U1.ULA1_n_4289 :U1.ULA1_n_4290 :U1.ULA1_n_4291 :U1.ULA1_n_4293 :U1.ULA1_n_4294 :U1.ULA1_n_4295 :U1.ULA1_n_4296 :U1.ULA1_n_4297 :U1.ULA1_n_4298 :U1.ULA1_n_4299 :U1.ULA1_n_4300 :U1.ULA1_n_4301 :U1.ULA1_n_4302 :U1.ULA1_n_4304 :U1.ULA1_n_4305 :U1.ULA1_n_4306 :U1.ULA1_n_4307 :U1.ULA1_n_4308 :U1.ULA1_n_4309 :U1.ULA1_n_4310 :U1.ULA1_n_4311 :U1.ULA1_n_4321 :U1.ULA1_n_4323 :U1.ULA1_n_4336 :U1.ULA1_n_4338 :U1.ULA1_n_4340 :U1.ULA1_n_4342 :U1.ULA1_n_4345 :U1.ULA1_n_4347 :U1.ULA1_n_4349 :U1.ULA1_n_4353 :U1.ULA1_n_4356 :U1.ULA1_n_4359 :U1.ULA1_n_4361 :U1.ULA1_n_4363 :U1.ULA1_n_4365 :U1.ULA1_n_4384 :U1.ULA1_n_4387 :U1.ULA1_n_4390 :U1.ULA1_n_4392 :U1.ULA1_n_4394 :U1.ULA1_n_4396 :U1.ULA1_n_4398 :U1.ULA1_n_4400 :U1.ULA1_n_4402 :U1.ULA1_n_4404 :U1.ULA1_n_4406 :U1.ULA1_n_4408 :U1.ULA1_n_4411 :U1.ULA1_n_4413 :U1.ULA1_n_4415 :U1.ULA1_n_4417 :U1.ULA1_n_4419 :U1.UNCONNECTED :U1.UNCONNECTED0 :U1.UNCONNECTED1 :U1.UNCONNECTED2 :U1.clk :U1.n_0 :U1.n_9 :U1.n_31 :U1.n_32 :U1.rst :U1.sel
+Created probe 1
+ncsim> run 3000ns
+
+Warning!  Timing violation
+           $setup( negedge D:2370 PS, posedge CLK:2500 PS,  0.140 : 140 PS );
+            File: /usr/eda/dk/ibm/cmrf7sf/digital_20111130/verilog/DFFR_H.v, line = 37
+           Scope: :U1.\registrador1_q_reg[27] 
+            Time: 2500 PS
+
+
+Warning!  Timing violation
+           $setup( negedge D:2409 PS, posedge CLK:2500 PS,  0.140 : 140 PS );
+            File: /usr/eda/dk/ibm/cmrf7sf/digital_20111130/verilog/DFFR_H.v, line = 37
+           Scope: :U1.\registrador1_q_reg[20] 
+            Time: 2500 PS
+
+
+Warning!  Timing violation
+           $setup( negedge D:2446 PS, posedge CLK:2500 PS,  0.140 : 140 PS );
+            File: /usr/eda/dk/ibm/cmrf7sf/digital_20111130/verilog/DFFR_H.v, line = 37
+           Scope: :U1.\registrador1_q_reg[22] 
+            Time: 2500 PS
+
+
+Warning!  Timing violation
+           $setup( negedge D:2372 PS, posedge CLK:2500 PS,  0.140 : 140 PS );
+            File: /usr/eda/dk/ibm/cmrf7sf/digital_20111130/verilog/DFFR_H.v, line = 37
+           Scope: :U1.\registrador1_q_reg[24] 
+            Time: 2500 PS
+
+
+Warning!  Timing violation
+           $setup( negedge D:2373 PS, posedge CLK:2500 PS,  0.139 : 139 PS );
+            File: /usr/eda/dk/ibm/cmrf7sf/digital_20111130/verilog/DFFR_H.v, line = 37
+           Scope: :U1.\registrador1_q_reg[26] 
+            Time: 2500 PS
+
+
+Warning!  Timing violation
+           $setup( negedge D:2437 PS, posedge CLK:2500 PS,  0.139 : 139 PS );
+            File: /usr/eda/dk/ibm/cmrf7sf/digital_20111130/verilog/DFFR_H.v, line = 37
+           Scope: :U1.\registrador1_q_reg[28] 
+            Time: 2500 PS
+
+
+Warning!  Timing violation
+           $setup( negedge D:2369 PS, posedge CLK:2500 PS,  0.140 : 140 PS );
+            File: /usr/eda/dk/ibm/cmrf7sf/digital_20111130/verilog/DFFR_H.v, line = 37
+           Scope: :U1.\registrador1_q_reg[29] 
+            Time: 2500 PS
+
+
+Warning!  Timing violation
+           $setup( negedge D:2396 PS, posedge CLK:2500 PS,  0.163 : 163 PS );
+            File: /usr/eda/dk/ibm/cmrf7sf/digital_20111130/verilog/DFFR_E.v, line = 37
+           Scope: :U1.\registrador1_q_reg[30] 
+            Time: 2500 PS
+
+ncsim: *E,TRRANGEC: range constraint violation.
+          File: ../tb/tb_ULA_com_registrador.vhd, line = 53, pos = 31
+         Scope: :operations
+          Time: 11250 PS + 0
+
+
+
+Set "rangecnst_severity_level" ncsim tcl variable to ignore this error.
+Type `help -variable rangecnst_severity_level` on ncsim> prompt.
+
+ncsim> ^C
+ncsim> exit
+TOOL:	irun(64)	15.20-s036: Exiting on Mar 04, 2022 at 12:23:01 EST  (total: 00:26:29)

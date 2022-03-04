@@ -1,0 +1,13 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+-WORK
+work
+
+tb_contador
+-ACCESS
++rw
+-MAXDELAYS
+-SDF_CMD_FILE
+./sdf_cmd.cmd
