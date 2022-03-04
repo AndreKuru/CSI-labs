@@ -1,5 +1,5 @@
 irun(64): 15.20-s036: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
-TOOL:	irun(64)	15.20-s036: Started on Mar 04, 2022 at 04:15:42 EST
+TOOL:	irun(64)	15.20-s036: Started on Mar 04, 2022 at 13:31:57 EST
 irun
 	-f file_list.f
 		-smartorder
@@ -96,6 +96,126 @@ irun: *W,DLCVAR (/home/100000000819930/cds.lib,15): cds.lib Invalid environment 
 DEFINE std_cells		$IBMPDK/cmrf7sf/std_cells
 |
 irun: *W,DLCVAR (/home/100000000819930/cds.lib,16): cds.lib Invalid environment variable ''.
+Recompiling... reason: file '../tb/multiplier_tb.vhd' is newer than expected.
+	expected: Fri Mar  4 13:30:25 2022
+	actual:   Fri Mar  4 13:31:48 2022
+INCLUDE	$CDS_ROOT/share/cdssetup/cds.lib
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sbaLib 			$CDS_ROOT/tools/dfII/etc/cdslib/artist/sbaLib 
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,7): cds.lib Invalid environment variable ''.
+DEFINE sample 			$CDS_ROOT/tools/dfII/samples/cdslib/sample 
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,8): cds.lib Invalid environment variable ''.
+DEFINE connectLib		$IUSHOME/tools/affirma_ams/etc/connect_lib/connectLib
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,9): cds.lib Invalid environment variable ''.
+DEFINE cmrf7sf 			$IBMPDK/cmrf7sf/relAM/cdslib/cmrf7sf
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,14): cds.lib Invalid environment variable ''.
+DEFINE esd7rf 			$IBMPDK/cmrf7sf/relAM/cdslib/esd7rf
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,15): cds.lib Invalid environment variable ''.
+DEFINE std_cells		$IBMPDK/cmrf7sf/std_cells
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,16): cds.lib Invalid environment variable ''.
+INCLUDE	$CDS_ROOT/share/cdssetup/cds.lib
+|
+ncvlog: *W,DLCVAR (/home/100000000819930/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sbaLib 			$CDS_ROOT/tools/dfII/etc/cdslib/artist/sbaLib 
+|
+ncvlog: *W,DLCVAR (/home/100000000819930/cds.lib,7): cds.lib Invalid environment variable ''.
+DEFINE sample 			$CDS_ROOT/tools/dfII/samples/cdslib/sample 
+|
+ncvlog: *W,DLCVAR (/home/100000000819930/cds.lib,8): cds.lib Invalid environment variable ''.
+DEFINE connectLib		$IUSHOME/tools/affirma_ams/etc/connect_lib/connectLib
+|
+ncvlog: *W,DLCVAR (/home/100000000819930/cds.lib,9): cds.lib Invalid environment variable ''.
+DEFINE cmrf7sf 			$IBMPDK/cmrf7sf/relAM/cdslib/cmrf7sf
+|
+ncvlog: *W,DLCVAR (/home/100000000819930/cds.lib,14): cds.lib Invalid environment variable ''.
+DEFINE esd7rf 			$IBMPDK/cmrf7sf/relAM/cdslib/esd7rf
+|
+ncvlog: *W,DLCVAR (/home/100000000819930/cds.lib,15): cds.lib Invalid environment variable ''.
+DEFINE std_cells		$IBMPDK/cmrf7sf/std_cells
+|
+ncvlog: *W,DLCVAR (/home/100000000819930/cds.lib,16): cds.lib Invalid environment variable ''.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 7
+INCLUDE	$CDS_ROOT/share/cdssetup/cds.lib
+|
+ncvhdl: *W,DLCVAR (/home/100000000819930/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sbaLib 			$CDS_ROOT/tools/dfII/etc/cdslib/artist/sbaLib 
+|
+ncvhdl: *W,DLCVAR (/home/100000000819930/cds.lib,7): cds.lib Invalid environment variable ''.
+DEFINE sample 			$CDS_ROOT/tools/dfII/samples/cdslib/sample 
+|
+ncvhdl: *W,DLCVAR (/home/100000000819930/cds.lib,8): cds.lib Invalid environment variable ''.
+DEFINE connectLib		$IUSHOME/tools/affirma_ams/etc/connect_lib/connectLib
+|
+ncvhdl: *W,DLCVAR (/home/100000000819930/cds.lib,9): cds.lib Invalid environment variable ''.
+DEFINE cmrf7sf 			$IBMPDK/cmrf7sf/relAM/cdslib/cmrf7sf
+|
+ncvhdl: *W,DLCVAR (/home/100000000819930/cds.lib,14): cds.lib Invalid environment variable ''.
+DEFINE esd7rf 			$IBMPDK/cmrf7sf/relAM/cdslib/esd7rf
+|
+ncvhdl: *W,DLCVAR (/home/100000000819930/cds.lib,15): cds.lib Invalid environment variable ''.
+DEFINE std_cells		$IBMPDK/cmrf7sf/std_cells
+|
+ncvhdl: *W,DLCVAR (/home/100000000819930/cds.lib,16): cds.lib Invalid environment variable ''.
+INCLUDE	$CDS_ROOT/share/cdssetup/cds.lib
+|
+ncvhdl_p: *W,DLCVAR (/home/100000000819930/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sbaLib 			$CDS_ROOT/tools/dfII/etc/cdslib/artist/sbaLib 
+|
+ncvhdl_p: *W,DLCVAR (/home/100000000819930/cds.lib,7): cds.lib Invalid environment variable ''.
+DEFINE sample 			$CDS_ROOT/tools/dfII/samples/cdslib/sample 
+|
+ncvhdl_p: *W,DLCVAR (/home/100000000819930/cds.lib,8): cds.lib Invalid environment variable ''.
+DEFINE connectLib		$IUSHOME/tools/affirma_ams/etc/connect_lib/connectLib
+|
+ncvhdl_p: *W,DLCVAR (/home/100000000819930/cds.lib,9): cds.lib Invalid environment variable ''.
+DEFINE cmrf7sf 			$IBMPDK/cmrf7sf/relAM/cdslib/cmrf7sf
+|
+ncvhdl_p: *W,DLCVAR (/home/100000000819930/cds.lib,14): cds.lib Invalid environment variable ''.
+DEFINE esd7rf 			$IBMPDK/cmrf7sf/relAM/cdslib/esd7rf
+|
+ncvhdl_p: *W,DLCVAR (/home/100000000819930/cds.lib,15): cds.lib Invalid environment variable ''.
+DEFINE std_cells		$IBMPDK/cmrf7sf/std_cells
+|
+ncvhdl_p: *W,DLCVAR (/home/100000000819930/cds.lib,16): cds.lib Invalid environment variable ''.
+../../rtl/multiplier_pkg.vhd:
+	errors: 0, warnings: 0
+../tb/multiplier_tb.vhd:
+	errors: 0, warnings: 0
+INCLUDE	$CDS_ROOT/share/cdssetup/cds.lib
+|
+ncvhdl_cg: *W,DLCVAR (/home/100000000819930/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sbaLib 			$CDS_ROOT/tools/dfII/etc/cdslib/artist/sbaLib 
+|
+ncvhdl_cg: *W,DLCVAR (/home/100000000819930/cds.lib,7): cds.lib Invalid environment variable ''.
+DEFINE sample 			$CDS_ROOT/tools/dfII/samples/cdslib/sample 
+|
+ncvhdl_cg: *W,DLCVAR (/home/100000000819930/cds.lib,8): cds.lib Invalid environment variable ''.
+DEFINE connectLib		$IUSHOME/tools/affirma_ams/etc/connect_lib/connectLib
+|
+ncvhdl_cg: *W,DLCVAR (/home/100000000819930/cds.lib,9): cds.lib Invalid environment variable ''.
+DEFINE cmrf7sf 			$IBMPDK/cmrf7sf/relAM/cdslib/cmrf7sf
+|
+ncvhdl_cg: *W,DLCVAR (/home/100000000819930/cds.lib,14): cds.lib Invalid environment variable ''.
+DEFINE esd7rf 			$IBMPDK/cmrf7sf/relAM/cdslib/esd7rf
+|
+ncvhdl_cg: *W,DLCVAR (/home/100000000819930/cds.lib,15): cds.lib Invalid environment variable ''.
+DEFINE std_cells		$IBMPDK/cmrf7sf/std_cells
+|
+ncvhdl_cg: *W,DLCVAR (/home/100000000819930/cds.lib,16): cds.lib Invalid environment variable ''.
+WORK.MULTIPLIER_PKG (package):
+	streams: 1, words: 8
+WORK.MULTIPLIER_TB (entity):
+	streams: 2, words: 139
+WORK.MULTIPLIER_TB:TB (architecture):
+	streams: 2, words: 3527
 INCLUDE	$CDS_ROOT/share/cdssetup/cds.lib
 |
 irun: *W,DLCVAR (/home/100000000819930/cds.lib,5): cds.lib Invalid environment variable ''.
@@ -140,25 +260,82 @@ DEFINE std_cells		$IBMPDK/cmrf7sf/std_cells
 irun: *W,DLCVAR (/home/100000000819930/cds.lib,16): cds.lib Invalid environment variable ''.
 INCLUDE	$CDS_ROOT/share/cdssetup/cds.lib
 |
-irun: *W,DLCVAR (/home/100000000819930/cds.lib,5): cds.lib Invalid environment variable ''.
+ncelab: *W,DLCVAR (/home/100000000819930/cds.lib,5): cds.lib Invalid environment variable ''.
 DEFINE sbaLib 			$CDS_ROOT/tools/dfII/etc/cdslib/artist/sbaLib 
 |
-irun: *W,DLCVAR (/home/100000000819930/cds.lib,7): cds.lib Invalid environment variable ''.
+ncelab: *W,DLCVAR (/home/100000000819930/cds.lib,7): cds.lib Invalid environment variable ''.
 DEFINE sample 			$CDS_ROOT/tools/dfII/samples/cdslib/sample 
 |
-irun: *W,DLCVAR (/home/100000000819930/cds.lib,8): cds.lib Invalid environment variable ''.
+ncelab: *W,DLCVAR (/home/100000000819930/cds.lib,8): cds.lib Invalid environment variable ''.
 DEFINE connectLib		$IUSHOME/tools/affirma_ams/etc/connect_lib/connectLib
 |
-irun: *W,DLCVAR (/home/100000000819930/cds.lib,9): cds.lib Invalid environment variable ''.
+ncelab: *W,DLCVAR (/home/100000000819930/cds.lib,9): cds.lib Invalid environment variable ''.
 DEFINE cmrf7sf 			$IBMPDK/cmrf7sf/relAM/cdslib/cmrf7sf
 |
-irun: *W,DLCVAR (/home/100000000819930/cds.lib,14): cds.lib Invalid environment variable ''.
+ncelab: *W,DLCVAR (/home/100000000819930/cds.lib,14): cds.lib Invalid environment variable ''.
 DEFINE esd7rf 			$IBMPDK/cmrf7sf/relAM/cdslib/esd7rf
 |
-irun: *W,DLCVAR (/home/100000000819930/cds.lib,15): cds.lib Invalid environment variable ''.
+ncelab: *W,DLCVAR (/home/100000000819930/cds.lib,15): cds.lib Invalid environment variable ''.
 DEFINE std_cells		$IBMPDK/cmrf7sf/std_cells
 |
-irun: *W,DLCVAR (/home/100000000819930/cds.lib,16): cds.lib Invalid environment variable ''.
+ncelab: *W,DLCVAR (/home/100000000819930/cds.lib,16): cds.lib Invalid environment variable ''.
+ncelab: *W,ARCMRA: Elaborating the WORK.MULTIPLIER_TB:TB, MRA (most recently analyzed) architecture.
+	Elaborating the design hierarchy:
+		Caching library 'work' ....... Done
+	Top level design units:
+		:multiplier_tb(tb):
+	Building instance overlay tables: .................... Done
+INCLUDE	$CDS_ROOT/share/cdssetup/cds.lib
+|
+ncvhdl_cg: *W,DLCVAR (/home/100000000819930/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sbaLib 			$CDS_ROOT/tools/dfII/etc/cdslib/artist/sbaLib 
+|
+ncvhdl_cg: *W,DLCVAR (/home/100000000819930/cds.lib,7): cds.lib Invalid environment variable ''.
+DEFINE sample 			$CDS_ROOT/tools/dfII/samples/cdslib/sample 
+|
+ncvhdl_cg: *W,DLCVAR (/home/100000000819930/cds.lib,8): cds.lib Invalid environment variable ''.
+DEFINE connectLib		$IUSHOME/tools/affirma_ams/etc/connect_lib/connectLib
+|
+ncvhdl_cg: *W,DLCVAR (/home/100000000819930/cds.lib,9): cds.lib Invalid environment variable ''.
+DEFINE cmrf7sf 			$IBMPDK/cmrf7sf/relAM/cdslib/cmrf7sf
+|
+ncvhdl_cg: *W,DLCVAR (/home/100000000819930/cds.lib,14): cds.lib Invalid environment variable ''.
+DEFINE esd7rf 			$IBMPDK/cmrf7sf/relAM/cdslib/esd7rf
+|
+ncvhdl_cg: *W,DLCVAR (/home/100000000819930/cds.lib,15): cds.lib Invalid environment variable ''.
+DEFINE std_cells		$IBMPDK/cmrf7sf/std_cells
+|
+ncvhdl_cg: *W,DLCVAR (/home/100000000819930/cds.lib,16): cds.lib Invalid environment variable ''.
+	Building instance specific data structures.
+	x	(x1)	0	?		: 0 	: 0 ;	//pessimism reduction
+	|
+ncelab: *W,UDPRDT (/usr/eda/dk/ibm/cmrf7sf/digital_20111130/verilog/DFFR_E.v,64|1): UDP table entry is redundant.
+	x	(0x)	0	?		: 0 	: 0 ;	//pessimism reduction
+	|
+ncelab: *W,UDPRDT (/usr/eda/dk/ibm/cmrf7sf/digital_20111130/verilog/DFFR_E.v,65|1): UDP table entry is redundant.
+	x	(x1)	0	?		: 0 	: 0 ;	//pessimism reduction
+	|
+ncelab: *W,UDPRDT (/usr/eda/dk/ibm/cmrf7sf/digital_20111130/verilog/DFFR_H.v,64|1): UDP table entry is redundant.
+	x	(0x)	0	?		: 0 	: 0 ;	//pessimism reduction
+	|
+ncelab: *W,UDPRDT (/usr/eda/dk/ibm/cmrf7sf/digital_20111130/verilog/DFFR_H.v,65|1): UDP table entry is redundant.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+	VHDL Design hierarchy:
+		Components:              2       1
+		Processes:               3       3
+		Signals:                 7       7
+	Verilog Design hierarchy:
+		Modules:               186      28
+		UDPs:                   98       7
+		Primitives:            134       7
+		Timing outputs:        220      34
+		Registers:              35       6
+		Scalar wires:          264       -
+		Timing checks:         267      38
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: WORK.MULTIPLIER_TB:TB
 INCLUDE	$CDS_ROOT/share/cdssetup/cds.lib
 |
 ncsim: *W,DLCVAR (/home/100000000819930/cds.lib,5): cds.lib Invalid environment variable ''.
@@ -189,8 +366,8 @@ ncsim> database -open waves -into waves.shm -default
 Created default SHM database waves
 ncsim> probe -create -shm :uut.UNCONNECTED :uut.UNCONNECTED0 :uut.UNCONNECTED1 :uut.UNCONNECTED2 :uut.UNCONNECTED3 :uut.UNCONNECTED4 :uut.UNCONNECTED5 :uut.UNCONNECTED6 :uut.UNCONNECTED7 :uut.UNCONNECTED8 :uut.UNCONNECTED9 :uut.UNCONNECTED10 :uut.UNCONNECTED11 :uut.UNCONNECTED12 :uut.UNCONNECTED13 :uut.UNCONNECTED14 :uut.UNCONNECTED15 :uut.UNCONNECTED16 :uut.UNCONNECTED17 :uut.UNCONNECTED18 :uut.UNCONNECTED19 :uut.UNCONNECTED20 :uut.UNCONNECTED21 :uut.UNCONNECTED22 :uut.UNCONNECTED23 :uut.UNCONNECTED24 :uut.UNCONNECTED25 :uut.a :uut.b :uut.bloco_controle_n_145 :uut.bloco_controle_n_147 :uut.bloco_controle_state :uut.bloco_operativo_saimux2 :uut.bloco_operativo_saimux3 :uut.bloco_operativo_sairega :uut.bloco_operativo_sairegb :uut.bloco_operativo_saisomasub :uut.bloco_operativo_somasub_n_917 :uut.bloco_operativo_somasub_n_923 :uut.bloco_operativo_somasub_n_926 :uut.bloco_operativo_somasub_n_931 :uut.bloco_operativo_somasub_n_934 :uut.bloco_operativo_somasub_n_940 :uut.bloco_operativo_somasub_n_943 :uut.bloco_operativo_somasub_n_948 :uut.bloco_operativo_somasub_n_951 :uut.bloco_operativo_somasub_n_957 :uut.bloco_operativo_somasub_n_960 :uut.bloco_operativo_somasub_n_964 :uut.bloco_operativo_somasub_n_966 :uut.bloco_operativo_somasub_n_973 :uut.bloco_operativo_somasub_n_977 :uut.bloco_operativo_somasub_n_980 :uut.bloco_operativo_somasub_n_982 :uut.bloco_operativo_somasub_n_986 :uut.bloco_operativo_somasub_n_989 :uut.bloco_operativo_somasub_n_993 :uut.bloco_operativo_somasub_n_996 :uut.bloco_operativo_somasub_n_1000 :uut.bloco_operativo_somasub_n_1003 :uut.bloco_operativo_somasub_n_1007 :uut.bloco_operativo_somasub_n_1010 :uut.bloco_operativo_somasub_n_1014 :uut.bloco_operativo_somasub_n_1017 :uut.bloco_operativo_somasub_n_1020 :uut.bloco_operativo_somasub_n_1022 :uut.bloco_operativo_somasub_n_1025 :uut.bloco_operativo_somasub_n_1028 :uut.bloco_operativo_somasub_n_1031 :uut.bloco_operativo_somasub_n_1038 :uut.bloco_operativo_somasub_n_1039 :uut.bloco_operativo_somasub_n_1042 :uut.bloco_operativo_somasub_n_1046 :uut.bloco_operativo_somasub_n_1051 :uut.bloco_operativo_somasub_n_1054 :uut.bloco_operativo_somasub_n_1056 :uut.bloco_operativo_somasub_n_1057 :uut.bloco_operativo_somasub_n_1059 :uut.bloco_operativo_somasub_n_1060 :uut.bloco_operativo_somasub_n_1062 :uut.bloco_operativo_somasub_n_1063 :uut.bloco_operativo_somasub_n_1064 :uut.bloco_operativo_somasub_n_1065 :uut.bloco_operativo_somasub_n_1066 :uut.bloco_operativo_somasub_n_1068 :uut.bloco_operativo_somasub_n_1069 :uut.bloco_operativo_somasub_n_1070 :uut.bloco_operativo_somasub_n_1087 :uut.bloco_operativo_somasub_n_1089 :uut.bloco_operativo_somasub_n_1091 :uut.bloco_operativo_somasub_n_1108 :uut.bloco_operativo_somasub_n_1110 :uut.bloco_operativo_somasub_n_1113 :uut.clk :uut.cp :uut.dec :uut.inicio :uut.n_1 :uut.n_2 :uut.n_3 :uut.n_4 :uut.n_5 :uut.n_6 :uut.n_7 :uut.n_8 :uut.n_9 :uut.n_10 :uut.n_11 :uut.n_12 :uut.n_13 :uut.n_14 :uut.n_15 :uut.n_16 :uut.n_17 :uut.n_18 :uut.n_19 :uut.n_20 :uut.n_21 :uut.n_22 :uut.n_23 :uut.n_24 :uut.n_25 :uut.n_26 :uut.n_27 :uut.n_28 :uut.n_29 :uut.n_30 :uut.n_31 :uut.n_32 :uut.n_33 :uut.n_34 :uut.n_35 :uut.n_36 :uut.n_37 :uut.n_38 :uut.n_39 :uut.n_40 :uut.n_41 :uut.n_42 :uut.n_43 :uut.n_44 :uut.n_45 :uut.n_46 :uut.n_47 :uut.n_48 :uut.n_49 :uut.n_50 :uut.n_51 :uut.n_52 :uut.n_53 :uut.n_55 :uut.n_56 :uut.n_57 :uut.n_61 :uut.n_98 :uut.n_99 :uut.n_100 :uut.n_101 :uut.n_102 :uut.n_103 :uut.n_104 :uut.n_105 :uut.n_106 :uut.ocupado :uut.reset :uut.saida
 Created probe 1
-ncsim> run
-Simulation interrupted at 148993787500 PS + 0
+ncsim> run 3000ns
+Ran until 3 US + 0
 ncsim> ^C
 ncsim> exit
-TOOL:	irun(64)	15.20-s036: Exiting on Mar 04, 2022 at 04:27:35 EST  (total: 00:11:53)
+TOOL:	irun(64)	15.20-s036: Exiting on Mar 04, 2022 at 13:34:56 EST  (total: 00:02:59)

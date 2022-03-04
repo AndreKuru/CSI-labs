@@ -8,4 +8,4 @@
 1646378645 /home/100000000819930/CSI-labs/8/multiplier/rtl/registrador.vhd
 1646378645 /home/100000000819930/CSI-labs/8/multiplier/rtl/registrador_r.vhd
 1646378645 /home/100000000819930/CSI-labs/8/multiplier/rtl/somadorsubtrator.vhd
-1646382146 /home/100000000819930/CSI-labs/8/multiplier/sim/tb/multiplier_tb.vhd
+1646418708 /home/100000000819930/CSI-labs/8/multiplier/sim/tb/multiplier_tb.vhd

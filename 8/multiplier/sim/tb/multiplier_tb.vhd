@@ -22,11 +22,11 @@ architecture tb of multiplier_tb is
         saida               : out std_logic_vector(2 * n - 1 downto 0));
     end component;
 
-    constant clkp : time := 25 ns;
+    constant clkp : time := 50 ns;
 begin
     uut : entity work.multiplier port map (a, b, inicio, reset, clk, ocupado, saida);
 
-    reset <= '1', '0' after 10 ns;
+    reset <= '1', '0' after 2.25 * clkp;
 
     clk_simulation : process
     begin

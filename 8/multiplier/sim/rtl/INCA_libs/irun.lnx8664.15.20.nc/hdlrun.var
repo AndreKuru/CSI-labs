@@ -84,5 +84,3 @@ define VIEW_MAP ( $VIEW_MAP \
 )
 define ELAB_SNAPSHOT
 define SNAPSHOT work.multiplier_tb:tb
-define ELAB_SNAPSHOT
-define SNAPSHOT work.multiplier_tb:tb
