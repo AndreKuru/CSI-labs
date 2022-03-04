@@ -1,0 +1,7 @@
+include ./hdlrun.var
+DEFINE RUNMODEDEFAULT 1
+DEFINE LIB_MAP ( + => work )
+define ELAB_SNAPSHOT
+define SNAPSHOT work.tb_soma4:arq_tb
+define ELAB_SNAPSHOT
+define SNAPSHOT work.tb_soma4:arq_tb

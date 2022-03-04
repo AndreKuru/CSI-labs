@@ -1,0 +1,11 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+-WORK
+work
+
+tb_tff
+-NOTIMINGCHECKS
+-ACCESS
++rw

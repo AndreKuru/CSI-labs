@@ -1,0 +1,16 @@
+irun(64): 15.20-s036: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s036: Started on Feb 17, 2022 at 15:36:54 EST
+irun
+	-f sim/rtl/file_list.f
+		-smartorder
+		-work work
+		-V93
+		-top tb_mux4to1
+		-notimingchecks
+		-gui
+		-access +rw
+		../../rtl/mux4to1.vhd
+		../tb/tb_mux4to1.vhd
+irun: *E,FILEMIS: Cannot find the provided file ../../rtl/mux4to1.vhd.
+irun: *E,FILEMIS: Cannot find the provided file ../tb/tb_mux4to1.vhd.
+TOOL:	irun(64)	15.20-s036: Exiting on Feb 17, 2022 at 15:36:54 EST  (total: 00:00:00)

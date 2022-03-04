@@ -1,0 +1,67 @@
+Codificação         Tabela transições
+Estado | Codigo      |w  Q2 Q1 Q0| Q2p Q1p Q0p|
+        Q2 Q1 Q0    0|0  0  0  0 | 0   0   1  |
+A       0  0  0     1|0  0  0  1 | 0   1   0  |
+B       0  0  1     2|0  0  1  0 | 0   1   1  |
+C       0  1  0     3|0  0  1  1 | 1   0   0  |
+D       0  1  1     4|0  1  0  0 | 1   0   1  |
+E       1  0  0     5|0  1  0  1 | 1   1   0  |
+F       1  0  1     6|0  1  1  0 | 0   0   0  |
+G       1  1  0     7|0  1  1  1 | X   X   X  |
+                    8|1  0  0  0 | 1   1   0  |
+                    9|1  0  0  1 | 0   0   0  |
+                   10|1  0  1  0 | 0   0   1  |
+                   11|1  0  1  1 | 0   1   0  |
+                   12|1  1  0  0 | 0   1   1  |
+                   13|1  1  0  1 | 1   0   0  |
+                   14|1  1  1  0 | 1   0   1  |
+                   15|1  1  1  1 | X   X   X  |
+
+c,h,i,o
+w,q2,q1,q0
+
+$$$Q2p = wq2'q1'q0' + w q2q1 + w'q2q1' + w'q1q0 + q2q0 $$$
+$$$Q1p = w'q2'q1q0' + w'q1'q0 + wq1q0 + wq1'q0'$$$
+$$$Q0p = wq1q0' + q2q1'q0' + w'q2'q0'$$$
+
+(not c and i and o) or (not c and h and not i) or (c and not h and not i and not o) or (h and o) or (c and h and i)
+not (c and not h and not i and not o) and (not (not c and h and not i) and not (not c and i and o) and not (h and o) and not (c and h and i))
+
+
+Q2p  |w Q2
+Q1 Q0|00 01 11 10
+-----#-----------
+   00|0  1  0  1
+   01|0  1  1  0
+   11|1  X  X  0
+   10|0  0  1  0
+
+Q2 =    w q2' q1' q0 + 
+        w q2 q1' + 
+        w' q2 q1' + 
+        w' q1 q0 + 
+        q2 q0
+
+(o!i!hc) or (!ihc) or (!ih!c) or (oi!c) or (oh)
+not(not (o!i!hc) and not (!ihc) and not (!ih!c) and not (oi!c) and not (oh))
+
+Q2p  |w Q2
+Q1 Q0|00 01 11 10
+-----#-----------
+   00|0  0  1  1
+   01|1  1  0  0
+   11|0  X  X  1
+   10|1  0  0  0
+
+Q2p  |w Q2
+Q1 Q0|00 01 11 10
+-----#-----------
+   00|0  0  0  0
+   01|0  0  0  0
+   11|0  0  0  0
+   10|0  0  0  0
+
+A = w
+B = Q2
+C = Q1
+D = Q0

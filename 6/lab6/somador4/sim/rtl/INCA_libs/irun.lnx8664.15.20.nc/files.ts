@@ -1,0 +1,3 @@
+1636642964 /home/100000000819930/cds.lib
+1525369786 /home/100000000819930/lab6/lab6/somador4/rtl/soma4.vhd
+1525369786 /home/100000000819930/lab6/lab6/somador4/sim/tb/tb_soma4.vhd
