@@ -188,4 +188,6 @@ ncsim> run
 ASSERT/WARNING (time 10 NS) from package ieee.STD_LOGIC_ARITH, this builtin function called  from process :uut:bloco_operativo:somasub:$PROCESS_000 (architecture work.somadorsubtrator:estrutura)
 Built-in function result set to 'X' due to a ('U', 'X', 'W', 'Z', '-') in an operand.
 Simulation interrupted at 190819887500 PS + 0
-ncsim> 
+ncsim> ^C
+ncsim> exit
+TOOL:	irun(64)	15.20-s036: Exiting on Mar 04, 2022 at 03:38:15 EST  (total: 00:10:59)
