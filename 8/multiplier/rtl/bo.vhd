@@ -47,12 +47,12 @@ architecture estrutura of bo is
           igual : out std_logic);
     end component;
         
-    signal saimux1, saimux2, saimux3, sairegp, sairega, sairegb, saisomasub: std_logic_vector (n - 1 downto 0);
-
+    signal saimux1, saimux3, sairega, sairegb, one   : std_logic_vector (n - 1 downto 0);
+    signal sairegaext, saimux3ext, saimux2, sairegp, saisomasub         : std_logic_vector (2 * n - 1 downto 0);
 begin
     mux1: mux2para1 
     generic map (n => n)
-    port map (saisomasub, enta, ini, saimux1);
+    port map (saisomasub(n - 1 downto 0), enta, ini, saimux1);
     regp: registrador_r 
     generic map (n => 2 * n)
     port map (clk, ini, cp, saisomasub, sairegp);
@@ -64,13 +64,22 @@ begin
     port map (clk, ini, entb, sairegb);
     mux2: mux2para1 
     generic map (n => 2 * n)
-    port map (sairegp, (2 * n - 1 downto n => '0') & sairega, dec, saimux2);  
+    port map (sairegp, sairegaext, dec, saimux2);  
+
+    sairegaext <= (2 * n - 1 downto n => '0') & sairega;
+
     mux3: mux2para1 
     generic map (n => n)
-    port map ((2 * n - 1 downto n => '0') & entb, (0 => '1', others => '0'), dec, saimux3);
+    port map (entb, one, dec, saimux3);
+
+    one <= (n - 2 downto 0 => '0') & '1' ;
+
     somasub: somadorsubtrator 
     generic map (n => 2 * n)
-    port map (saimux2, saimux3, dec, saisomasub);
+    port map (saimux2, saimux3ext, dec, saisomasub);
+
+    saimux3ext <= (2 * n - 1 downto n => '0') & saimux3;
+
     geraaz: igualazero 
     generic map (n => n)
     port map (sairega, az);

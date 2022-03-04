@@ -1,0 +1,191 @@
+irun(64): 15.20-s036: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s036: Started on Mar 04, 2022 at 03:27:16 EST
+irun
+	-f file_list.f
+		-smartorder
+		-work work
+		-V93
+		-top multiplier_tb
+		-notimingchecks
+		-gui
+		-access +rw
+		../../rtl/bc.vhd
+		../../rtl/bo.vhd
+		../../rtl/igualazero.vhd
+		../../rtl/multiplier.vhd
+		../../rtl/multiplier_pkg.vhd
+		../../rtl/mux2para1.vhd
+		../../rtl/registrador.vhd
+		../../rtl/registrador_r.vhd
+		../../rtl/somadorsubtrator.vhd
+		../tb/multiplier_tb.vhd
+INCLUDE	$CDS_ROOT/share/cdssetup/cds.lib
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sbaLib 			$CDS_ROOT/tools/dfII/etc/cdslib/artist/sbaLib 
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,7): cds.lib Invalid environment variable ''.
+DEFINE sample 			$CDS_ROOT/tools/dfII/samples/cdslib/sample 
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,8): cds.lib Invalid environment variable ''.
+DEFINE connectLib		$IUSHOME/tools/affirma_ams/etc/connect_lib/connectLib
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,9): cds.lib Invalid environment variable ''.
+DEFINE cmrf7sf 			$IBMPDK/cmrf7sf/relAM/cdslib/cmrf7sf
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,14): cds.lib Invalid environment variable ''.
+DEFINE esd7rf 			$IBMPDK/cmrf7sf/relAM/cdslib/esd7rf
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,15): cds.lib Invalid environment variable ''.
+DEFINE std_cells		$IBMPDK/cmrf7sf/std_cells
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,16): cds.lib Invalid environment variable ''.
+INCLUDE	$CDS_ROOT/share/cdssetup/cds.lib
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sbaLib 			$CDS_ROOT/tools/dfII/etc/cdslib/artist/sbaLib 
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,7): cds.lib Invalid environment variable ''.
+DEFINE sample 			$CDS_ROOT/tools/dfII/samples/cdslib/sample 
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,8): cds.lib Invalid environment variable ''.
+DEFINE connectLib		$IUSHOME/tools/affirma_ams/etc/connect_lib/connectLib
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,9): cds.lib Invalid environment variable ''.
+DEFINE cmrf7sf 			$IBMPDK/cmrf7sf/relAM/cdslib/cmrf7sf
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,14): cds.lib Invalid environment variable ''.
+DEFINE esd7rf 			$IBMPDK/cmrf7sf/relAM/cdslib/esd7rf
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,15): cds.lib Invalid environment variable ''.
+DEFINE std_cells		$IBMPDK/cmrf7sf/std_cells
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,16): cds.lib Invalid environment variable ''.
+INCLUDE	$CDS_ROOT/share/cdssetup/cds.lib
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sbaLib 			$CDS_ROOT/tools/dfII/etc/cdslib/artist/sbaLib 
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,7): cds.lib Invalid environment variable ''.
+DEFINE sample 			$CDS_ROOT/tools/dfII/samples/cdslib/sample 
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,8): cds.lib Invalid environment variable ''.
+DEFINE connectLib		$IUSHOME/tools/affirma_ams/etc/connect_lib/connectLib
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,9): cds.lib Invalid environment variable ''.
+DEFINE cmrf7sf 			$IBMPDK/cmrf7sf/relAM/cdslib/cmrf7sf
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,14): cds.lib Invalid environment variable ''.
+DEFINE esd7rf 			$IBMPDK/cmrf7sf/relAM/cdslib/esd7rf
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,15): cds.lib Invalid environment variable ''.
+DEFINE std_cells		$IBMPDK/cmrf7sf/std_cells
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,16): cds.lib Invalid environment variable ''.
+INCLUDE	$CDS_ROOT/share/cdssetup/cds.lib
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sbaLib 			$CDS_ROOT/tools/dfII/etc/cdslib/artist/sbaLib 
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,7): cds.lib Invalid environment variable ''.
+DEFINE sample 			$CDS_ROOT/tools/dfII/samples/cdslib/sample 
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,8): cds.lib Invalid environment variable ''.
+DEFINE connectLib		$IUSHOME/tools/affirma_ams/etc/connect_lib/connectLib
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,9): cds.lib Invalid environment variable ''.
+DEFINE cmrf7sf 			$IBMPDK/cmrf7sf/relAM/cdslib/cmrf7sf
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,14): cds.lib Invalid environment variable ''.
+DEFINE esd7rf 			$IBMPDK/cmrf7sf/relAM/cdslib/esd7rf
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,15): cds.lib Invalid environment variable ''.
+DEFINE std_cells		$IBMPDK/cmrf7sf/std_cells
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,16): cds.lib Invalid environment variable ''.
+INCLUDE	$CDS_ROOT/share/cdssetup/cds.lib
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sbaLib 			$CDS_ROOT/tools/dfII/etc/cdslib/artist/sbaLib 
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,7): cds.lib Invalid environment variable ''.
+DEFINE sample 			$CDS_ROOT/tools/dfII/samples/cdslib/sample 
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,8): cds.lib Invalid environment variable ''.
+DEFINE connectLib		$IUSHOME/tools/affirma_ams/etc/connect_lib/connectLib
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,9): cds.lib Invalid environment variable ''.
+DEFINE cmrf7sf 			$IBMPDK/cmrf7sf/relAM/cdslib/cmrf7sf
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,14): cds.lib Invalid environment variable ''.
+DEFINE esd7rf 			$IBMPDK/cmrf7sf/relAM/cdslib/esd7rf
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,15): cds.lib Invalid environment variable ''.
+DEFINE std_cells		$IBMPDK/cmrf7sf/std_cells
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,16): cds.lib Invalid environment variable ''.
+INCLUDE	$CDS_ROOT/share/cdssetup/cds.lib
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sbaLib 			$CDS_ROOT/tools/dfII/etc/cdslib/artist/sbaLib 
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,7): cds.lib Invalid environment variable ''.
+DEFINE sample 			$CDS_ROOT/tools/dfII/samples/cdslib/sample 
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,8): cds.lib Invalid environment variable ''.
+DEFINE connectLib		$IUSHOME/tools/affirma_ams/etc/connect_lib/connectLib
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,9): cds.lib Invalid environment variable ''.
+DEFINE cmrf7sf 			$IBMPDK/cmrf7sf/relAM/cdslib/cmrf7sf
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,14): cds.lib Invalid environment variable ''.
+DEFINE esd7rf 			$IBMPDK/cmrf7sf/relAM/cdslib/esd7rf
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,15): cds.lib Invalid environment variable ''.
+DEFINE std_cells		$IBMPDK/cmrf7sf/std_cells
+|
+irun: *W,DLCVAR (/home/100000000819930/cds.lib,16): cds.lib Invalid environment variable ''.
+INCLUDE	$CDS_ROOT/share/cdssetup/cds.lib
+|
+ncsim: *W,DLCVAR (/home/100000000819930/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sbaLib 			$CDS_ROOT/tools/dfII/etc/cdslib/artist/sbaLib 
+|
+ncsim: *W,DLCVAR (/home/100000000819930/cds.lib,7): cds.lib Invalid environment variable ''.
+DEFINE sample 			$CDS_ROOT/tools/dfII/samples/cdslib/sample 
+|
+ncsim: *W,DLCVAR (/home/100000000819930/cds.lib,8): cds.lib Invalid environment variable ''.
+DEFINE connectLib		$IUSHOME/tools/affirma_ams/etc/connect_lib/connectLib
+|
+ncsim: *W,DLCVAR (/home/100000000819930/cds.lib,9): cds.lib Invalid environment variable ''.
+DEFINE cmrf7sf 			$IBMPDK/cmrf7sf/relAM/cdslib/cmrf7sf
+|
+ncsim: *W,DLCVAR (/home/100000000819930/cds.lib,14): cds.lib Invalid environment variable ''.
+DEFINE esd7rf 			$IBMPDK/cmrf7sf/relAM/cdslib/esd7rf
+|
+ncsim: *W,DLCVAR (/home/100000000819930/cds.lib,15): cds.lib Invalid environment variable ''.
+DEFINE std_cells		$IBMPDK/cmrf7sf/std_cells
+|
+ncsim: *W,DLCVAR (/home/100000000819930/cds.lib,16): cds.lib Invalid environment variable ''.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm :uut:a :uut:az :uut:b :uut:bz :uut:ca :uut:clk :uut:cp :uut:dec :uut:ini :uut:inicio :uut:n :uut:ocupado :uut:reset :uut:saida
+Created probe 1
+ncsim> run 10ns
+ASSERT/WARNING (time 0 FS) from package ieee.STD_LOGIC_ARITH, this builtin function called  from process :uut:bloco_operativo:gerabz:$PROCESS_000 (architecture work.igualazero:estrutura)
+Built-in relational argument contains a ('U', 'X', 'W', 'Z', '-') in an operand.
+ASSERT/WARNING (time 0 FS) from package ieee.STD_LOGIC_ARITH, this builtin function called  from process :uut:bloco_operativo:geraaz:$PROCESS_000 (architecture work.igualazero:estrutura)
+Built-in relational argument contains a ('U', 'X', 'W', 'Z', '-') in an operand.
+ASSERT/WARNING (time 0 FS) from package ieee.STD_LOGIC_ARITH, this builtin function called  from process :uut:bloco_operativo:somasub:$PROCESS_000 (architecture work.somadorsubtrator:estrutura)
+Built-in function result set to 'X' due to a ('U', 'X', 'W', 'Z', '-') in an operand.
+ASSERT/WARNING (time 0 FS) from package ieee.STD_LOGIC_ARITH, this builtin function called  from process :uut:bloco_operativo:somasub:$PROCESS_000 (architecture work.somadorsubtrator:estrutura)
+Built-in function result set to 'X' due to a ('U', 'X', 'W', 'Z', '-') in an operand.
+Ran until 10 NS + 0
+ncsim> run
+ASSERT/WARNING (time 10 NS) from package ieee.STD_LOGIC_ARITH, this builtin function called  from process :uut:bloco_operativo:somasub:$PROCESS_000 (architecture work.somadorsubtrator:estrutura)
+Built-in function result set to 'X' due to a ('U', 'X', 'W', 'Z', '-') in an operand.
+Simulation interrupted at 190819887500 PS + 0
+ncsim> 
