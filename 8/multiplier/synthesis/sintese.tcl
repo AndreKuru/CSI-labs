@@ -21,7 +21,7 @@ set_attribute lef_library {cmos7rf_6ML_tech.lef ibm_cmos7rf_sc_12Track.lef } /
 #  Elaborate
 #===============================================================================
 
-read_hdl -vhdl igualazero.vhd mux2para1.vhd registrador_r.vhd registrador.vhd somadorsubtrator.vhd bc.vhd bo.vhd multiplier.vhd
+read_hdl -vhdl igualazero.vhd mux2para1.vhd mux2para1_2x.vhd registrador_r.vhd registrador_r_2x.vhd registrador.vhd registrador_2x.vhd somadorsubtrator.vhd bc.vhd bo.vhd multiplier.vhd
 
 elaborate multiplier
 
