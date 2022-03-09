@@ -20,13 +20,25 @@ ARCHITECTURE estrutura OF bo IS
                   q : OUT STD_LOGIC_VECTOR(8 - 1 DOWNTO 0));
       END COMPONENT;
 
+      COMPONENT registrador_r_2x IS
+            PORT (
+                  clk, reset, carga : IN STD_LOGIC;
+                  d : IN STD_LOGIC_VECTOR(16 - 1 DOWNTO 0);
+                  q : OUT STD_LOGIC_VECTOR(16 - 1 DOWNTO 0));
+      END COMPONENT;
+
       COMPONENT registrador IS
             PORT (
                   clk, carga : IN STD_LOGIC;
                   d : IN STD_LOGIC_VECTOR(8 - 1 DOWNTO 0);
                   q : OUT STD_LOGIC_VECTOR(8 - 1 DOWNTO 0));
       END COMPONENT;
-
+      COMPONENT registrador_2x IS
+            PORT (
+                  clk, carga : IN STD_LOGIC;
+                  d : IN STD_LOGIC_VECTOR(16 - 1 DOWNTO 0);
+                  q : OUT STD_LOGIC_VECTOR(16 - 1 DOWNTO 0));
+      END COMPONENT;
       COMPONENT mux2para1 IS
             PORT (
                   a, b : IN STD_LOGIC_VECTOR(8 - 1 DOWNTO 0);
@@ -34,11 +46,24 @@ ARCHITECTURE estrutura OF bo IS
                   y : OUT STD_LOGIC_VECTOR(8 - 1 DOWNTO 0));
       END COMPONENT;
 
+      COMPONENT mux2para1_2x IS
+            PORT (
+                  a, b : IN STD_LOGIC_VECTOR(16 - 1 DOWNTO 0);
+                  sel : IN STD_LOGIC;
+                  y : OUT STD_LOGIC_VECTOR(16 - 1 DOWNTO 0));
+      END COMPONENT;
       COMPONENT somadorsubtrator IS
             PORT (
                   a, b : IN STD_LOGIC_VECTOR(8 - 1 DOWNTO 0);
                   op : IN STD_LOGIC;
                   s : OUT STD_LOGIC_VECTOR(8 - 1 DOWNTO 0));
+      END COMPONENT;
+
+      COMPONENT somadorsubtrator_2x IS
+            PORT (
+                  a, b : IN STD_LOGIC_VECTOR(16 - 1 DOWNTO 0);
+                  op : IN STD_LOGIC;
+                  s : OUT STD_LOGIC_VECTOR(16 - 1 DOWNTO 0));
       END COMPONENT;
 
       COMPONENT igualazero IS
@@ -52,13 +77,13 @@ ARCHITECTURE estrutura OF bo IS
 BEGIN
       mux1 : mux2para1
       PORT MAP(saisomasub(8 - 1 DOWNTO 0), enta, ini, saimux1);
-      regp : registrador_r
+      regp : registrador_r_2x
       PORT MAP(clk, ini, cp, saisomasub, sairegp);
       rega : registrador
       PORT MAP(clk, ca, saimux1, sairega);
       regb : registrador
       PORT MAP(clk, ini, entb, sairegb);
-      mux2 : mux2para1
+      mux2 : mux2para1_2x
       PORT MAP(sairegp, sairegaext, dec, saimux2);
 
       sairegaext <= (2 * 8 - 1 DOWNTO 8 => '0') & sairega;
@@ -68,7 +93,7 @@ BEGIN
 
       one <= (8 - 2 DOWNTO 0 => '0') & '1';
 
-      somasub : somadorsubtrator
+      somasub : somadorsubtrator_2x
       PORT MAP(saimux2, saimux3ext, dec, saisomasub);
 
       saimux3ext <= (2 * 8 - 1 DOWNTO 8 => '0') & saimux3;

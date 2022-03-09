@@ -42,15 +42,6 @@ set_global_assignment -name TOP_LEVEL_ENTITY multiplier
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13.1
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "01:39:45  MARCH 09, 2022"
 set_global_assignment -name LAST_QUARTUS_VERSION 13.1
-set_global_assignment -name VHDL_FILE ../sim/tb/multiplier_tb.vhd
-set_global_assignment -name VHDL_FILE somadorsubtrator.vhd
-set_global_assignment -name VHDL_FILE registrador_r.vhd
-set_global_assignment -name VHDL_FILE registrador.vhd
-set_global_assignment -name VHDL_FILE mux2para1.vhd
-set_global_assignment -name VHDL_FILE multiplier.vhd
-set_global_assignment -name VHDL_FILE igualazero.vhd
-set_global_assignment -name VHDL_FILE bo.vhd
-set_global_assignment -name VHDL_FILE bc.vhd
 set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
 set_global_assignment -name MIN_CORE_JUNCTION_TEMP "-40"
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 100
@@ -61,4 +52,26 @@ set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulati
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name VHDL_FILE somadorsubtrator_2x.vhd
+set_global_assignment -name VHDL_FILE registrador_r_2x.vhd
+set_global_assignment -name VHDL_FILE registrador_2x.vhd
+set_global_assignment -name VHDL_FILE mux2para1_2x.vhd
+set_global_assignment -name VHDL_FILE ../sim/tb/multiplier_tb.vhd
+set_global_assignment -name VHDL_FILE somadorsubtrator.vhd
+set_global_assignment -name VHDL_FILE registrador_r.vhd
+set_global_assignment -name VHDL_FILE registrador.vhd
+set_global_assignment -name VHDL_FILE mux2para1.vhd
+set_global_assignment -name VHDL_FILE multiplier.vhd
+set_global_assignment -name VHDL_FILE igualazero.vhd
+set_global_assignment -name VHDL_FILE bo.vhd
+set_global_assignment -name VHDL_FILE bc.vhd
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH multiplier_tb -section_id eda_simulation
+set_global_assignment -name EDA_TEST_BENCH_NAME multiplier_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id multiplier_tb
+set_global_assignment -name EDA_TEST_BENCH_RUN_SIM_FOR "100 us" -section_id multiplier_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME multiplier_tb -section_id multiplier_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE ../sim/tb/multiplier_tb.vhd -section_id multiplier_tb
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

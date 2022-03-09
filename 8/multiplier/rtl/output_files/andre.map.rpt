@@ -1,5 +1,5 @@
 Analysis & Elaboration report for andre
-Wed Mar 09 01:40:21 2022
+Wed Mar 09 01:54:11 2022
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -10,7 +10,10 @@ Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
   2. Analysis & Elaboration Summary
   3. Parallel Compilation
   4. Analysis & Elaboration Settings
-  5. Analysis & Elaboration Messages
+  5. Port Connectivity Checks: "bo:bloco_operativo|somadorsubtrator_2x:somasub"
+  6. Port Connectivity Checks: "bo:bloco_operativo|mux2para1:mux3"
+  7. Port Connectivity Checks: "bo:bloco_operativo|mux2para1_2x:mux2"
+  8. Analysis & Elaboration Messages
 
 
 
@@ -36,7 +39,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                  ;
 +------------------------------------+--------------------------------------------+
-; Analysis & Elaboration Status      ; Failed - Wed Mar 09 01:40:21 2022          ;
+; Analysis & Elaboration Status      ; Successful - Wed Mar 09 01:54:11 2022      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; andre                                      ;
 ; Top-level Entity Name              ; multiplier                                 ;
@@ -155,15 +158,55 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------------------------------------------------------+--------------------+--------------------+
 
 
++----------------------------------------------------------------------------+
+; Port Connectivity Checks: "bo:bloco_operativo|somadorsubtrator_2x:somasub" ;
++----------+-------+----------+----------------------------------------------+
+; Port     ; Type  ; Severity ; Details                                      ;
++----------+-------+----------+----------------------------------------------+
+; b[15..8] ; Input ; Info     ; Stuck at GND                                 ;
++----------+-------+----------+----------------------------------------------+
+
+
++---------------------------------------------------------------+
+; Port Connectivity Checks: "bo:bloco_operativo|mux2para1:mux3" ;
++---------+-------+----------+----------------------------------+
+; Port    ; Type  ; Severity ; Details                          ;
++---------+-------+----------+----------------------------------+
+; b[7..1] ; Input ; Info     ; Stuck at GND                     ;
+; b[0]    ; Input ; Info     ; Stuck at VCC                     ;
++---------+-------+----------+----------------------------------+
+
+
++------------------------------------------------------------------+
+; Port Connectivity Checks: "bo:bloco_operativo|mux2para1_2x:mux2" ;
++----------+-------+----------+------------------------------------+
+; Port     ; Type  ; Severity ; Details                            ;
++----------+-------+----------+------------------------------------+
+; b[15..8] ; Input ; Info     ; Stuck at GND                       ;
++----------+-------+----------+------------------------------------+
+
+
 +---------------------------------+
 ; Analysis & Elaboration Messages ;
 +---------------------------------+
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Elaboration
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Wed Mar 09 01:40:20 2022
+    Info: Processing started: Wed Mar 09 01:54:10 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off andre -c andre --analysis_and_elaboration
 Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (12021): Found 2 design units, including 1 entities, in source file somadorsubtrator_2x.vhd
+    Info (12022): Found design unit 1: somadorsubtrator_2x-estrutura
+    Info (12023): Found entity 1: somadorsubtrator_2x
+Info (12021): Found 2 design units, including 1 entities, in source file registrador_r_2x.vhd
+    Info (12022): Found design unit 1: registrador_r_2x-estrutura
+    Info (12023): Found entity 1: registrador_r_2x
+Info (12021): Found 2 design units, including 1 entities, in source file registrador_2x.vhd
+    Info (12022): Found design unit 1: registrador_2x-estrutura
+    Info (12023): Found entity 1: registrador_2x
+Info (12021): Found 2 design units, including 1 entities, in source file mux2para1_2x.vhd
+    Info (12022): Found design unit 1: mux2para1_2x-comportamento
+    Info (12023): Found entity 1: mux2para1_2x
 Info (12021): Found 2 design units, including 1 entities, in source file /users/luisa/documents/programming/csi-labs/8/multiplier/sim/tb/multiplier_tb.vhd
     Info (12022): Found design unit 1: multiplier_tb-tb
     Info (12023): Found entity 1: multiplier_tb
@@ -193,13 +236,17 @@ Info (12021): Found 2 design units, including 1 entities, in source file bc.vhd
     Info (12023): Found entity 1: bc
 Info (12127): Elaborating entity "multiplier" for the top level hierarchy
 Info (12128): Elaborating entity "bo" for hierarchy "bo:bloco_operativo"
-Error (10344): VHDL expression error at bo.vhd(56): expression has 16 elements, but must have 8 elements File: C:/Users/luisa/Documents/Programming/CSI-labs/8/multiplier/rtl/bo.vhd Line: 56
-Error (10346): VHDL error at bo.vhd(55): formal port or parameter "d" must have actual or default value File: C:/Users/luisa/Documents/Programming/CSI-labs/8/multiplier/rtl/bo.vhd Line: 55
-Error (12152): Can't elaborate user hierarchy "bo:bloco_operativo" File: C:/Users/luisa/Documents/Programming/CSI-labs/8/multiplier/rtl/multiplier.vhd Line: 34
-Error: Quartus II 64-Bit Analysis & Elaboration was unsuccessful. 3 errors, 1 warning
-    Error: Peak virtual memory: 4695 megabytes
-    Error: Processing ended: Wed Mar 09 01:40:21 2022
-    Error: Elapsed time: 00:00:01
-    Error: Total CPU time (on all processors): 00:00:01
+Info (12128): Elaborating entity "mux2para1" for hierarchy "bo:bloco_operativo|mux2para1:mux1"
+Info (12128): Elaborating entity "registrador_r_2x" for hierarchy "bo:bloco_operativo|registrador_r_2x:regp"
+Info (12128): Elaborating entity "registrador" for hierarchy "bo:bloco_operativo|registrador:rega"
+Info (12128): Elaborating entity "mux2para1_2x" for hierarchy "bo:bloco_operativo|mux2para1_2x:mux2"
+Info (12128): Elaborating entity "somadorsubtrator_2x" for hierarchy "bo:bloco_operativo|somadorsubtrator_2x:somasub"
+Info (12128): Elaborating entity "igualazero" for hierarchy "bo:bloco_operativo|igualazero:geraaz"
+Info (12128): Elaborating entity "bc" for hierarchy "bc:bloco_controle"
+Info: Quartus II 64-Bit Analysis & Elaboration was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4699 megabytes
+    Info: Processing ended: Wed Mar 09 01:54:11 2022
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
 
 
