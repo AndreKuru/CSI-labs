@@ -169,7 +169,7 @@
   "metadata": {
   },
   "snapshots": [
-    { "name": "write_design", "uuid": "20238821", "path": "write_design", "branch": "default", "key": "20238821", "parent_key": "", "metrics": [
+    { "name": "write_design", "uuid": "202c5acd", "path": "write_design", "branch": "default", "key": "202c5acd", "parent_key": "", "metrics": [
         { "name": "design.name", "value": "multiplier" }, 
         { "name": "flow.cputime", "value": "12" }, 
         { "name": "flow.cputime.not_child", "value": "12" }, 
@@ -177,15 +177,15 @@
         { "name": "flow.cputime.user", "value": "12" }, 
         { "name": "flow.cputime.user.not_child", "value": "12" }, 
         { "name": "flow.cputime.user.total", "value": "12" }, 
-        { "name": "flow.log", "value": "/home/100000000819930/CSI-labs/8/multiplier/synthesis/genus.log1" }, 
+        { "name": "flow.log", "value": "/home/100000000819930/CSI-labs/8/multiplier/synthesis/genus.log4" }, 
         { "name": "flow.machine", "value": "energia06" }, 
-        { "name": "flow.machine.load", "value": "0.45" }, 
+        { "name": "flow.machine.load", "value": "1.2" }, 
         { "name": "flow.memory", "value": "155 MB", "inherited": true }, 
         { "name": "flow.memory.instant", "value": "155 MB" }, 
         { "name": "flow.memory.resident", "value": "155 MB", "inherited": true }, 
         { "name": "flow.memory.resident.instant", "value": "155 MB" }, 
-        { "name": "flow.memory.resident.peak", "value": "163 MB", "inherited": true }, 
-        { "name": "flow.memory.resident.peak.instant", "value": "163 MB" }, 
+        { "name": "flow.memory.resident.peak", "value": "165 MB", "inherited": true }, 
+        { "name": "flow.memory.resident.peak.instant", "value": "165 MB" }, 
         { "name": "flow.realtime", "value": "12" }, 
         { "name": "flow.realtime.not_child", "value": "12" }, 
         { "name": "flow.realtime.total", "value": "12" }, 
@@ -196,7 +196,7 @@
         { "name": "flow.user", "value": "andre.wr" }, 
         { "name": "messages", "value": "{count 2 id /messages/TUI/TUI-58 severity Info short {Removed object.}} {count 1 id /messages/LBR/LBR-161 severity Info short {Setting the maximum print count of this message to 10 if information_level is less than 9.}} {count 141 id /messages/LBR/LBR-162 severity Info short {Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed.}} {count 846 id /messages/LBR/LBR-155 severity Info short {Mismatch in unateness between 'timing_sense' attribute and the function.}} {count 16 id /messages/LBR/LBR-9 severity Warning short {Library cell has no output pins defined.}} {count 388 id /messages/LBR/LBR-436 severity Info short {Could not find an attribute in the library.}} {count 3 id /messages/LBR/LBR-511 severity Warning short {An attribute is used before it is defined.}} {count 1 id /messages/LBR/LBR-40 severity Info short {An unsupported construct was detected in this library.}} {count 1 id /messages/LBR/LBR-412 severity Info short {Created nominal operating condition.}} {count 993 id /messages/LBR/LBR-81 severity Warning short {Non-monotonic wireload model found.}} {count 11 id /messages/GLO/GLO-51 severity Info short {Hierarchical instance automatically ungrouped.}} {count 1 id /messages/GLO/GLO-34 severity Info short {Deleting instances not driving any primary outputs.}} {count 2 id /messages/TIM/TIM-11 severity Warning short {Possible timing problems have been detected in this design.}} {count 34 id /messages/PHYS/PHYS-129 severity Info short {Via with no resistance will have a value of '0.0' assigned.}} {count 370 id /messages/PHYS/PHYS-127 severity Info short {Macro with non-zero origin.}} {count 1 id /messages/PHYS/PHYS-12 severity Warning short {The variant range of wire parameters is too large.}} {count 18 id /messages/PHYS/PHYS-15 severity Warning short {Wire parameter is missing.}} {count 2 id /messages/PHYS/PHYS-752 severity Info short {Partition Based Synthesis execution skipped.}} {count 1 id /messages/PHYS/PHYS-90 severity Info short {Generating design database.}} {count 10 id /messages/PA/PA-7 severity Info short {Resetting power analysis results.}} {count 2 id /messages/GB/GB-6 severity Info short {A datapath component has been ungrouped.}} {count 1 id /messages/RTLOPT/RTLOPT-1 severity Info short {Optimizing RTL.}} {count 1 id /messages/RTLOPT/RTLOPT-2 severity Info short {Done optimizing RTL.}} {count 1 id /messages/SYNTH/SYNTH-8 severity Info short {Done incrementally optimizing.}} {count 1 id /messages/SYNTH/SYNTH-7 severity Info short {Incrementally optimizing.}} {count 1 id /messages/SYNTH/SYNTH-5 severity Info short {Done mapping.}} {count 1 id /messages/SYNTH/SYNTH-4 severity Info short Mapping.} {count 1 id /messages/SYNTH/SYNTH-2 severity Info short {Done synthesizing.}} {count 1 id /messages/SYNTH/SYNTH-1 severity Info short Synthesizing.} {count 1 id /messages/ELAB/ELAB-1 severity Info short {Elaborating Design.}} {count 8 id /messages/ELAB/ELAB-2 severity Info short {Elaborating Subdesign.}} {count 1 id /messages/ELAB/ELAB-3 severity Info short {Done Elaborating Design.}} {count 9 id /messages/ELAB/ELAB-5 severity Info short {Binding to architecture.}} {count 10 id /messages/CWD/CWD-19 severity Info short {An implementation was inferred.}} {count 9 id /messages/VHDLPT/VHDLPT-509 severity Info short {Analyzing file.}} {count 17 id /messages/VHDLPT/VHDLPT-514 severity Info short {Design unit stored.}} {count 1 id /messages/VHDL/VHDL-205 severity Info short {VHDL file(s) analyzed successfully.}} {count 9 id /messages/CDFG/CDFG-303 severity Info short {Processing HDL design.}} {count 2 id /messages/CDFG/CDFG-308 severity Info short {Processing HDL design from subprogram.}} {count 6 id /messages/CDFG/CDFG-309 severity Info short {Processing HDL design from operator.}} {count 10 id /messages/CDFG/CDFG-340 severity Info short {Building parameterized design.}} {count 17 id /messages/CDFG/CDFG-425 severity Info short {Instantiated design.}} {count 11 id /messages/CDFG/CDFG-426 severity Info short {Searching for library cell.}} {count 2 id /messages/CDFG/CDFG-470 severity Info short {Constant conditional expression.}} {count 14 id /messages/CDFG/CDFG-740 severity Info short {Constant propagating graph.}} {count 11 id /messages/CDFG/CDFG-742 severity Info short {Common subexpression elimination.}} {count 1 id /messages/CDFG/CDFG-750 severity Info short {Created sum-of-products hierarchy.}} {count 1 id /messages/CDFG/CDFG-755 severity Info short {Combined sum-of-products logic.}} {count 2 id /messages/CDFG/CDFG-771 severity Info short {Replaced logic with a constant value.}} {count 1 id /messages/CDFG/CDFG-818 severity Warning short {Using default parameter value for module elaboration.}} {count 9 id /messages/CDFG2G/CDFG2G-110 severity Info short {Finished processing module.}}" }, 
         { "name": "name", "value": "write_design" }
-      ], "total_cpu": 12, "total_cpu_user": 12, "delta_cpu_not_child": 12, "delta_cpu_user_not_child": 12, "delta_cpu": 12, "delta_cpu_user": 12, "real_start": 1646784030, "real_end": 1646784042 }
+      ], "total_cpu": 12, "total_cpu_user": 12, "delta_cpu_not_child": 12, "delta_cpu_user_not_child": 12, "delta_cpu": 12, "delta_cpu_user": 12, "real_start": 1646789215, "real_end": 1646789227 }
   ],
   "metrics": [
     { "name": "design.name", "value": "multiplier", "inherited": true }, 
@@ -206,12 +206,12 @@
     { "name": "flow.cputime.user", "value": "12" }, 
     { "name": "flow.cputime.user.not_child", "value": "0" }, 
     { "name": "flow.cputime.user.total", "value": "12" }, 
-    { "name": "flow.log", "value": "/home/100000000819930/CSI-labs/8/multiplier/synthesis/genus.log1", "inherited": true }, 
+    { "name": "flow.log", "value": "/home/100000000819930/CSI-labs/8/multiplier/synthesis/genus.log4", "inherited": true }, 
     { "name": "flow.machine", "value": "energia06", "inherited": true }, 
-    { "name": "flow.machine.load", "value": "0.45", "inherited": true }, 
+    { "name": "flow.machine.load", "value": "1.2", "inherited": true }, 
     { "name": "flow.memory", "value": "155 MB", "inherited": true }, 
     { "name": "flow.memory.resident", "value": "155 MB", "inherited": true }, 
-    { "name": "flow.memory.resident.peak", "value": "163 MB", "inherited": true }, 
+    { "name": "flow.memory.resident.peak", "value": "165 MB", "inherited": true }, 
     { "name": "flow.realtime", "value": "12" }, 
     { "name": "flow.realtime.not_child", "value": "0" }, 
     { "name": "flow.realtime.total", "value": "12" }, 

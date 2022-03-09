@@ -1,6 +1,6 @@
 ######################################################################
 
-# Created by Genus(TM) Synthesis Solution 16.24-s065_1 on Tue Mar 08 19:00:42 -0500 2022
+# Created by Genus(TM) Synthesis Solution 16.24-s065_1 on Tue Mar 08 20:27:07 -0500 2022
 
 # This file contains the RC script for /designs/multiplier
 
@@ -16,14 +16,14 @@
 ::legacy::set_attribute -quiet phys_route_time_out 120.0 /
 ::legacy::set_attribute -quiet capacitance_per_unit_length_mmmc {} /
 ::legacy::set_attribute -quiet resistance_per_unit_length_mmmc {} /
-::legacy::set_attribute -quiet runtime_by_stage { {to_generic 0 10 0 9}  {first_condense 1 11 0 10}  {reify 0 11 0 10}  {global_incr_map 1 12 0 11}  {incr_opt 0 12 0 11} } /
+::legacy::set_attribute -quiet runtime_by_stage { {to_generic 1 10 0 9}  {first_condense 0 10 0 10}  {reify 1 11 0 11}  {global_incr_map 0 11 0 11}  {incr_opt 1 12 0 11} } /
 ::legacy::set_attribute -quiet tinfo_tstamp_file .rs_andre.wr.tstamp /
 ::legacy::set_attribute -quiet script_search_path ./ /
 ::legacy::set_attribute -quiet max_cpus_per_server 4 /
 ::legacy::set_attribute -quiet use_scan_seqs_for_non_dft false /
 ::legacy::set_attribute -quiet use_area_from_lef true /
 ::legacy::set_attribute -quiet metric_enable true /
-::legacy::set_attribute -quiet flow_metrics_snapshot_uuid 20238821 /
+::legacy::set_attribute -quiet flow_metrics_snapshot_uuid 202c5acd /
 ::legacy::set_attribute -quiet phys_use_segment_parasitics true /
 ::legacy::set_attribute -quiet probabilistic_extraction true /
 ::legacy::set_attribute -quiet ple_correlation_factors {1.9000 2.0000} /
@@ -76,7 +76,7 @@ path_group -paths [specify_paths -to /designs/multiplier/timing/clock_domains/do
 ::legacy::set_attribute -quiet dft_scan_style muxed_scan /
 ::legacy::set_attribute -quiet dft_scanbit_waveform_analysis false /
 # END DFT SECTION
-::legacy::set_attribute -quiet qos_by_stage {{to_generic {wns -11111111} {tns -111111111} {vep -111111111} {area 13935} {cell_count 482} {utilization  0.00} {runtime 0 10 0 9} }{first_condense {wns -11111111} {tns -111111111} {vep -111111111} {area 10470} {cell_count 328} {utilization  0.00} {runtime 1 11 0 10} }{reify {wns 16125} {tns 0} {vep 0} {area 7142} {cell_count 255} {utilization  0.00} {runtime 0 11 0 10} }{global_incr_map {wns 16109} {tns 0} {vep 0} {area 6897} {cell_count 242} {utilization  0.00} {runtime 1 12 0 11} }{incr_opt {wns 214748365} {tns 0} {vep 0} {area 5975} {cell_count 185} {utilization  0.00} {runtime 0 12 0 11} }} /designs/multiplier
+::legacy::set_attribute -quiet qos_by_stage {{to_generic {wns -11111111} {tns -111111111} {vep -111111111} {area 13935} {cell_count 482} {utilization  0.00} {runtime 1 10 0 9} }{first_condense {wns -11111111} {tns -111111111} {vep -111111111} {area 10470} {cell_count 328} {utilization  0.00} {runtime 0 10 0 10} }{reify {wns 16125} {tns 0} {vep 0} {area 7142} {cell_count 255} {utilization  0.00} {runtime 1 11 0 11} }{global_incr_map {wns 16109} {tns 0} {vep 0} {area 6897} {cell_count 242} {utilization  0.00} {runtime 0 11 0 11} }{incr_opt {wns 214748365} {tns 0} {vep 0} {area 5975} {cell_count 185} {utilization  0.00} {runtime 1 12 0 11} }} /designs/multiplier
 ::legacy::set_attribute -quiet hdl_user_name multiplier /designs/multiplier
 ::legacy::set_attribute -quiet hdl_filelist {{default -vhdl1993 {SYNTHESIS} {../rtl/multiplier_pkg.vhd ../rtl/igualazero.vhd ../rtl/mux2para1.vhd ../rtl/registrador_r.vhd ../rtl/registrador.vhd ../rtl/somadorsubtrator.vhd ../rtl/bc.vhd ../rtl/bo.vhd ../rtl/multiplier.vhd} {../rtl}}} /designs/multiplier
 ::legacy::set_attribute -quiet verification_directory fv/multiplier /designs/multiplier
@@ -334,7 +334,7 @@ path_group -paths [specify_paths -to /designs/multiplier/timing/clock_domains/do
 #####   FLOW WRITE   ########################################
 ##
 ## Written by Genus(TM) Synthesis Solution version 16.24-s065_1
-## Written on 19:00:42 08-Mar 2022
+## Written on 20:27:07 08-Mar 2022
 #############################################################
 #####   Flow Definitions   ##################################
 
@@ -376,7 +376,7 @@ if {[is_attribute flow_mail_on_error -obj_type root]} {set_flowkit_db flow_mail_
 if {[is_attribute flow_mail_to -obj_type root]} {set_flowkit_db flow_mail_to {}}
 if {[is_attribute flow_metrics_file -obj_type root]} {set_flowkit_db flow_metrics_file {}}
 if {[is_attribute flow_metrics_snapshot_parent_uuid -obj_type root]} {set_flowkit_db flow_metrics_snapshot_parent_uuid {}}
-if {[is_attribute flow_metrics_snapshot_uuid -obj_type root]} {set_flowkit_db flow_metrics_snapshot_uuid 20238821}
+if {[is_attribute flow_metrics_snapshot_uuid -obj_type root]} {set_flowkit_db flow_metrics_snapshot_uuid 202c5acd}
 if {[is_attribute flow_overwrite_database -obj_type root]} {set_flowkit_db flow_overwrite_database false}
 if {[is_attribute flow_report_directory -obj_type root]} {set_flowkit_db flow_report_directory reports}
 if {[is_attribute flow_run_tag -obj_type root]} {set_flowkit_db flow_run_tag {}}
