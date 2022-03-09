@@ -1,14 +1,15 @@
-library ieee;
-use ieee.std_logic_1164.all;
-use ieee.std_logic_unsigned.all;
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+USE ieee.std_logic_unsigned.ALL;
 
-entity igualazero is
-generic (n:natural);
-port (a : in std_logic_vector(n-1 downto 0);
-igual : out std_logic);
-end igualazero;
+ENTITY igualazero IS
+	PORT (
+		a : IN STD_LOGIC_VECTOR(8 - 1 DOWNTO 0);
+		igual : OUT STD_LOGIC);
+END igualazero;
 
-architecture estrutura of igualazero is
-begin
-	igual <= '1' when a = 0 else '0';
-end estrutura;
+ARCHITECTURE estrutura OF igualazero IS
+BEGIN
+	igual <= '1' WHEN a = 0 ELSE
+		'0';
+END estrutura;

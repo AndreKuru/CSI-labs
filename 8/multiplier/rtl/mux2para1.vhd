@@ -1,16 +1,16 @@
-library ieee;
-use ieee.std_logic_1164.all;
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
 
-entity mux2para1 is
-  generic (n:natural);
-  port ( a, b : in std_logic_vector(n-1 downto 0);
-         sel: in std_logic;
-         y : out std_logic_vector(n-1 downto 0));
-  end mux2para1 ;
+ENTITY mux2para1 IS
+  PORT (
+    a, b : IN STD_LOGIC_VECTOR(8 - 1 DOWNTO 0);
+    sel : IN STD_LOGIC;
+    y : OUT STD_LOGIC_VECTOR(8 - 1 DOWNTO 0));
+END mux2para1;
 
-architecture comportamento of mux2para1 is
-begin
-     with sel select
-         y <= a when '0',
-              b when others;
-end comportamento;
+ARCHITECTURE comportamento OF mux2para1 IS
+BEGIN
+  WITH sel SELECT
+    y <= a WHEN '0',
+    b WHEN OTHERS;
+END comportamento;

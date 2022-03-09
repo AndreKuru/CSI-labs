@@ -1,92 +1,83 @@
-library ieee;
-use ieee.std_logic_1164.all;
-use ieee.std_logic_unsigned.all;
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+USE ieee.std_logic_unsigned.ALL;
 
-entity bo is
-generic (n:natural);
-port (clk : in std_logic;
-      ini, cp, ca, dec  : in std_logic;
-      enta, entb        : in std_logic_vector(n - 1 downto 0);
-      az, bz            : out std_logic;
-      saida             : out std_logic_vector(2 * n - 1 downto 0));
-end bo;
+ENTITY bo IS
+      PORT (
+            clk : IN STD_LOGIC;
+            ini, cp, ca, dec : IN STD_LOGIC;
+            enta, entb : IN STD_LOGIC_VECTOR(8 - 1 DOWNTO 0);
+            az, bz : OUT STD_LOGIC;
+            saida : OUT STD_LOGIC_VECTOR(2 * 8 - 1 DOWNTO 0));
+END bo;
 
-architecture estrutura of bo is
-    
-    component registrador_r is
-    generic (n:natural);
-    port (clk, reset, carga : in std_logic;
-          d : in std_logic_vector(n - 1 downto 0);
-          q : out std_logic_vector(n - 1 downto 0));
-    end component;
-    
-    component registrador is
-    generic (n:natural);
-    port (clk, carga : in std_logic;
-          d : in std_logic_vector(n - 1 downto 0);
-          q : out std_logic_vector(n - 1 downto 0));
-    end component;
-    
-    component mux2para1 is
-    generic (n:natural);
-    port ( a, b : in std_logic_vector(n - 1 downto 0);
-           sel: in std_logic;
-           y : out std_logic_vector(n - 1 downto 0));
-    end component;
-    
-    component somadorsubtrator is
-    generic (n:natural);
-    port (a, b : in std_logic_vector(n - 1 downto 0);
-          op: in std_logic;
-          s : out std_logic_vector(n - 1 downto 0));
-    end component;
-    
-    component igualazero is
-    generic (n:natural);
-    port (a : in std_logic_vector(n - 1 downto 0);
-          igual : out std_logic);
-    end component;
-        
-    signal saimux1, saimux3, sairega, sairegb, one   : std_logic_vector (n - 1 downto 0);
-    signal sairegaext, saimux3ext, saimux2, sairegp, saisomasub         : std_logic_vector (2 * n - 1 downto 0);
-begin
-    mux1: mux2para1 
-    generic map (n => n)
-    port map (saisomasub(n - 1 downto 0), enta, ini, saimux1);
-    regp: registrador_r 
-    generic map (n => 2 * n)
-    port map (clk, ini, cp, saisomasub, sairegp);
-    rega: registrador 
-    generic map (n => n)
-    port map (clk, ca, saimux1, sairega);
-    regb: registrador 
-    generic map (n => n)
-    port map (clk, ini, entb, sairegb);
-    mux2: mux2para1 
-    generic map (n => 2 * n)
-    port map (sairegp, sairegaext, dec, saimux2);  
+ARCHITECTURE estrutura OF bo IS
 
-    sairegaext <= (2 * n - 1 downto n => '0') & sairega;
+      COMPONENT registrador_r IS
+            PORT (
+                  clk, reset, carga : IN STD_LOGIC;
+                  d : IN STD_LOGIC_VECTOR(8 - 1 DOWNTO 0);
+                  q : OUT STD_LOGIC_VECTOR(8 - 1 DOWNTO 0));
+      END COMPONENT;
 
-    mux3: mux2para1 
-    generic map (n => n)
-    port map (entb, one, dec, saimux3);
+      COMPONENT registrador IS
+            PORT (
+                  clk, carga : IN STD_LOGIC;
+                  d : IN STD_LOGIC_VECTOR(8 - 1 DOWNTO 0);
+                  q : OUT STD_LOGIC_VECTOR(8 - 1 DOWNTO 0));
+      END COMPONENT;
 
-    one <= (n - 2 downto 0 => '0') & '1' ;
+      COMPONENT mux2para1 IS
+            PORT (
+                  a, b : IN STD_LOGIC_VECTOR(8 - 1 DOWNTO 0);
+                  sel : IN STD_LOGIC;
+                  y : OUT STD_LOGIC_VECTOR(8 - 1 DOWNTO 0));
+      END COMPONENT;
 
-    somasub: somadorsubtrator 
-    generic map (n => 2 * n)
-    port map (saimux2, saimux3ext, dec, saisomasub);
+      COMPONENT somadorsubtrator IS
+            PORT (
+                  a, b : IN STD_LOGIC_VECTOR(8 - 1 DOWNTO 0);
+                  op : IN STD_LOGIC;
+                  s : OUT STD_LOGIC_VECTOR(8 - 1 DOWNTO 0));
+      END COMPONENT;
 
-    saimux3ext <= (2 * n - 1 downto n => '0') & saimux3;
+      COMPONENT igualazero IS
+            PORT (
+                  a : IN STD_LOGIC_VECTOR(8 - 1 DOWNTO 0);
+                  igual : OUT STD_LOGIC);
+      END COMPONENT;
 
-    geraaz: igualazero 
-    generic map (n => n)
-    port map (sairega, az);
-    gerabz: igualazero 
-    generic map (n => n)
-    port map (sairegb, bz); 
-    
-    saida <= sairegp;
+      SIGNAL saimux1, saimux3, sairega, sairegb, one : STD_LOGIC_VECTOR (8 - 1 DOWNTO 0);
+      SIGNAL sairegaext, saimux3ext, saimux2, sairegp, saisomasub : STD_LOGIC_VECTOR ((2 * 8) - 1 DOWNTO 0);
+BEGIN
+      mux1 : mux2para1
+      PORT MAP(saisomasub(8 - 1 DOWNTO 0), enta, ini, saimux1);
+      regp : registrador_r
+      PORT MAP(clk, ini, cp, saisomasub, sairegp);
+      rega : registrador
+      PORT MAP(clk, ca, saimux1, sairega);
+      regb : registrador
+      PORT MAP(clk, ini, entb, sairegb);
+      mux2 : mux2para1
+      PORT MAP(sairegp, sairegaext, dec, saimux2);
 
-end estrutura;
+      sairegaext <= (2 * 8 - 1 DOWNTO 8 => '0') & sairega;
+
+      mux3 : mux2para1
+      PORT MAP(entb, one, dec, saimux3);
+
+      one <= (8 - 2 DOWNTO 0 => '0') & '1';
+
+      somasub : somadorsubtrator
+      PORT MAP(saimux2, saimux3ext, dec, saisomasub);
+
+      saimux3ext <= (2 * 8 - 1 DOWNTO 8 => '0') & saimux3;
+
+      geraaz : igualazero
+      PORT MAP(sairega, az);
+      gerabz : igualazero
+      PORT MAP(sairegb, bz);
+
+      saida <= sairegp;
+
+END estrutura;

@@ -1,38 +1,38 @@
-library ieee;
-use ieee.std_logic_1164.all;
-use ieee.numeric_std.all;
-use work.multiplier_pkg.all;
-use std.textio.all;
-use ieee.std_logic_textio.all;
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+USE ieee.numeric_std.ALL;
+USE std.textio.ALL;
+USE ieee.std_logic_textio.ALL;
 
-entity multiplier_tb is
-    generic (n:natural := n_bits);
-end multiplier_tb;
+ENTITY multiplier_tb IS
+END multiplier_tb;
 
-architecture tb of multiplier_tb is
-    signal inicio, reset, clk, ocupado : std_logic;
-    signal a, b  : std_logic_vector(n - 1 downto 0);
-    signal saida : std_logic_vector(2 * n - 1 downto 0);
+ARCHITECTURE tb OF multiplier_tb IS
+    SIGNAL inicio, reset, clk, ocupado : STD_LOGIC;
+    SIGNAL a, b : STD_LOGIC_VECTOR(8 - 1 DOWNTO 0);
+    SIGNAL saida : STD_LOGIC_VECTOR((2 * 8) - 1 DOWNTO 0);
 
-    component multiplier is
-    generic (n:natural := n);
-    port(a, b               : in std_logic_vector(n - 1 downto 0);
-        inicio, reset, clk  : in std_logic;
-        ocupado             : out std_logic;
-        saida               : out std_logic_vector(2 * n - 1 downto 0));
-    end component;
+    COMPONENT multiplier IS
+        PORT (
+            a, b : IN STD_LOGIC_VECTOR(8 - 1 DOWNTO 0);
+            inicio, reset, clk : IN STD_LOGIC;
+            ocupado : OUT STD_LOGIC;
+            saida : OUT STD_LOGIC_VECTOR((2 * 8) - 1 DOWNTO 0));
+    END COMPONENT;
 
-    constant clkp : time := 50 ns;
-begin
-    uut : entity work.multiplier port map (a, b, inicio, reset, clk, ocupado, saida);
+    CONSTANT clkp : TIME := 50 ns;
+BEGIN
+    uut : ENTITY work.multiplier PORT MAP (a, b, inicio, reset, clk, ocupado, saida);
 
-    reset <= '1', '0' after 2.25 * clkp;
+    reset <= '1', '0' AFTER 2.25 * clkp;
 
-    clk_simulation : process
-    begin
-        clk <= '0'; wait for clkp/2;
-        clk <= '1'; wait for clkp/2;
-    end process;
+    clk_simulation : PROCESS
+    BEGIN
+        clk <= '0';
+        WAIT FOR clkp/2;
+        clk <= '1';
+        WAIT FOR clkp/2;
+    END PROCESS;
 
     -- stimulus : process
     -- begin
@@ -42,49 +42,51 @@ begin
     --     wait for 50*clkp;
     -- end process;
 
-    file_io: process
-        variable read_col_from_input_buf : line;
-        file input_buf : text;
-        variable write_col_to_output_buf : line;
-        file output_buf : text;
+    file_io : PROCESS
+        VARIABLE read_col_from_input_buf : line;
+        FILE input_buf : text;
+        VARIABLE write_col_to_output_buf : line;
+        FILE output_buf : text;
 
-        variable val_a, val_b : std_logic_vector(n - 1 downto 0);
-        variable val_space : character;
+        VARIABLE val_a, val_b : STD_LOGIC_VECTOR(8 - 1 DOWNTO 0);
+        VARIABLE val_space : CHARACTER;
 
-        begin
-            file_open(input_buf, "inputs.txt", read_mode);
-            file_open(output_buf, "outputs_testbench.txt", write_mode);
+    BEGIN
+        file_open(input_buf, "inputs.txt", read_mode);
+        file_open(output_buf, "outputs_testbench.txt", write_mode);
 
-            wait until reset = '0';
+        WAIT UNTIL reset = '0';
 
-            while not endfile(input_buf) loop
-                readline(input_buf, read_col_from_input_buf);
-                read(read_col_from_input_buf, val_a);
-                read(read_col_from_input_buf, val_space);
-                read(read_col_from_input_buf, val_b);
+        WHILE NOT endfile(input_buf) LOOP
+            readline(input_buf, read_col_from_input_buf);
+            read(read_col_from_input_buf, val_a);
+            read(read_col_from_input_buf, val_space);
+            read(read_col_from_input_buf, val_b);
 
-                a <= val_a;
-                b <= val_b;
+            a <= val_a;
+            b <= val_b;
 
-                wait for clkp; inicio <= '1';
-                wait for clkp; inicio <= '0';
+            WAIT FOR clkp;
+            inicio <= '1';
+            WAIT FOR clkp;
+            inicio <= '0';
 
-                while (ocupado = '1') loop  -- roda até sinalizar que possui o resultado
-                    wait for clkp;
-                end loop;
+            WHILE (ocupado = '1') LOOP -- roda até sinalizar que possui o resultado
+                WAIT FOR clkp;
+            END LOOP;
 
-                write(write_col_to_output_buf, saida);
-                writeline(output_buf, write_col_to_output_buf);
-
-            end loop; 
-
-            write (write_col_to_output_buf, string'("Simulation from testbench completed!"));
+            write(write_col_to_output_buf, saida);
             writeline(output_buf, write_col_to_output_buf);
 
-            file_close(input_buf);
-            file_close(output_buf);
+        END LOOP;
 
-            wait;
-        end process;
+        write (write_col_to_output_buf, STRING'("Simulation from testbench completed!"));
+        writeline(output_buf, write_col_to_output_buf);
 
-end tb;
+        file_close(input_buf);
+        file_close(output_buf);
+
+        WAIT;
+    END PROCESS;
+
+END tb;
