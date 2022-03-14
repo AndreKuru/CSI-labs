@@ -10,9 +10,10 @@ entity multiplier_tb is
 end multiplier_tb;
 
 architecture tb of multiplier_tb is
-    signal inicio, reset, clk, ocupado : std_logic;
-    signal a, b  : std_logic_vector(n - 1 downto 0);
-    signal saida : std_logic_vector(2 * n - 1 downto 0);
+    signal reset, clk, ocupado : std_logic;
+    signal inicio              : std_logic := '0';
+    signal a, b                : std_logic_vector(n - 1 downto 0);
+    signal saida               : std_logic_vector(2 * n - 1 downto 0);
 
     component multiplier is
     generic (n:natural := n);
@@ -22,7 +23,7 @@ architecture tb of multiplier_tb is
         saida               : out std_logic_vector(2 * n - 1 downto 0));
     end component;
 
-    constant clkp : time := 50 ns;
+    constant clkp : time := 5 ns;
 begin
     uut : entity work.multiplier port map (a, b, inicio, reset, clk, ocupado, saida);
 

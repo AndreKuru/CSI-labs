@@ -50,7 +50,7 @@ begin
 
         rst <= '0'; wait for clkp;
         cont := 0;
-        while (cont < 4294967296) loop -- cont < 2**32 4294967296
+        while (cont < 1073741824) loop -- cont < 2**32 4294967296
             A <= std_logic_vector(to_unsigned(cont, A'length));
             wait for clkp;
             cont := cont + 1;

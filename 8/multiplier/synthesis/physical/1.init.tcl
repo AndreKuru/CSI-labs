@@ -9,7 +9,7 @@
 set init_pwr_net {vdd}
 set init_gnd_net {gnd}
 
-source layout/contador.invs_setup.tcl
+source layout/multiplier.invs_setup.tcl
 
 ##Generating floorplan (Height is 0.5 times the width) with 70% of density (0.8) with 6um margins
 floorPlan -r 0.5 0.7 6 6 6 6

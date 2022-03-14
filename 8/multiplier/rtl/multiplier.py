@@ -11,15 +11,15 @@ N_BITS = 8 # Bits de entrada,
 
 input_f = open("inputs.txt","w")
 output_f = open("outputs_ref.txt","w")
-testes_a = range(0, 2**(N_BITS//2))
-testes_b = range(0, 2**(N_BITS//2))
+testes_a = range(0, 2**(N_BITS))
+testes_b = range(0, 2**(N_BITS))
 
 for a,b in itertools.product(testes_a, testes_b):
     res = a * b
     
     bin_a = int2unsigned(a, N_BITS)
     bin_b = int2unsigned(b, N_BITS)
-    bin_res = int2unsigned(res, N_BITS)
+    bin_res = int2unsigned(res, N_BITS*2)
     
     print(f'{bin_a} {bin_b}', file = input_f)
     print(bin_res, file = output_f)

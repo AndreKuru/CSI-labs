@@ -1,5 +1,5 @@
 irun(64): 15.20-s036: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
-TOOL:	irun(64)	15.20-s036: Started on Mar 04, 2022 at 12:57:48 EST
+TOOL:	irun(64)	15.20-s036: Started on Mar 11, 2022 at 09:03:14 EST
 irun
 	-f file_list.f
 		-smartorder
@@ -98,8 +98,8 @@ DEFINE std_cells		$IBMPDK/cmrf7sf/std_cells
 |
 irun: *W,DLCVAR (/home/100000000819930/cds.lib,16): cds.lib Invalid environment variable ''.
 Recompiling... reason: file '../tb/tb_ULA_com_registrador.vhd' is newer than expected.
-	expected: Fri Mar  4 12:27:25 2022
-	actual:   Fri Mar  4 12:57:46 2022
+	expected: Fri Mar 11 08:25:34 2022
+	actual:   Fri Mar 11 09:03:06 2022
 INCLUDE	$CDS_ROOT/share/cdssetup/cds.lib
 |
 irun: *W,DLCVAR (/home/100000000819930/cds.lib,5): cds.lib Invalid environment variable ''.
@@ -170,10 +170,7 @@ ncvhdl_p: *W,DLCVAR (/home/100000000819930/cds.lib,16): cds.lib Invalid environm
 ../../rtl/ULA_com_registrador.vhd:
 	errors: 0, warnings: 0
 ../tb/tb_ULA_com_registrador.vhd:
-        while (cont < 4294967296) loop -- cont < 2**32 4294967296
-                               |
-ncvhdl_p: *W,CNSTNT (../tb/tb_ULA_com_registrador.vhd,53|31): constraint error [3,4].
-	errors: 0, warnings: 1
+	errors: 0, warnings: 0
 INCLUDE	$CDS_ROOT/share/cdssetup/cds.lib
 |
 ncvhdl_cg: *W,DLCVAR (/home/100000000819930/cds.lib,5): cds.lib Invalid environment variable ''.
@@ -336,19 +333,14 @@ ncsim> database -open waves -into waves.shm -default
 Created default SHM database waves
 ncsim> probe -create -shm :U1:A :U1:clk :U1:rst :U1:S :U1:S_registrador :U1:S_ULA :U1:sel
 Created probe 1
-ncsim> run 3000ns
+ncsim> run 
 ASSERT/WARNING (time 0 FS) from package ieee.STD_LOGIC_ARITH, this builtin function called  from process :U1:ULA1:$PROCESS_000 (architecture work.ULA:arq_ULA)
 Built-in function result set to 'X' due to a ('U', 'X', 'W', 'Z', '-') in an operand.
-ncsim: *E,TRRANGEC: range constraint violation.
-          File: ../tb/tb_ULA_com_registrador.vhd, line = 53, pos = 31
-         Scope: :operations
-          Time: 11250 PS + 0
-
-
-
-Set "rangecnst_severity_level" ncsim tcl variable to ignore this error.
-Type `help -variable rangecnst_severity_level` on ncsim> prompt.
-
-ncsim> ^C
+Simulation interrupted at 3759036250 PS + 0
+ncsim> run
+ncsim: *E,SST2ER: SST2 interface error:  No space left on device.
+ncsim: *E,SST2ER: SST2 interface error:  No space left on device.
+Simu^C
 ncsim> exit
-TOOL:	irun(64)	15.20-s036: Exiting on Mar 04, 2022 at 13:39:38 EST  (total: 00:41:50)
+ncsim: *E,SST2ER: SST2 interface error:  No space left on device.
+TOOL:	irun(64)	15.20-s036: Exiting on Mar 14, 2022 at 10:01:19 EDT  (total: 71:58:05)

@@ -3,3 +3,7 @@
 1646164634 /home/100000000819930/lab7/lab7/ULA_com_registrador32/rtl/registrador.vhd
 1646165307 /home/100000000819930/lab7/lab7/ULA_com_registrador32/rtl/ULA_com_registrador.vhd
 1646416666 /home/100000000819930/lab7/lab7/ULA_com_registrador32/sim/tb/tb_ULA_com_registrador.vhd
+1647005134 /home/100000000819930/CSI-labs/7/lab7/ULA_com_registrador32/rtl/ULA.vhd
+1647005134 /home/100000000819930/CSI-labs/7/lab7/ULA_com_registrador32/rtl/registrador.vhd
+1647005134 /home/100000000819930/CSI-labs/7/lab7/ULA_com_registrador32/rtl/ULA_com_registrador.vhd
+1647007386 /home/100000000819930/CSI-labs/7/lab7/ULA_com_registrador32/sim/tb/tb_ULA_com_registrador.vhd
