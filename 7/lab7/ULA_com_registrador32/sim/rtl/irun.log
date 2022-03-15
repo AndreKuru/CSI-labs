@@ -1,5 +1,5 @@
 irun(64): 15.20-s036: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
-TOOL:	irun(64)	15.20-s036: Started on Mar 11, 2022 at 09:03:14 EST
+TOOL:	irun(64)	15.20-s036: Started on Mar 14, 2022 at 16:35:16 EDT
 irun
 	-f file_list.f
 		-smartorder
@@ -98,8 +98,8 @@ DEFINE std_cells		$IBMPDK/cmrf7sf/std_cells
 |
 irun: *W,DLCVAR (/home/100000000819930/cds.lib,16): cds.lib Invalid environment variable ''.
 Recompiling... reason: file '../tb/tb_ULA_com_registrador.vhd' is newer than expected.
-	expected: Fri Mar 11 08:25:34 2022
-	actual:   Fri Mar 11 09:03:06 2022
+	expected: Fri Mar 11 09:03:06 2022
+	actual:   Mon Mar 14 16:34:53 2022
 INCLUDE	$CDS_ROOT/share/cdssetup/cds.lib
 |
 irun: *W,DLCVAR (/home/100000000819930/cds.lib,5): cds.lib Invalid environment variable ''.
@@ -333,14 +333,8 @@ ncsim> database -open waves -into waves.shm -default
 Created default SHM database waves
 ncsim> probe -create -shm :U1:A :U1:clk :U1:rst :U1:S :U1:S_registrador :U1:S_ULA :U1:sel
 Created probe 1
-ncsim> run 
+ncsim> run
 ASSERT/WARNING (time 0 FS) from package ieee.STD_LOGIC_ARITH, this builtin function called  from process :U1:ULA1:$PROCESS_000 (architecture work.ULA:arq_ULA)
 Built-in function result set to 'X' due to a ('U', 'X', 'W', 'Z', '-') in an operand.
-Simulation interrupted at 3759036250 PS + 0
-ncsim> run
-ncsim: *E,SST2ER: SST2 interface error:  No space left on device.
-ncsim: *E,SST2ER: SST2 interface error:  No space left on device.
-Simu^C
-ncsim> exit
-ncsim: *E,SST2ER: SST2 interface error:  No space left on device.
-TOOL:	irun(64)	15.20-s036: Exiting on Mar 14, 2022 at 10:01:19 EDT  (total: 71:58:05)
+Simulation interrupted at 4877150 NS + 0
+ncsim> TOOL:	irun(64)	15.20-s036: Exiting on Mar 14, 2022 at 16:50:49 EDT  (total: 00:15:33)

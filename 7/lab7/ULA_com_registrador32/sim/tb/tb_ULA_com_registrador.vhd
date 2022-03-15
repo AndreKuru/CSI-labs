@@ -23,7 +23,7 @@ architecture arq_tb_ULA_com_registrador of tb_ULA_com_registrador is
     signal A, S:        std_logic_vector(31 downto 0);
     signal sel:         std_logic_vector(1 downto 0);
 
-    constant clkp : time := 5 ns;
+    constant clkp : time := 20 ns;
 begin
 
     U1 : ULA_com_registrador
@@ -50,7 +50,7 @@ begin
 
         rst <= '0'; wait for clkp;
         cont := 0;
-        while (cont < 1073741824) loop -- cont < 2**32 4294967296
+        while (cont < 16) loop -- 1073741824) loop -- cont < 2**32 4294967296 is out of range
             A <= std_logic_vector(to_unsigned(cont, A'length));
             wait for clkp;
             cont := cont + 1;

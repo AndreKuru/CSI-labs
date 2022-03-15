@@ -361,4 +361,6 @@
 1519578299 /usr/eda/dk/ibm/cmrf7sf/digital_20111130/verilog/XOR3_H.v
 1519578299 /usr/eda/dk/ibm/cmrf7sf/digital_20111130/verilog/XOR3_I.v
 1646389012 /home/100000000819930/lab7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.v
-1646412975 /home/100000000819930/lab7/lab7/ULA_com_registrador32/sim/tb/tb_ULA_com_registrador.vhd
+1646416666 /home/100000000819930/lab7/lab7/ULA_com_registrador32/sim/tb/tb_ULA_com_registrador.vhd
+1647005134 /home/100000000819930/CSI-labs/7/lab7/ULA_com_registrador32/synthesis/ULA_com_registrador.v
+1647289262 /home/100000000819930/CSI-labs/7/lab7/ULA_com_registrador32/sim/tb/tb_ULA_com_registrador.vhd
